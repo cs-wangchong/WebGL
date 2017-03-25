@@ -1,5 +1,4 @@
-# WebGL
-3DWalker
+# 3DWalker
 
 ### 目录结构
 * 所有添加或修改的源代码在src目录下。
