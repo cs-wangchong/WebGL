@@ -32,5 +32,5 @@
 * 未增加阴影
 
 ### 效果
-! [img1](. / img1.png)
-! [img2](. / img2.png)
+ ![img1](. / img1.png)
+ ![img2](. / img2.png)
