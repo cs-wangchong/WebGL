@@ -74,7 +74,7 @@
 [tax-engine-proxy](#tax-engine-proxy)  
 [udo](#udo)  
 ### <sapn id="campaign">campaign</span>
-- P133B00001: Invalid {0} message ID: {1}.  
+P133B00001: Invalid {0} message ID: {1}.  
 - P133B00002: This is the customer's {1} account instead of {0} account. Please use the correct account information.  
 - P133B00004: Failed to find the attachment. Please try again.  
 - P133B00005: Failed to find the image. Please try again.  
