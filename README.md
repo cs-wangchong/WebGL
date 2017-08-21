@@ -34,3 +34,4648 @@
 ### 效果
 ![img1](./img1.png)
 ![img2](./img2.png)
+
+## service list
+[app-mgt](#app-mgt)  
+[attachment](#attachment)  
+[b2c-mono](#b2c-mono)  
+[bss](#bss)  
+[campaign](#campaign)  
+[channel-adapter](#channel-adapter)  
+[channel-lcm](#channel-lcm)  
+[co-config](#co-config)  
+[crm](#crm)  
+[cron-service](#cron-service)  
+[email](#email)  
+[employee](#employee)  
+[eshop-adapter](#eshop-adapter)  
+[frw](#frw)  
+[hit](#hit)  
+[idp](#idp)  
+[import-export](#import-export)  
+[inventory](#inventory)  
+[knowledge-base](#knowledge-base)  
+[meta](#meta)  
+[mobile-proxy](#mobile-proxy)  
+[mp-adapter](#mp-adapter)  
+[mp-connector](#mp-connector)  
+[openapi](#openapi)  
+[payment-intg](#payment-intg)  
+[pos-adapter](#pos-adapter)  
+[pricing](#pricing)  
+[product](#product)  
+[productivity](#productivity)  
+[progress](#progress)  
+[service-case](#service-case)  
+[shipping](#shipping)  
+[signing-authority](#signing-authority)  
+[sip](#sip)  
+[sms](#sms)  
+[tax-engine-proxy](#tax-engine-proxy)  
+[udo](#udo)  
+### <sapn id="campaign">campaign</span>
+- P133B00001: Invalid {0} message ID: {1}.  
+- P133B00002: This is the customer's {1} account instead of {0} account. Please use the correct account information.  
+- P133B00004: Failed to find the attachment. Please try again.  
+- P133B00005: Failed to find the image. Please try again.  
+- P133B00006: Failed to send posts to Twitter as you can only upload one GIF image at a time. Please try again.  
+- P133B00007: Failed to send out the message as the content is empty.  
+- P133B00008: Failed to authorize Twitter. Please try again.  
+- P133B00009: Failed to send the post to Twitter as you cannot send the same message twice in one day.  
+- P133B00010: Failed to send the post to Twitter as the content is more than 140 characters long.  
+- P133B00011: Failed to send the post to Twitter as today you have reached the maximum post number defined by Twitter.  
+- P133B00012: The authorization failed due to an unexpected error. Please try again.  
+- P133B00013: The message is already sent. To check the latest message status please refresh the page.  
+- P133B00014: Your current location does not support Twitter services.  
+- P133B00015: The message is being publishing.  
+- P133B00016: Need at least one {0} account should be authorized to use this function. Please authorize in Company Profile Settings.  
+- P133B00020: Failed to send the post to Facebook as you cannot send the same message twice in one day.  
+- P133B00021: Failed to send the post to Facebook as today you have reached the maximum post amount defined by Facebook.  
+- P133B00022: Failed to send posts to Facebook due to an unexpected error. Please try again.  
+- P133B00023: Failed to send the post to Facebook as SAP Anywhere did not obtain the corresponding permissions during the authorization process.  
+- P133B00024: Failed to send the post to Facebook as SAP Anywhere is not authorized to perform this operation.  
+- P133B00025: Failed to authorize Facebook. Please delete the Facebook account and redo OAuth.  
+- P133B00026: This Pinterest account is not linked to SAP Anywhere. Please check your Company Profile.  
+- P133B00027: Please upload an image.  
+- P133B00028: Description cannot exceed 500 characters.  
+- P133B00029: Please enter a valid URL.  
+- P133B00030: Your Weibo access token is invalid. Please go to Company Profile in Settings to authorize your Weibo account again.  
+- P133B00031: You cannot pin the image as the board does not exist.  
+- P133B00040: Invalid Facebook message ID  
+- P133B00041: This social media account does not exist.  
+- P133B00042: Failed to send the post to Facebook using the current URL. Please try using another URL.  
+- P133B00043: Pinterest authentication failed  
+- P133B00044: Pinterest service not found  
+- P133B00045: Pinterest service time out  
+- P133B00046: Too many requests sent to Pinterest  
+- P133B00047: Pinterest server error  
+- P133B00048: Unknown error from Pinterest service. Please try again later.  
+- P133B00049: Invalid social media message ID  
+- P133B00050: Cannot send a reply to this social media feed type  
+- P133B00051: Cannot find the user  
+- P133B00052: Failed to send reply to Facebook. Parent message doesn't exists.  
+- P133B00053: You have reached the limit for this operation today.  
+- P133B00054: The authorization to the Twitter account has expired. Please authorize again in Company Profile Settings.  
+- P133B00055: You cannot add more than 4 media items in a tweet.  
+- P133B00056: Facebook account authorization has expired. Please authorize again in Company Profile Settings.  
+- P133B00057: Pinterest account authorization has expired. Please authorize again in Company Profile Settings.  
+- P133B00058: {0} account authorization has expired. Please authorize again in Company Profile Settings.  
+- P133B03060: Invalid Pinterest account name: {0}.  
+- P133B04059: Invalid Instagram User ID: {0}.  
+- P150B02001: Corporate Name cannot be empty.  
+- P150B02002: Last Name cannot be empty.  
+- P150B02003: Customer Type cannot be empty.  
+- P150B02004: Address is not assigned to the customer.  
+- P150B02005: Customer cannot be edited.  
+- P150B02006: Main contact does not exist.  
+- P150B02007: Sales channel does not exist.  
+- P150B02008: You cannot delete this industry as it is being used by some customers.  
+- P150B02009: You cannot delete this customer group as it is being been used by some customers.  
+- P150B02010: Failed to create/update duplicated customer.  
+- P150B02011: Cannot continue with the process as the status of the customer's payment term was changed to inactive. Please choose another payment term for the customer, or go to Settings and change the status to active.  
+- P150B02012: Cannot continue with the process as the status of the customer's payment method was changed to inactive. Please choose another payment method for the customer, or go to Settings and change the status to active.  
+- P150B02013: Cannot change the customer for the contact. You can remove the customer if you no longer need it.  
+- P150B02014: Only a corporate customer can be added to the contact.  
+- P150B02015: Contact of a customer cannot be assigned as the main contact of another customer.  
+- P150B02016: Inactive email address. Please use a different one, or contact your administrator.  
+- P150B02017: Cannot continue with the process as the status of the customer's membership level was changed to inactive. Please choose another membership level for the customer, or go to Settings and change their status to active.  
+- P150B02018: You cannot delete this contact as it is the contact of an existing customer.  
+- P150B02019: Credit limit cannot be less than 0.  
+- P150B02020: Credit alert threshold cannot be less than 0.  
+- P150B02021: Credit alert threshold cannot be larger than credit limit.  
+- P150B02022: You cannot delete the customer as it has channel account(s).  
+- P150B02023: You cannot delete the contact as it is already used in channel account(s).  
+- P150B02024: You cannot delete the customer as there are membership event(s) created for it.  
+- P150B02025: You cannot delete the customer as it has duplicate(s).  
+- P150B02026: You cannot delete the customer as it is a duplicate of another customer.  
+- P150B02027: You can only modify the name of predefined membership level.  
+- P150B02028: You cannot delete the customer as it is the default customer of the physical store channel.  
+- P151B02072: Please enter the customer's Facebook account name.  
+- P151B02073: Please enter the company's Facebook account name.  
+- P151B02074: The company's Facebook account is inactive.  
+- P151B02075: Only one attachment is allowed for Facebook communication.  
+- P151B02076: Listening to the company's Twitter account is disabled.  
+- P151B02077: Listening to the company's Facebook account is disabled.  
+- P151B02078: Service case(s) were already generated from selected feed(s).  
+- P151B02081: Cannot reply via service case communication. No parent message has been found.  
+- P155B02001: You cannot update property  
+- P155B02002: after creation.  
+- P155B02003: You cannot add new lines after creation.  
+- P155B02004: You cannot remove lines after creation.  
+- P155B02005: You cannot update property {0} after creation.  
+- P166B00001: No email service provider found.  
+- P166B00002: Please authorize your email service provider to continue.  
+- P166B00003: Email service provider is already synced.  
+- P166B00004: Emails not sent yet. Cannot sync back from email service provider.  
+- P166B00005: Campaign is already synced to email service provider.  
+- P166B00006: Please specify a target group.  
+- P166B00007: Failed to sync to email service provider. Please try again.  
+- P166B00008: Syncing data. Please wait…  
+- P166B00009: Data already synced to your email service provider.  
+- P166B00010: Please sync to email service provider first.  
+- P166B00011: Please select a member list from the email integration provider in campaign settings first  
+- P166B00012: Campaign does not exist  
+- P166B00013: Campaign type cannot be changed. It is already synced with your email service provider  
+- P166B00014: Rule fields invalid  
+- P166B00015: Failed to authorize SAP Anywhere. For more help, contact your administrator.  
+- P166B00016: Please assign a target group to this campaign.  
+- P166B00017: There are no members in this target group.  
+- P166B00018: Start date cannot be later than end date.  
+- P166B00019: Duplicated conditions  
+- P166B00020: The member list does not exist.  
+- P166B00021: The membership points cannot be less than 0.  
+- P166B00022: The expiration date is invalid.  
+- P166B00023: This customer is currently not a part of the membership.  
+- P166B00024: Points gained per unit currency cannot be less than 0.  
+- P166B00025: Minimum points for redemption cannot be less than 0.  
+- P166B00026: Maximum points for redemption per order cannot be less than 0.  
+- P166B00027: Point validity period cannot be less than 0.  
+- P166B00028: You cannot use your points right now as your point balance of {0} points is less than {1} points, the minimum amount required for redemption.  
+- P166B00029: You cannot use {0} points in this order as the maximum points usage permitted per order is {1} points.  
+- P166B00030: Sorry, currently you have insufficient points to carry on the operation.  
+- P166B00031: Points per currency unit cannot be less than 0.  
+- P166B00032: Failed to receive the attachment. Please try again.  
+- P166B00033: App ID or App Secret is invalid.  
+- P166B00034: To send out this message in WeChat, you must have at least 2 followers.  
+- P166B00035: Cannot find the attachment's url.  
+- P166B00036: Cannot get the WeChat content from backend. Please check again.  
+- P166B00037: The WeChat account does not exist. Please check again.  
+- P166B00038: {0} returns with error: {1}, {2}.  
+- P166B00039: This WeChat account has already been added.  
+- P166B00040: Failed to send the message to WeChat as you cannot send the same message twice in one day.  
+- P166B00041: The title of a WeChat message cannot be empty. Please enter a title first.  
+- P166B00042: You cannot send out WeChat messages without content.  
+- P166B00043: The cover image of the WeChat message cannot be empty. Please upload a cover image first.  
+- P166B00044: The cover image's file type must be PNG or JPEG.  
+- P166B00045: There is no online store available. Please create your online store first.  
+- P166B00046: A system error occurred on the WeChat Server. Please try again.  
+- P166B00060: The end date cannot be earlier than the start date.  
+- P166B00061: Awards of the same type cannot have overlapping durations.  
+- P166B00062: The Customer/Contact ID {0} is invalid. Please check again.  
+- P166B00063: When Customer/Contact ID is filled, you must choose a corresponding customer/contact type.  
+- P166B00064: This function is now still a trial version. Each hour we only support users for a limited number of attempts. If you want to continue using the function, we suggest you try again later.  
+- P166B00065: There are no members in this target group. Please choose another target group.  
+- P166B00066: Cannot sync back to SAP Anywhere as you have already bound this email account to another email service provider.  
+- P166B00067: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00068: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00069: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00070: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00071: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00072: Failed to cancel the authorization. Please try again later.  
+- P166B00073: Operation to the email account failed. Please try again later.  
+- P166B00074: The authorization is now invalid. Please cancel the authorization and authorize it again.  
+- P166B00075: Customer is invalid.  
+- P166B00076: Contact is invalid.  
+- P166B00077: Source is invalid.  
+- P166B00078: TargetGroup is invalid.  
+- P166B00079: Cannot import to a target group with conditions. Please choose a manually created target group for the import.  
+- P166B00080: Customer/Contact cannot be empty.  
+- P166B00081: Member duplicated.  
+- P166B00082: Lead(s) were already generated from selected feed(s).  
+- P166B00084: Feed was already closed.  
+- P166B00085: You cannot delete the customer as it is already used in Lead.  
+- P166B00086: You cannot delete the customer as it is already used in Target Group.  
+- P166B00087: You cannot delete the contact as it is already used in Lead.  
+- P166B00088: You cannot delete the contact as it is already used in Target Group.  
+- P166B00089: Signature validation error  
+- P166B00090: XML parsing error  
+- P166B00091: Signature computing error  
+- P166B00092: Illegal AES key  
+- P166B00093: App ID validation error  
+- P166B00094: AES encryption error  
+- P166B00095: AES decryption error  
+- P166B00096: Illegal buffer  
+- P166B00097: Failed to update card status as card ID ({}) cannot be found.  
+- P166B00098: WeChat notification ({}) invalid. This notification will be skipped.  
+- P166B00099: Only one WeChat membership card is permitted.  
+- P166B00100: The membership card can only be sent to a maximum of 10 Wechat IDs to preview.  
+- P166B00101: You cannot preview the WeChat Membership card before editing the card's information.  
+- P166B00102: You cannot preview non WeChat Membership cards.  
+- P166B00103: Only one WeChat membership card is permitted.  
+- P166B00104: Membership number count exceeds the quantity. Please modify the quantity.  
+- P166B00105: Please upload the logo before you upload the membership card to WeChat.  
+- P166B00106: To dispatch via WeChat, you must choose a WeChat account.  
+- P166B00107: Customers were already generated from selected feeds.  
+- P166B00108: Valid to date must be after valid from date.  
+- P166B00109: The "Valid To" date must be later than today.  
+- P166B00110: Quantity must be greater than 0.  
+- P166B00111: This WeChat card has already been consumed.  
+- P166B00112: The WeChat card was deleted by the customer or given to a friend.  
+- P166B00113: The API is unauthorized for this card.  
+- P166B00114: Text analysis failed. Invalid email thread ID.  
+- P166B00115: Text analysis failed. Invalid email message ID.  
+- P166B00116: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00117: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00118: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00119: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00120: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00121: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00122: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00123: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00124: Only one WeChat account is allowed.  
+- P166B00125: The uploaded file to WeChat is invalid. Please check and upload a new file.  
+- P166B00126: The WeChat name does not exist.  
+- P166B00127: Please select a color if you want to dispatch the card on WeChat.  
+- P166B00128: You need to subscribe to the WeChat public account to receive messages from it.  
+- P166B00129: You need to upload a cover image for each article.  
+- P166B00130: Too many attempts. Please wait for a while and try again later.  
+- P166B00132: Points are insufficient according to the conversion rules configured in settings.  
+- P166B00133: Too many points are being used according to the conversion rules configured in settings.  
+- P166B00134: The points do not hold the same value as money.  
+- P166B00135: Duplicate campaign name exists.  
+- P166B00136: Organization address is empty.  
+- P166B00137: Invalid ID.  
+- P166B00138: Cost cannot be negative.  
+- P166B00139: API not authorized. Please open this function in your WeChat public account.  
+- P166B00140: You have not enabled the shake around function on your public account, please open it.  
+- P166B00141: Attachment is invalid. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00142: Cannot read the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00143: Cannot send the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00144: Cannot send the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00145: Cannot send the email with attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00146: The campaign does not exist.  
+- P166B00147: The beacon and page are created by different WeChat accounts.  
+- P166B00148: You cannot choose an expired time.  
+- P166B00149: One social message was successfully sent just now. Please refresh your page for further operations.  
+- P166B00150: Hashtag must be shorter than 32 characters, and cannot include any spaces or special characters.  
+- P166B00151: Duplicate campaign hashtag exists.  
+- P166B00152: Please select a code type if you want to dispatch the card on WeChat.  
+- P166B00154: The account information for configuring the OAuth is incorrect. Please try again.  
+- P166B00155: Third party page returned {0} {1}. Please try again later.  
+- P166B00156: Invalid URL request: {0}.  
+- P166B00157: HTTP method not supported: {0}.  
+- P166B00158: Invalid ID: {0}.  
+### <sapn id="knowledge-base">knowledge-base</span>
+- P159B04001: Invalid knowledge base item  
+- P159B04002: Invalid knowledge base item ID  
+- P159B04003: Invalid service case document number.  
+- P159B04004: Knowledge base sequence used for document numbering not found.  
+### <sapn id="mp-adapter">mp-adapter</span>
+### <sapn id="payment-intg">payment-intg</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- P100B00001: You are not a guest user.  
+- P100B00002: Attachment not found  
+- P100B00003: Attachment does not exist.  
+- P100B00004: No permission to operate this attachment  
+- P100B00005: File format {0} is not supported.  
+- P100B00006: The file is empty or does not exist in the specified location.  
+- P100B00007: Virus scanner failed  
+- P100B00008: Incorrect object entity  
+- P100B00009: Failed to upload the file. Please try again.  
+- P100B00010: You cannot export the file as a PDF.  
+- P100B00011: Failed to download the file. Please try again.  
+- P100B00015: File size is too large.  
+- P100B00016: Failed to upload the file. The file name cannot contain special characters (including < > ' \ &).  
+- P100B00017: Failed to upload the file. This file may contain a virus.  
+- P100B00018: Failed to upload the file. This file is not an image.  
+- P100D00001: Cannot find the corresponding app.  
+- P100D00002: Webhook callback URL is invalid.  
+- P100D00003: Webhook does not support this event type.  
+- P100D00004: Cannot find the specified webhook.  
+- P100D00005: You are not authorized to update or delete the webhook for this app.  
+- P100D00006: Webhook event type cannot be updated.  
+- P100D00007: Webhook registration failed, as the webhook for this event type already exists.  
+- P101B02011: Team name cannot be empty.  
+- P101B02012: Team name already exists.  
+- P101B02018: Invalid Team input parameters.  
+- P101B02019: Missing Team employee id "{0}".  
+- P103B02005: You cannot delete an already triggered approval  
+- P103B02006: Approval "{0}" already exists  
+- P103B02007: User "{0}" is invalid  
+- P103B02008: Business object type does not exist  
+- P103B02009: You are not authorized to view this information  
+- P103B02010: Business object "{0}" does not exist  
+- P103B02011: You are not authorized to assign this object  
+- P103B02012: Invalid dynamic authorization id: {0}  
+- P103B02013: Invalid role id: {0}  
+- P103B02014: Invalid system business object id: {0}  
+- P103B02015: {0} is not a system predefined role.  
+- P103B02016: missing argument  
+- P103B02017: Please enter a role name.  
+- P103B02018: The role name has been used, please enter another name.  
+- P103B02019: Cannot delete {0}. It is a system predefined role.  
+- P103B02020: Cannot delete this role. It is already assigned to users.  
+- P103B02021: Invalid authorization item name: {0}  
+- P103B10000: You cannot unlock yourself  
+- P103B10001: You cannot lock yourself  
+- P103B10002: You cannot change yourself to normal user  
+- P103B10003: You cannot change yourself to key user  
+- P103B10004: You cannot view restricted price lists  
+- P103B10005: You are not authorized to change user permissions  
+- P103B10006: Permission item index "{0}" is invalid  
+- P103B10007: Permission argument is invalid  
+- P103B10008: You are not authorized to create users  
+- P103B10009: Cannot create user due to an unexpected error. Report error?  
+- P103B10010: Enter an email address  
+- P103B10011: Email address is invalid  
+- P103B10012: An account already exists for this email address. To reset your password, choose the “Forgot you password” link.  
+- P103B10013: You are not authorized to change user details  
+- P103B10014: Cannot update user due to an unexpected error. Report error?  
+- P103B10015: You cannot delete yourself  
+- P103B10016: You are not authorized to delete users  
+- P103B10017: Cannot delete user due to an unexpected error. Report error?  
+- P103B10018: Phone number {0} is invalid  
+- P103B10019: User {0} does not exist  
+- P103B10020: Business object identifier "{0}.{1}" is invalid  
+- P103B10021: Enter a valid password  
+- P103B10022: You are not authorized to change user passwords  
+- P103B10024: Enter a new password  
+- P103B10025: Enter the current password  
+- P103B10026: Your new password must not be the same as your current one  
+- P103B10027: Email Address {0} already exists.  
+- P103B10028: Current password is incorrect  
+- P103B10029: Invoke by createUserEmployee function to create user.  
+- P103B10030: Invoke by checkedUpdate function to update user info.  
+- P103B10031: No method available in property: {0}.  
+- P103B10032: Failed to get property: {0}.  
+- P103B10033: Business object entity key is null.  
+- P103B10034: Image upload failed.  
+- P103B10035: Attachment not found.  
+- P103B10036: Queue server is unavailable, please contact system administrator  
+- P103B10037: Cannot upload the template. Please make sure the file format is XLS and that content within the template is correct.  
+- P103B10038: File conversion failed, please contact system administrator  
+- P103B10039: Invalid setting for the manager. Please check.  
+- P103B10040: Cannot set this user as technical support user because the maximum number of technical support users has been reached.  
+- P103B10041: There must be at least one technical support user in the system. You must assign another user as technical support before removing this one.  
+- P103B20000: Invalid action  
+- P103B20001: Invalid input  
+- P103B20002: Local currency is not existing.  
+- P103B30000: Activity does not exist  
+- P103B30001: Status is invalid  
+- P103B30002: One or more mandatory fields are missing required information.  
+- P103B30003: One or more mandatory fields are missing required information.  
+- P103B30004: One or more mandatory fields are missing required information.  
+- P103B30005: User does not exist  
+- P103B30006: No permission to read  
+- P103B30007: No permission to write  
+- P103B30008: You cannot delete approval activities  
+- P103B30009: You cannot change the activity status  
+- P103B30010: You cannot change completed activities  
+- P103B30011: You cannot change the activity status  
+- P103B30012: You cannot approve or reject this activity  
+- P103B30013: You are not authorized to change the approval status  
+- P103B30014: Document type is invalid  
+- P103B30015: Business object not found  
+- P103B30016: Attachment does not exist  
+- P103B30017: Cannot create approval due to an unexpected error. Please try again.  
+- P103B30018: You cannot reopen approval activities  
+- P103B30019: Activity is already open  
+- P103B30020: {0} was sent to you for approval  
+- P103B30021: {1} assigned a {0} to you.  
+- P103B30022: {1} updated a {0}.  
+- P103B30023: A {1} for {0} was changed by {2}.  
+- P103B30024: A {1} for {0} was created by {2}.  
+- P103B30025: A {1} for {0} was deleted by {2}.  
+- P103B30026: {1} has approved a {0}.  
+- P103B30027: {1} has rejected a {0}.  
+- P103B30028: {1} has completed a {0}.  
+- P103B30029: A {1} for {0} has been completed by {2}.  
+- P103B30030: A {1} for {0} was reopened by {2}.  
+- P103B30031: A {1} for {0} has been approved by {2}.  
+- P103B30032: A {1} for {0} has been rejected by {2}.  
+- P103B30033: {1} reopened a {0}.  
+- P103B30034: You have already sent an authorization request. Please wait for approval  
+- P103B30035: {0} sent you a {1} for authorization approval  
+- P103B30036: {0} has granted you full access to {1}  
+- P103B30037: {0} has granted you read-only access to {1}  
+- P103B30038: {0} has rejected your request for accessing to {1}  
+- P103B30039: description  
+- P103B30040: You cannot attach an empty file  
+- P103B30041: Text  
+- P103B30042: Activity {0} is invalid  
+- P103B30043: A {1} for {0} was changed by {2}.  
+- P103B30044: A {1} for {0} was created by {2}.  
+- P103B30045: A {1} for {0} was deleted by {2}.  
+- P103B30046: User "{0}" is invalid  
+- P103B30047: {0} requests approval for {1} worth {2}  
+- P103B30048: Invalid action for this type of activity.  
+- P103B40001: The ContactPerson is invalid  
+- P103B50001: Attachment Upload Failed.  
+- P103B50002: Attachment Download Failed.  
+- P103B50003: Not Authorized to delete or update Attachment.  
+- P103B50004: Not Authorized to Create or Add Attachment.  
+- P103B50005: Not Authorized to Read Attachment.  
+- P103B60001: Taobao integration already active.  
+- P103B60002: Taobao integration already inactive.  
+- P103B60003: Taobao login failed: {0}.  
+- P103B60004: Do OAuth with Taobao first.  
+- P103B60005: SKU ID {0} is invalid. Product ID {0} is invalid.  
+- P103B60006: SKU ID {0} is invalid.  
+- P103B60007: Refresh token is expired.  
+- P103B60008: No RMB currency.  
+- P103B60009: Product code cannot be empty.  
+- P103B60010: Product code {0} is invalid.  
+- P103B60011: Products were delivered from Taobao, you need create an order and deliver it manually.  
+- P103B60012: Invalid channel type for Taobao Channel. Only Taobao or Tmall is valid.  
+- P103B60013: This trade has already been generated a Sales Order.  
+- P103B60014: Sales order {0} is invalid.  
+- P103B60015: Sales order {0} is already related to external order {1}.  
+- P103B60016: Cannot relate return order to trade.  
+- P103B70001: Quantity cannot be 0.  
+- P103B70002: Unit price cannot be 0.  
+- P103B70003: Insuffient stock  
+- P103B70004: Warehouse cannot be empty for products in stock-allocated status.  
+- P103B70005: You cannot change the price for products in stock-allocated status.  
+- P103B70006: You cannot change the quantity for products in stock-allocated status.  
+- P103B70007: You cannot change the warehouse for products in stock-allocated status.  
+- P103B70008: Invalid channel  
+- P103B70009: Failed to initial default values  
+- P103B70112: Discount percentage cannot be greater than 100%.  
+- P103B70113: Unit price cannot be less than 0.  
+- P103B70121: The signs (plus/minus) of quantity and gross total are different.  
+- P103B90001: content is limited 140 characters, when the note has an attachment  
+- P103B93125: Cannot create user due to maximum number of users exceeded.  
+- P103S10023: Failed to change password as the application has encountered an error. We are aware of the error and already working on a resolution.  
+- P134B7035: Failed to add domain. It duplicates with an existing domain.  
+- P134B7048: The uploaded certificate is invalid, or does not match your domain.  
+- P149B02223: Length unit ID {0} is invalid.  
+- P149B02224: Weight unit ID {0} is invalid.  
+- P149B02225: Unit size must greater than 0.  
+- P150B00001: Default channel must be active.  
+- P150B00002: Cannot add warehouse. The same warehouse already exists: {0}  
+- P150B00003: Cannot add warehouse. This warehouse is inactive or does not exist: {0}  
+- P150B00004: Please add at least one warehouse.  
+- P150B00005: Cannot add payment method. The same payment method already exists: {0}  
+- P150B00006: You cannot create or update predefined channel types.  
+- P150B00007: You cannot delete predefined channel types.  
+- P150B00008: Specified currency is inconsistent with the currency in company profile.  
+- P150B00009: Specified pricing method is inconsistent with the pricing method in company profile.  
+- P150B00010: Specified currency is inconsistent with the currency for the sales price list of this channel.  
+- P150B00011: The pricing method of the sales price list is inconsistent with that of the channel.  
+- P150B00012: Standard price list must be system's standard price list.  
+- P150B00013: Sales price list must be system's sales price list.  
+- P150B00014: Pricing method must be either net or gross.  
+- P150B00015: You cannot change the currency once you add the channel.  
+- P150B00016: You cannot change the pricing method once the channel is added.  
+- P150B00018: Shopping cart update precision must be minute/hour/day/week.  
+- P150B00019: You cannot send email reminders to customers who abandon their shopping carts for less than {0} minutes.  
+- P150B00020: Currency ID {0} is invalid.  
+- P150B00021: Currency ID List is empty.  
+- P150B00022: Must select a currency for this channel.  
+- P150B00023: Channel ID {0} is invalid.  
+- P150B00024: The default channel already exists.  
+- P150B00025: Please select a channel currency.  
+- P150B00026: The currency and the price list currency do not match.  
+- P150B00027: The currency is not the local currency.  
+- P150B00028: You cannot set an inactive channel as the default channel.  
+- P150B00030: The domain has already been used. Please use another.  
+- P150B00031: Address is required.  
+- P150B00032: Please add at least one warehouse.  
+- P150B00033: Invalid domain name. Please enter domain name using letters and numbers only, and no longer than 63 characters.  
+- P150B00034: You must choose at least one currency.  
+- P150B00035: You cannot deactivate the channel. It is the last active channel.  
+- P150B00036: Failed to add domain. Please check your certificate files.  
+- P150B00037: Invalid domain name. Please enter another.  
+- P150B00038: You must upload domain certificate files.  
+- P150B00039: You must not remove the default domain or update its certificates.  
+- P150B00040: The domain you want to remove does not exist.  
+- P150B00041: You cannot choose the corporate customer. The target customers for the physical store channel are individual customers.  
+- P150B00042: You must choose at least one ship-to country/region.  
+- P150B00050: You cannot deactivate the default channel.  
+- P150B00051: Cannot create online store due to technical issues. The number of stores created has reached the upper limit. For details, please contact your administrator.  
+- P150B00052: Please select an owner for the channel.  
+- P150B00053: Please select a marketplace.  
+- P150B00054: Please select a currency.  
+- P150B00055: You cannot change the marketplace of an existing channel.  
+- P150B00056: You cannot change the product listing method.  
+- P150B00057: The external order ID cannot be empty.  
+- P150B00058: You must choose at least one pickup store, or disable Pickup in Store.  
+- P150B00060: All currencies assoicated with the channel are inactive. Please activate as least one of them.  
+- P150B00061: Checkout without account cannot be enabled in B2B online stores.  
+- P150B00070: You cannot delete the {0} as it is already in use.  
+- P150B00100: Cannot load sales order.  
+- P150B00101: Source sales order is not specified.  
+- P150B00102: You can only copy the open and unpaid invoices.  
+- P150B00103: Please check the document status and the payment status.  
+- P150B00104: Please check the document status and the payment status.  
+- P150B00105: Please specify a payment method.  
+- P150B00106: Paid amount cannot exceed gross total.  
+- P150B00107: The amount cannceled must be greater than 0.  
+- P150B00108: The amount cannceled cannot exceed paid amount.  
+- P150B00109: The document is not paid yet.  
+- P150B00110: Un-invoiced order lines exist.  
+- P150B00111: The document's payment status is invalid.  
+- P150B00112: Paid amount must be greater than 0.  
+- P150B00113: Creation time and posting time cannot be later than due time.  
+- P150B00114: Cannot load invoice  
+- P150B00115: Selected documents must share the same customer.  
+- P150B00116: Selected documents must share the same currency.  
+- P150B00117: Cannot load credit memo  
+- P150B00118: Source document not specified  
+- P150B00119: Cannot load source document  
+- P150B00120: Cannot create this document directly  
+- P150B00121: Cannot load invoice line  
+- P150B00122: Copy paramter is null.  
+- P150B00123: Please specify a customer.  
+- P150B00124: Please specify a currency.  
+- P150B00125: Failed to create invoices for returned products  
+- P150B00126: There are no products or shipping costs to create invoices for.  
+- P150B00127: Please specify the local currency.  
+- P150B00128: Invalid invoice status  
+- P150B00129: Amount due must be equal to gross total in unpaid invoice.  
+- P150B00130: Paid amount cannot be greater than gross total in partially paid invoice.  
+- P150B00131: Paid amount must be equal to gross total in fully-paid invoice.  
+- P150B00132: Credit memos are not supported.  
+- P150B00133: Please input an exchange rate here or in business settings.  
+- P150B00134: Order line "{0}" has never been invoiced before.  
+- P150B00135: Cannot cancel the document. You can only cancel open and unpaid invoices and credit memos.  
+- P150B00136: Selected documents should share the same pricing method.  
+- P150B00137: Please specify a pricing method.  
+- P150B00138: Invalid address change  
+- P150B00139: There are no returned products to create credit memos for.  
+- P150B00140: Selected documents should share the same sales channel.  
+- P150B00141: Please specify a sales channel.  
+- P150B00142: Only orders from the general channel can be partially invoiced.  
+- P150B00143: Cannot generate invoice/credit memo for multiple orders that are not from the general channel.  
+- P155B02001: You cannot update property  
+- P155B02002: after creation.  
+- P155B02003: You cannot add new lines after creation.  
+- P155B02004: You cannot remove lines after creation.  
+- P155B02005: You cannot update property {0} after creation.  
+### <sapn id="meta">meta</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- P100D00001: Cannot find the corresponding app.  
+- P100D00002: Webhook callback URL is invalid.  
+- P100D00003: Webhook does not support this event type.  
+- P100D00004: Cannot find the specified webhook.  
+- P100D00005: You are not authorized to update or delete the webhook for this app.  
+- P100D00006: Webhook event type cannot be updated.  
+- P100D00007: Webhook registration failed, as the webhook for this event type already exists.  
+- P101B02011: Team name cannot be empty.  
+- P101B02012: Team name already exists.  
+- P101B02018: Invalid Team input parameters.  
+- P101B02019: Missing Team employee id "{0}".  
+- P103B02005: You cannot delete an already triggered approval  
+- P103B02006: Approval "{0}" already exists  
+- P103B02007: User "{0}" is invalid  
+- P103B02008: Business object type does not exist  
+- P103B02009: You are not authorized to view this information  
+- P103B02010: Business object "{0}" does not exist  
+- P103B02011: You are not authorized to assign this object  
+- P103B02012: Invalid dynamic authorization id: {0}  
+- P103B02013: Invalid role id: {0}  
+- P103B02014: Invalid system business object id: {0}  
+- P103B02015: {0} is not a system predefined role.  
+- P103B02016: missing argument  
+- P103B02017: Please enter a role name.  
+- P103B02018: The role name has been used, please enter another name.  
+- P103B02019: Cannot delete {0}. It is a system predefined role.  
+- P103B02020: Cannot delete this role. It is already assigned to users.  
+- P103B02021: Invalid authorization item name: {0}  
+- P103B10000: You cannot unlock yourself  
+- P103B10001: You cannot lock yourself  
+- P103B10002: You cannot change yourself to normal user  
+- P103B10003: You cannot change yourself to key user  
+- P103B10004: You cannot view restricted price lists  
+- P103B10005: You are not authorized to change user permissions  
+- P103B10006: Permission item index "{0}" is invalid  
+- P103B10007: Permission argument is invalid  
+- P103B10008: You are not authorized to create users  
+- P103B10009: Cannot create user due to an unexpected error. Report error?  
+- P103B10010: Enter an email address  
+- P103B10011: Email address is invalid  
+- P103B10012: An account already exists for this email address. To reset your password, choose the “Forgot you password” link.  
+- P103B10013: You are not authorized to change user details  
+- P103B10014: Cannot update user due to an unexpected error. Report error?  
+- P103B10015: You cannot delete yourself  
+- P103B10016: You are not authorized to delete users  
+- P103B10017: Cannot delete user due to an unexpected error. Report error?  
+- P103B10018: Phone number {0} is invalid  
+- P103B10019: User {0} does not exist  
+- P103B10020: Business object identifier "{0}.{1}" is invalid  
+- P103B10021: Enter a valid password  
+- P103B10022: You are not authorized to change user passwords  
+- P103B10024: Enter a new password  
+- P103B10025: Enter the current password  
+- P103B10026: Your new password must not be the same as your current one  
+- P103B10027: Email Address {0} already exists.  
+- P103B10028: Current password is incorrect  
+- P103B10029: Invoke by createUserEmployee function to create user.  
+- P103B10030: Invoke by checkedUpdate function to update user info.  
+- P103B10031: No method available in property: {0}.  
+- P103B10032: Failed to get property: {0}.  
+- P103B10033: Business object entity key is null.  
+- P103B10034: Image upload failed.  
+- P103B10035: Attachment not found.  
+- P103B10036: Queue server is unavailable, please contact system administrator  
+- P103B10037: Cannot upload the template. Please make sure the file format is XLS and that content within the template is correct.  
+- P103B10038: File conversion failed, please contact system administrator  
+- P103B10039: Invalid setting for the manager. Please check.  
+- P103B10040: Cannot set this user as technical support user because the maximum number of technical support users has been reached.  
+- P103B10041: There must be at least one technical support user in the system. You must assign another user as technical support before removing this one.  
+- P103B20000: Invalid action  
+- P103B20001: Invalid input  
+- P103B20002: Local currency is not existing.  
+- P103B30000: Activity does not exist  
+- P103B30001: Status is invalid  
+- P103B30002: One or more mandatory fields are missing required information.  
+- P103B30003: One or more mandatory fields are missing required information.  
+- P103B30004: One or more mandatory fields are missing required information.  
+- P103B30005: User does not exist  
+- P103B30006: No permission to read  
+- P103B30007: No permission to write  
+- P103B30008: You cannot delete approval activities  
+- P103B30009: You cannot change the activity status  
+- P103B30010: You cannot change completed activities  
+- P103B30011: You cannot change the activity status  
+- P103B30012: You cannot approve or reject this activity  
+- P103B30013: You are not authorized to change the approval status  
+- P103B30014: Document type is invalid  
+- P103B30015: Business object not found  
+- P103B30016: Attachment does not exist  
+- P103B30017: Cannot create approval due to an unexpected error. Please try again.  
+- P103B30018: You cannot reopen approval activities  
+- P103B30019: Activity is already open  
+- P103B30020: {0} was sent to you for approval  
+- P103B30021: {1} assigned a {0} to you.  
+- P103B30022: {1} updated a {0}.  
+- P103B30023: A {1} for {0} was changed by {2}.  
+- P103B30024: A {1} for {0} was created by {2}.  
+- P103B30025: A {1} for {0} was deleted by {2}.  
+- P103B30026: {1} has approved a {0}.  
+- P103B30027: {1} has rejected a {0}.  
+- P103B30028: {1} has completed a {0}.  
+- P103B30029: A {1} for {0} has been completed by {2}.  
+- P103B30030: A {1} for {0} was reopened by {2}.  
+- P103B30031: A {1} for {0} has been approved by {2}.  
+- P103B30032: A {1} for {0} has been rejected by {2}.  
+- P103B30033: {1} reopened a {0}.  
+- P103B30034: You have already sent an authorization request. Please wait for approval  
+- P103B30035: {0} sent you a {1} for authorization approval  
+- P103B30036: {0} has granted you full access to {1}  
+- P103B30037: {0} has granted you read-only access to {1}  
+- P103B30038: {0} has rejected your request for accessing to {1}  
+- P103B30039: description  
+- P103B30040: You cannot attach an empty file  
+- P103B30041: Text  
+- P103B30042: Activity {0} is invalid  
+- P103B30043: A {1} for {0} was changed by {2}.  
+- P103B30044: A {1} for {0} was created by {2}.  
+- P103B30045: A {1} for {0} was deleted by {2}.  
+- P103B30046: User "{0}" is invalid  
+- P103B30047: {0} requests approval for {1} worth {2}  
+- P103B30048: Invalid action for this type of activity.  
+- P103B40001: The ContactPerson is invalid  
+- P103B50001: Attachment Upload Failed.  
+- P103B50002: Attachment Download Failed.  
+- P103B50003: Not Authorized to delete or update Attachment.  
+- P103B50004: Not Authorized to Create or Add Attachment.  
+- P103B50005: Not Authorized to Read Attachment.  
+- P103B60001: Taobao integration already active.  
+- P103B60002: Taobao integration already inactive.  
+- P103B60003: Taobao login failed: {0}.  
+- P103B60004: Do OAuth with Taobao first.  
+- P103B60005: SKU ID {0} is invalid. Product ID {0} is invalid.  
+- P103B60006: SKU ID {0} is invalid.  
+- P103B60007: Refresh token is expired.  
+- P103B60008: No RMB currency.  
+- P103B60009: Product code cannot be empty.  
+- P103B60010: Product code {0} is invalid.  
+- P103B60011: Products were delivered from Taobao, you need create an order and deliver it manually.  
+- P103B60012: Invalid channel type for Taobao Channel. Only Taobao or Tmall is valid.  
+- P103B60013: This trade has already been generated a Sales Order.  
+- P103B60014: Sales order {0} is invalid.  
+- P103B60015: Sales order {0} is already related to external order {1}.  
+- P103B60016: Cannot relate return order to trade.  
+- P103B70001: Quantity cannot be 0.  
+- P103B70002: Unit price cannot be 0.  
+- P103B70003: Insuffient stock  
+- P103B70004: Warehouse cannot be empty for products in stock-allocated status.  
+- P103B70005: You cannot change the price for products in stock-allocated status.  
+- P103B70006: You cannot change the quantity for products in stock-allocated status.  
+- P103B70007: You cannot change the warehouse for products in stock-allocated status.  
+- P103B70008: Invalid channel  
+- P103B70009: Failed to initial default values  
+- P103B70112: Discount percentage cannot be greater than 100%.  
+- P103B70113: Unit price cannot be less than 0.  
+- P103B70121: The signs (plus/minus) of quantity and gross total are different.  
+- P103B71001: To use Pitney Bowes, please provide the full warehouse address.  
+- P103B78001: Please add addresses.  
+- P103B78002: Please enable net price in company profile settings.  
+- P103B78003: Please enable gross price in company profile settings.  
+- P103B78004: Failed to read shipping label file  
+- P103B78101: Please specify applicable countries/regions.  
+- P103B78102: Please enter rates.  
+- P103B78104: Fixed rates cannot be created or deleted.  
+- P103B78105: Please enable fixed rates in shipping settings.  
+- P103B78201: Please enable at least one shipping method.  
+- P103B78202: You cannot create new shipping methods.  
+- P103B78203: You cannot delete shipping methods.  
+- P103B78204: You cannot disable the shipping method as it is already assigned to channels.  
+- P103B78205: Carrier-calculated rates are disabled for Chinese shipping carriers.  
+- P103B78206: Please enable carrier-calculated rates in shipping settings.  
+- P103B78302: There are lines with duplicated country/region, state, city, and zip code.  
+- P103B78303: Specified country/region not found  
+- P103B78304: Specified state not found  
+- P103B78305: State ID must be an integer.  
+- P103B78309: Weight From cannot be greater than Weight To.  
+- P103B78312: Increase weight must be greater than 0.  
+- P103B78314: Please enable Rates Based On Weight and Region in shipping settings.  
+- P103B78315: There are overlapping weight ranges for lines with the same country/region, state, city, and zip code.  
+- P103B78316: Please add information to the lines.  
+- P103B78409: Interior length cannot be greater than exterior length.  
+- P103B78410: Interior width cannot be greater than exterior width.  
+- P103B78411: Interior height cannot be greater than height length.  
+- P103B78502: Min. delivery days cannot be greater than max. delivery days.  
+- P103B78503: Valid From must be earlier than Valid To.  
+- P103B78504: Please enable free shipping in shipping settings.  
+- P103B78510: Please enable the shipping method first.  
+- P103B78511: Settings data for free-shipping does not exist.  
+- P103B78512: Settings data for fixed-rates does not exist.  
+- P103B78513: Cannot find setting data for carrier {0}  
+- P103B78514: Carrier {0} not found  
+- P103B78611: A network error occurred while calling a third-party shipping service.  
+- P103B78612: The third-party shipping service returned an authentication error.  
+- P103B78613: Failed to create the order using a third-party shipping service  
+- P103B78614: Failed to confirm the order using a third-party shipping service  
+- P103B78701: Shipping Carrier ID is invalid.  
+- P103B78702: Shipping Carrier IDs are duplicated.  
+- P103B78703: Shipping carrier not found  
+- P103B78704: Please enable the shipping carrier in shipping settings.  
+- P103B78705: Current shipping carrier is already used in sales deliveries.  
+- P103B78707: Please enter carrier code.  
+- P103B78708: Carrier-calculated rates are not supported by this shipping carrier.  
+- P103B78709: Please add printing templates in shipping carrier settings.  
+- P103B78710: Failed to download shipping label due to an unexpected error. Please try again later.  
+- P103B78712: Electronic labels are not supported by current carrier.  
+- P103B78714: Please specify S.F. Express delivery type.  
+- P103B78716: Please enter your monthly account.  
+- P103B78717: Please enter your access key.  
+- P103B78718: Please enter your customer check code.  
+- P103B78720: Please specify the delivery type first.  
+- P103B78801: S.F. Express web service returned an error: {0}.  
+- P103B78802: Failed to create S.F. Express electronic label.  
+- P103B78803: Please enter the recipient's state.  
+- P103B78804: Please enter the recipient's city.  
+- P103B78805: Please enter the sender's state.  
+- P103B78806: Please enter the sender's city.  
+- P103B78807: Please enter the total weight.  
+- P103B78901: Currency {0} not found. Please specify a valid one.  
+- P103B78902: Please specify a currency.  
+- P103B78903: You cannot delete the rate as it is already used.  
+- P103B78904: You cannot change the rate's name as the rate is already used.  
+- P103B80001: You must clear all rate settings before changing the exchange rate quotation method.  
+- P103B80002: Illegal arguments were passed to this function: {0}  
+- P103B80003: You must enter an exchange rate here or in Settings.  
+- P103B80004: Failed to send a test email; please ensure that the SMTP settings are correct.  
+- P103B80006: Email template not found  
+- P103B80007: Cannot change the local currency as it has already been used for some transactions.  
+- P103B80008: Email template already exists.  
+- P103B80009: This app name already exists.  
+- P103B80010: Failed to delete this app  
+- P103B80011: Failed to create OAuth client  
+- P103B80012: Failed to get IDP url  
+- P103B80013: Authorization failed  
+- P103B80015: Authorization failed, the password incorrect.  
+- P103B90001: content is limited 140 characters, when the note has an attachment  
+- P103B93125: Cannot create user due to maximum number of users exceeded.  
+- P103S10023: Failed to change password as the application has encountered an error. We are aware of the error and already working on a resolution.  
+- P133B00004: Failed to find the attachment. Please try again.  
+- P133B00005: Failed to find the image. Please try again.  
+- P133B00006: Failed to send posts to Twitter as you can only upload one GIF image at a time. Please try again.  
+- P133B00007: Failed to send out the message as the content is empty.  
+- P133B00008: Failed to authorize Twitter. Please try again.  
+- P133B00009: Failed to send the post to Twitter as you cannot send the same message twice in one day.  
+- P133B00010: Failed to send the post to Twitter as the content is more than 140 characters long.  
+- P133B00011: Failed to send the post to Twitter as today you have reached the maximum post number defined by Twitter.  
+- P133B00012: The authorization failed due to an unexpected error. Please try again.  
+- P133B00013: The message is already sent. To check the latest message status please refresh the page.  
+- P133B00014: Your current location does not support Twitter services.  
+- P133B00020: Failed to send the post to Facebook as you cannot send the same message twice in one day.  
+- P133B00021: Failed to send the post to Facebook as today you have reached the maximum post amount defined by Facebook.  
+- P133B00022: Failed to send posts to Facebook due to an unexpected error. Please try again.  
+- P133B00023: Failed to send the post to Facebook as SAP Anywhere did not obtain the corresponding permissions during the authorization process.  
+- P133B00024: Failed to send the post to Facebook as SAP Anywhere is not authorized to perform this operation.  
+- P133B00025: Failed to authorize Facebook. Please delete the Facebook account and redo OAuth.  
+- P133B00026: This Pinterest account is not linked to SAP Anywhere. Please check your Company Profile.  
+- P133B00027: Please upload an image.  
+- P133B00028: Description cannot exceed 500 characters.  
+- P133B00029: Please enter a valid URL.  
+- P133B00030: Your Weibo access token is invalid. Please go to Company Profile in Settings to authorize your Weibo account again.  
+- P133B00031: You cannot pin the image as the board does not exist.  
+- P133B00040: Invalid Facebook message ID  
+- P133B00041: This social media account does not exist.  
+- P133B00042: Failed to send the post to Facebook using the current URL. Please try using another URL.  
+- P133B00043: Pinterest authentication failed  
+- P133B00044: Pinterest service not found  
+- P133B00045: Pinterest service time out  
+- P133B00046: Too many requests sent to Pinterest  
+- P133B00047: Pinterest server error  
+- P133B00048: Unknown error from Pinterest service. Please try again later.  
+- P133B00049: Invalid social media message ID  
+- P133B00050: Cannot send a reply to this social media feed type  
+- P133B00051: Requests are being denied due to update limits.  
+- P133B00052: Failed to send reply to Facebook. Parent message doesn't exists.  
+- P134B7035: Failed to add domain. It duplicates with an existing domain.  
+- P134B7048: The uploaded certificate is invalid, or does not match your domain.  
+- P149B02001: Receipt quantity must be greater than 0.  
+- P149B02002: You cannot delete inventory receipts.  
+- P149B02021: Line {0}: Quantity must be greater than 0.  
+- P149B02022: Line {0}: Quantity cannot exceed the in-stock quantity.  
+- P149B02023: You cannot delete inventory issues.  
+- P149B02026: This warehouse is currently inactive. To continue, please activate the warehouse.  
+- P149B02027: This product is a non-inventory product.  
+- P149B02028: Warehouse must be blank when it is a dropship order.  
+- P149B02029: Please specify a warehouse when it is not a dropship order.  
+- P149B02041: Counted quantity cannot be less than 0.  
+- P149B02042: SKU {0} has been entered more than once.  
+- P149B02043: Specified SKU not found. Please enter a valid SKU.  
+- P149B02044: Specified warehouse not found. Please enter a valid warehouse.  
+- P149B02045: Please add products.  
+- P149B02046: You cannot delete inventory counts.  
+- P149B02047: Line {0}: Counted quantity is mandatory.  
+- P149B02048: Line {0} Batch number {1} is duplicated.  
+- P149B02061: Line {0}: Quantity must be greater than 0.  
+- P149B02062: Specified product not found. Please enter a valid product.  
+- P149B02063: Product %{0}% has been entered more than once.  
+- P149B02064: Specified warehouse not found. Please enter a valid warehouse.  
+- P149B02065: You cannot delete inventory opening balances.  
+- P149B02066: Line {0}: All batch quantities should have the same sign (plus/minus).  
+- P149B02067: Line {0}: Duplicated product found in existing opening balances  
+- P149B02068: Line {0}: Unit price cannot be less than 0.  
+- P149B02081: Warehouse cannot be null or from-warehouse and to-warehouse cannot be the same.  
+- P149B02082: Line {0}: Transfer-out quantity must be greater than 0.  
+- P149B02083: Line {0}: Quantity cannot exceed the in-stock quantity.  
+- P149B02084: Specified warehouse not found. Please enter a valid warehouse.  
+- P149B02085: Specified SKU not found. Please enter a valid SKU.  
+- P149B02086: You cannot delete inventory transfers.  
+- P149B02087: Transfer-in time cannot be earlier than transfer-out time.  
+- P149B02088: Line {0}: Transfer-in quantity must be greater than 0.  
+- P149B02089: Line {0}: Transfer-in quantity cannot be greater than transfer-out quantity.  
+- P149B02090: Pleae enter the transfer-out time.  
+- P149B02141: You cannot deactivate this warehouse as the amount of inventory is greater than 0.  
+- P149B02144: You cannot change the status of a warehouse once it is used in channels.  
+- P149B02145: You cannot delete warehouses.  
+- P149B02146: Please enter a warehouse code.  
+- P149B02147: Please enter a warehouse name.  
+- P149B02148: You cannot update the warehouse code as it already exists.  
+- P149B02149: Duplicated operator found. Please choose another.  
+- P149B02161: Quantity must be greater than 0.  
+- P149B02162: You cannot update the inventory log.  
+- P149B02163: You cannot delete the inventory log.  
+- P149B02182: Inventory UoM used in current document is inconsistent with the one specified in product master data. Please select the product again.  
+- P149B02183: Invalid product. Please enter a valid one.  
+- P149B02184: Invalid warehouse. Please enter a valid one.  
+- P149B02185: Invalid input parameter  
+- P149B02186: In-stock quantity cannot be less than 0.  
+- P149B02187: Invalid accumulator type  
+- P149B02188: Allocated quantity cannot be less than 0.  
+- P149B02189: Purchased quantity cannot be less than 0.  
+- P149B02190: Failed to update inventory info  
+- P149B02191: In-stock quantity cannot be less than the allocated quantity.  
+- P149B02192: Committed quantity cannot be less than the allocated quantity.  
+- P149B02193: Committed quantity cannot be less than 0.  
+- P149B02194: Invalid action type  
+- P149B02195: Initializing inventory cost...Please try again later.  
+- P149B02223: Length unit ID {0} is invalid.  
+- P149B02224: Weight unit ID {0} is invalid.  
+- P149B02225: Unit size must greater than 0.  
+- P149B02241: Please add at least one product.  
+- P149B02242: Quantity of the batch number must be greater than 0.  
+- P149B02250: Please specify a bundle product.  
+- P149B02251: Please add component products.  
+- P149B02252: You cannot delete assembly orders.  
+- P149B02253: Please add products.  
+- P149B02254: Quantity to assemble must be greater than 0.  
+- P149B02255: Line {0}:Quantity must be less than in-stock quantity.  
+- P149B02256: You cannot create the assembly order as it is already closed or canceled.  
+- P149B02257: Component products in current assembly order are inconsistent wit the component products in product master data.  
+- P149B02258: Cannot disassemble. The in-stock quantity of the bundle products is insufficient.  
+- P149B02259: Line {0}: Quantity must be greater than 0.  
+- P149B02260: Line {0}: Quantity can not be empty.  
+- P149B02300: Total batch quantity does not match the line quantity.  
+- P149B02301: Please enter the batch number.  
+- P149B02302: Batch number {0} does not exist.  
+- P149B02303: Batch number {0} is not assigned to SKU {1}.  
+- P149B02304: Duplicate batch numbers found  
+- P149B02305: Please enter all the batches with non-zero in-stock quantities.  
+- P149B02306: Specified quantity for batch "{0}" exceeds the in-stock quantity.  
+- P149B02310: You cannot update the product after a batch number is assigned to it.  
+- P149B02311: Duplicate batch numbers are assigned to one SKU.  
+- P149B02312: Expiry date must be later than creation date.  
+- P149B02313: Please enter a product managed by batch.  
+- P149B02317: You cannot delete inventory revaluation documents.  
+- P149B02318: Line {0}: Please enter the new cost.  
+- P149B02319: Line {0}: New cost cannot be negative.  
+- P149B02320: Line {0}: You cannot create the inventory revaluation document as the in-stock quantitiy of this product is negative.  
+- P150B00001: Default channel must be active.  
+- P150B00002: Cannot add warehouse. The same warehouse already exists: {0}  
+- P150B00003: Cannot add warehouse. This warehouse is inactive or does not exist: {0}  
+- P150B00004: Please add at least one warehouse.  
+- P150B00005: Cannot add payment method. The same payment method already exists: {0}  
+- P150B00006: You cannot create or update predefined channel types.  
+- P150B00007: You cannot delete predefined channel types.  
+- P150B00008: Specified currency is inconsistent with the currency in company profile.  
+- P150B00009: Specified pricing method is inconsistent with the pricing method in company profile.  
+- P150B00010: Specified currency is inconsistent with the currency for the sales price list of this channel.  
+- P150B00011: The pricing method of the sales price list is inconsistent with that of the channel.  
+- P150B00012: Standard price list must be system's standard price list.  
+- P150B00013: Sales price list must be system's sales price list.  
+- P150B00014: Pricing method must be either net or gross.  
+- P150B00015: You cannot change the currency once you add the channel.  
+- P150B00016: You cannot change the pricing method once the channel is added.  
+- P150B00018: Shopping cart update precision must be minute/hour/day/week.  
+- P150B00019: You cannot send email reminders to customers who abandon their shopping carts for less than {0} minutes.  
+- P150B00020: Currency ID {0} is invalid.  
+- P150B00021: Currency ID List is empty.  
+- P150B00022: Must select a currency for this channel.  
+- P150B00023: Channel ID {0} is invalid.  
+- P150B00024: The default channel already exists.  
+- P150B00025: Please select a channel currency.  
+- P150B00026: The currency and the price list currency do not match.  
+- P150B00027: The currency is not the local currency.  
+- P150B00028: You cannot set an inactive channel as the default channel.  
+- P150B00030: The domain has already been used. Please use another.  
+- P150B00031: Address is required.  
+- P150B00032: Please add at least one warehouse.  
+- P150B00033: Invalid domain name. Please enter domain name using letters and numbers only, and no longer than 63 characters.  
+- P150B00034: You must choose at least one currency.  
+- P150B00035: You cannot deactivate the channel. It is the last active channel.  
+- P150B00036: Failed to add domain. Please check your certificate files.  
+- P150B00037: Invalid domain name. Please enter another.  
+- P150B00038: You must upload domain certificate files.  
+- P150B00039: You must not remove the default domain or update its certificates.  
+- P150B00040: The domain you want to remove does not exist.  
+- P150B00041: You cannot choose the corporate customer. The target customers for the physical store channel are individual customers.  
+- P150B00042: You must choose at least one ship-to country/region.  
+- P150B00043: You must fill one Google Maps API key, or disable Google Maps in Store.  
+- P150B00050: You cannot deactivate the default channel.  
+- P150B00051: Cannot create online store due to technical issues. The number of stores created has reached the upper limit. For details, please contact your administrator.  
+- P150B00052: Please select an owner for the channel.  
+- P150B00053: Please select a marketplace.  
+- P150B00054: Please select a currency.  
+- P150B00055: You cannot change the marketplace of an existing channel.  
+- P150B00056: You cannot change the product listing method.  
+- P150B00057: The external order ID cannot be empty.  
+- P150B00058: You must choose at least one pickup store, or disable Pickup in Store.  
+- P150B00060: All currencies assoicated with the channel are inactive. Please activate as least one of them.  
+- P150B00061: Checkout without account cannot be enabled in B2B online stores.  
+- P150B00062: This Name in Sales Channel already exists.  
+- P150B00070: You cannot delete the {0} as it is already in use.  
+- P150B00100: Cannot load sales order.  
+- P150B00101: Source sales order is not specified.  
+- P150B00102: You can only copy the open and unpaid invoices.  
+- P150B00103: Please check the document status and the payment status.  
+- P150B00104: Please check the document status and the payment status.  
+- P150B00105: Please specify a payment method.  
+- P150B00106: Paid amount cannot exceed gross total.  
+- P150B00107: The amount cannceled must be greater than 0.  
+- P150B00108: The amount cannceled cannot exceed paid amount.  
+- P150B00109: The document is not paid yet.  
+- P150B00110: Un-invoiced order lines exist.  
+- P150B00111: The document's payment status is invalid.  
+- P150B00112: Paid amount must be greater than 0.  
+- P150B00113: Creation time and posting time cannot be later than due time.  
+- P150B00114: Cannot load invoice  
+- P150B00115: Selected documents must share the same customer.  
+- P150B00116: Selected documents must share the same currency.  
+- P150B00117: Cannot load credit memo  
+- P150B00118: Source document not specified  
+- P150B00119: Cannot load source document  
+- P150B00120: Cannot create this document directly  
+- P150B00121: Cannot load invoice line  
+- P150B00122: Copy paramter is null.  
+- P150B00123: Please specify a customer.  
+- P150B00124: Please specify a currency.  
+- P150B00125: Failed to create invoices for returned products  
+- P150B00126: There are no products or shipping costs to create invoices for.  
+- P150B00127: Please specify the local currency.  
+- P150B00128: Invalid invoice status  
+- P150B00129: Amount due must be equal to gross total in unpaid invoice.  
+- P150B00130: Paid amount cannot be greater than gross total in partially paid invoice.  
+- P150B00131: Paid amount must be equal to gross total in fully-paid invoice.  
+- P150B00132: Credit memos are not supported.  
+- P150B00133: Please input an exchange rate here or in business settings.  
+- P150B00134: Order line "{0}" has never been invoiced before.  
+- P150B00135: Cannot cancel the document. You can only cancel open and unpaid invoices and credit memos.  
+- P150B00136: Selected documents should share the same pricing method.  
+- P150B00137: Please specify a pricing method.  
+- P150B00138: Invalid address change  
+- P150B00139: There are no returned products to create credit memos for.  
+- P150B00140: Selected documents should share the same sales channel.  
+- P150B00141: Please specify a sales channel.  
+- P150B00142: Only orders from the general channel can be partially invoiced.  
+- P150B00143: Cannot generate invoice/credit memo for multiple orders that are not from the general channel.  
+- P150B00200: Please create a sales target first.  
+- P150B00201: You can only update the draft of a sales target.  
+- P150B00202: The quota must be greater than 0.  
+- P150B00203: You cannot be a target owner and a sales manager at the same time.  
+- P150B00204: You cannot add the same owner twice for a sales target.  
+- P150B00205: You can only assign a team's sales target to its sales manager.  
+- P150B00206: Failed to create the sales target as it already exists in the system.  
+- P150B00207: No employee was found.  
+- P150B00208: Failed to delete the sales targets.  
+- P150B00209: Cannot find the sales target.  
+- P150B02001: Corporate Name cannot be empty.  
+- P150B02002: Last Name cannot be empty.  
+- P150B02003: Customer Type cannot be empty.  
+- P150B02004: Address is not assigned to the customer.  
+- P150B02005: Customer cannot be edited.  
+- P150B02006: Main contact does not exist.  
+- P150B02007: Sales channel does not exist.  
+- P150B02008: You cannot delete this industry as it is being used by some customers.  
+- P150B02009: You cannot delete this customer group as it is being been used by some customers.  
+- P150B02010: Failed to create/update duplicated customer.  
+- P150B02011: Cannot continue with the process as the status of the customer's payment term was changed to inactive. Please choose another payment term for the customer, or go to Settings and change the status to active.  
+- P150B02012: Cannot continue with the process as the status of the customer's payment method was changed to inactive. Please choose another payment method for the customer, or go to Settings and change the status to active.  
+- P150B02013: Cannot change the customer for the contact. You can remove the customer if you no longer need it.  
+- P150B02014: Only a corporate customer can be added to the contact.  
+- P150B02015: Contact of a customer cannot be assigned as the main contact of another customer.  
+- P150B02016: Inactive email address. Please use a different one, or contact your administrator.  
+- P150B02017: Cannot continue with the process as the status of the customer's membership level was changed to inactive. Please choose another membership level for the customer, or go to Settings and change their status to active.  
+- P150B02018: You cannot delete this contact as it is the contact of an existing customer.  
+- P150B02019: Credit limit cannot be less than 0.  
+- P150B02020: Credit alert threshold cannot be less than 0.  
+- P150B02021: Credit alert threshold cannot be larger than credit limit.  
+- P150B02022: You cannot delete the customer as it has channel account(s).  
+- P150B02023: You cannot delete the contact as it is already used in channel account(s).  
+- P150B02024: You cannot delete the customer as there are membership event(s) created for it.  
+- P150B02025: You cannot delete the customer as it has duplicate(s).  
+- P150B02026: You cannot delete the customer as it is a duplicate of another customer.  
+- P150B02027: You can only modify the name of predefined membership level.  
+- P150B02028: You cannot delete the customer as it is the default customer of the physical store channel.  
+- P151B02001: Invalid service case  
+- P151B02002: Invalid service case ID  
+- P151B02003: Invalid service case origin ID  
+- P151B02004: Invalid customer ID  
+- P151B02005: Invalid contact ID  
+- P151B02006: Invalid service case priority ID  
+- P151B02007: Invalid service case status ID  
+- P151B02009: Invalid service case support team ID  
+- P151B02010: Invalid service case assignee ID  
+- P151B02011: Invalid or unknown relation type  
+- P151B02020: Invalid service case object assignment input parameters  
+- P151B02021: Missing Service Case referenced object  
+- P151B02023: Missing Service Case related object enumeration  
+- P151B02025: Invalid Employee ID  
+- P151B02026: Please enter an email address.  
+- P151B02027: Please enter a phone number.  
+- P151B02028: Service Case Type Group cannot be empty.  
+- P151B02029: You cannot set the service case type group as it already exists.  
+- P151B02030: You cannot repeatedly add a document.  
+- P151B02031: Invalid Attachment ID  
+- P151B02034: The response time must be earlier than the resolution time.  
+- P151B02035: You cannot change the mandatory contact details in SAP Manage Anywhere.  
+- P151B02040: To send a knowledge base item to customers, you must publish it first.  
+- P151B02044: Invalid Channel ID  
+- P151B02047: The SAP Manage Anywhere Server is configured incorrectly.  
+- P151B02048: The service case has already been closed.  
+- P151B02049: The service case has already been assigned to someone.  
+- P151B02051: There are no types to be assigned.  
+- P151B02052: Cannot find the specified type group.  
+- P151B02053: The service case type does not exist or cannot be found.  
+- P151B02054: Please enter the customer's twitter account name.  
+- P151B02055: Please enter the company's twitter account name.  
+- P151B02056: Invalid social message attachment ID  
+- P151B02057: The company's twitter account is inactive.  
+- P151B02058: Mandatory field 'assignTo' is missing.  
+- P151B02059: Mandatory field 'assignToSocial' is missing.  
+- P151B02060: Invalid service case communication text.  
+- P151B02061: Response Time and Resolution Time cannot be empty concurrently.  
+- P151B02062: You have set reminders for Response Time, but the response time is empty. Please set the response time, or delete the reminder.  
+- P151B02063: You have set reminders for Resolution Time, but the resolution time is empty. Please set the resolution time, or delete the reminder.  
+- P151B02064: Failed to delete the service level as it is already assigned to a customer.  
+- P151B02065: You cannot delete the sales order as it is already used in a Service Case.  
+- P151B02066: You cannot delete the sales return as it is already used in a Service Case.  
+- P151B02067: You cannot delete the invoice as it is already used in a Service Case.  
+- P151B02068: You cannot delete the payment as it is already used in a Service Case.  
+- P151B02069: You cannot delete the product as it is already used in a Service Case.  
+- P151B02070: You cannot delete the category as it is already used in a Service Case.  
+- P151B02071: You cannot delete the customer as it is already used in a Service Case.  
+- P151B02072: Please enter the customer's Facebook account name.  
+- P151B02073: Please enter the company's Facebook account name.  
+- P151B02074: The company's Facebook account is inactive.  
+- P151B02075: Only one attachment is allowed for Facebook communication.  
+- P151B02076: Listening to the company's Twitter account is disabled.  
+- P151B02077: Listening to the company's Facebook account is disabled.  
+- P151B02078: Service case(s) were already generated from selected feed(s).  
+- P151B02079: You cannot delete contact person as it is already used in a Service Case.  
+- P151B02080: You cannot delete service team as it is already used in a Service Case.  
+- P151B02081: Cannot reply via service case communication. No parent message has been found.  
+- P152B02001: Line {0}: Quantity must be greater than 0.  
+- P152B02002: Cannot change property '{0}'.  
+- P152B02004: You cannot delete purchase receipts.  
+- P152B02005: Specified purchase order not found. Please enter a valid purchase order.  
+- P152B02006: Line {0}: Quantity must be greater than 0.  
+- P152B02007: Line {0}: Received quantity cannot exceed requested quantity.  
+- P152B02008: Invalid input parameter  
+- P152B02009: You cannot update the line information after creating a purchase receipt.  
+- P152B02010: You cannot create purchase receipts based on unapproved purchase orders.  
+- P152B02011: Please enter a vendor.  
+- P152B02012: Cannot choose inactive vendors. Please activate the vendor in Master Data - Vendors.  
+- P152B02013: Line {0}: Batch quantity must be greater than 0.  
+- P152B02014: Line {0}: Received quantity cannot be less than the unreceived quantity in the purchase order generated from sales orders.  
+- P152B02015: You cannot manually create purchase receipts when inventory cost is enabled.  
+- P152B02016: You cannot manually create purchase returns when inventory cost is enabled.  
+- P152B02021: Please add products.  
+- P152B02022: Line {0}: Quantity must be greater than 0.  
+- P152B02023: Line {0}: Net price cannot be less than 0.  
+- P152B02024: Line {0}: Gross price cannot be less than 0.  
+- P152B02025: Line {0}: Requested quantity cannot be less than received quantity.  
+- P152B02026: You cannot update source.  
+- P152B02027: You cannot update the warehouse property when the document is in process.  
+- P152B02028: You cannot update property '%x' when the status is closed or canceled.  
+- P152B02030: Status change invalid  
+- P152B02031: You cannot update product information. There are existing purchase receipts related to this product.  
+- P152B02032: You cannot generate purchase receipt. This purchase order must be approved first.  
+- P152B02033: You cannot edit properties as this purchase order is generated from sales orders.  
+- P152B02034: You cannot update the document as it is closed or canceled.  
+- P152B02035: You cannot add new lines manually when the document is generated from a sales order.  
+- P152B02036: You cannot change existing lines when the document is generated from a sales order.  
+- P152B02037: You cannot change the quantity together with other properties.  
+- P152B02038: You cannot update the product and corresponding warehouse. There are existing purchase receipts related to this product.  
+- P152B02039: Received quantity cannot exceed requested quantity.  
+- P152B02040: Net price and quantity cannot be less than 0.  
+- P152B02041: Gross price and quantity cannot be less than 0.  
+- P152B02042: Specified warehouse not found. Please enter a valid warehouse.  
+- P152B02043: This warehouse is currently inactive. To continue, please activate the warehouse.  
+- P152B02044: This product is a non-inventory product.  
+- P152B02045: You cannot cancel this purchase order as there are exisiting purchase receipts based on it.  
+- P152B02046: Specified sales order not found. Please enter a valid sales order.  
+- P152B02047: You cannot add new lines manually when the document is generated from a sales order.  
+- P152B02048: Property '{0}' cannot be changed when the purchase order is generated from a sales order.  
+- P152B02050: You cannot cancel the document as it is already been canceled or closed.  
+- P152B02051: You cannot close the document as the purchase order is not approved yet.  
+- P152B02052: You cannot close the document as the purchase order is not approved yet.  
+- P152B02053: You cannot close the purchase order as it is generated from a sales order.  
+- P152B02054: Invalid sales order line ID  
+- P152B02055: You cannot add or delete a line as this document is already closed or canceled.  
+- P152B02056: Specified vendor is inactive. Please activate the vendor first.  
+- P152B02057: You cannot delete current product line as related purchase receipts already exist.  
+- P152B02058: You cannot generate purchase orders as the ordered products have already been allocated to warehouses.  
+- P152B02061: Line {0}: Quantity must be greater than 0.  
+- P152B02062: Line {0}: Quantity cannot exceed in-stock quantity.  
+- P152B02063: You cannot delete purchase returns.  
+- P152B02064: Specified purchase return not found. Please enter a valid purchase return.  
+- P152B02065: Line {0}: Quantity must be greater than 0.  
+- P152B02066: Line {0}: Returned quantity cannot exceed received quantity.  
+- P152B02067: Invalid input parameter  
+- P152B02068: Specified vendor is inactive. Please activate the vendor first.  
+- P152B02079: You cannot generate purchase orders. Please check that the logistic statuses of all selected sales order lines are "ordered".  
+- P152B02080: You cannot generate purchase orders. Please enter related sales order information first.  
+- P152B02081: You cannot generate purchase orders. Please select source sales orders first.  
+- P152B02082: Specified warehouse ID not found. Please enter a valid one.  
+- P152B02083: Specified vendor ID not found. Please enter a valid one.  
+- P152B02084: Ordered quantity must be greater than 0.  
+- P152B02085: Delivery date cannot be empty or earlier than current system date.  
+- P152B02086: Specified sales order ID or product line ID not found. Please enter a valid one.  
+- P152B02087: Specified SKU ID not found. Please enter a valid one.  
+- P152B02088: Specified Customer ID not found. Please enter a valid one.  
+- P152B02089: Specified shipping address not found. Please enter a valid one.  
+- P152B02090: You cannot update the vendor as related purchase receipts already exist.  
+- P152B02091: You cannot change the pricing method when the pricing method specified in sales pricing settings is not "Net & Gross".  
+- P152B02092: You cannot reopen the purchase order as it is generated from a sales order.  
+- P152B02093: You cannot change the purchasing UoM as the product's UoM group is "Manual".  
+- P152B02094: You cannot change the purchasing UoM as related purchase receipts already exist.  
+- P152B02095: You cannot change the purchasing price as related purchase receipts already exist.  
+- P152B02101: You cannot generate purchase receipt. Selected purchase orders must share the same vendor.  
+- P152B02102: You cannot generate purchase receipt. Selected purchase orders must share the same warehouse.  
+- P152B02103: You cannot generate purchase receipt. Selected purchase orders must share the same dropship type.  
+- P152B02104: You cannot generate purchase receipt. Selected purchase orders must share the same currency.  
+- P152B02105: You cannot generate purchase receipt. Selected purchase orders must share the same source.  
+- P152B02106: You cannot generate purchase receipt. Selected purchase orders must share the same billing address.  
+- P152B02107: You cannot generate purchase receipt. Selected purchase orders must share the same shipping address.  
+- P152B02108: Please select at least one purchase order.  
+- P152B02109: Order time cannot be later than the expected delivery time.  
+- P152B02110: Please specify a warehouse when it is not a dropship order.  
+- P152B02111: Warehouse must be blank when it is a dropship order.  
+- P152B02112: Line {0}: Dropship must be true.  
+- P152B02113: Line {0}: Dropship must be false.  
+- P152B02114: You cannot change the product as current purchase receipt is generated from a purchase order.  
+- P152B03001: You cannot deactivate this vendor as it is the preferred vendor of certain products.  
+- P154B02001: Please enter a number greater than 0 in "Potential Amount" field.  
+- P154B02002: Please enter a number greater than 0 in "Rate" field.  
+- P154B02003: Start date cannot be later than predicated closing date.  
+- P154B02004: Start date cannot be later than closing date.  
+- P154B02005: Company Local Currency cannot be empty.  
+- P154B02006: Exchange Rate Quotation Method cannot be empty.  
+- P154B02007: Invalid Products Unit Price: Price must be greater than or equal to 0.  
+- P154B02008: Document total must be greater than or equal to 0.  
+- P154B02009: Cannot remove the record as it is linked to another sales opportunity record.  
+- P154B02010: Product quantity must be greater than or equal to 0.  
+- P154B02011: Transaction currency of the document is invalid.  
+- P154B02012: The currency list of sales channel is empty.  
+- P154B02020: You cannot delete the customer as it is already used in an opportunity.  
+- P154B02022: The opportunity includes product[{0}], do not delete this product.  
+- P154B02024: You cannot delete {0} as it is already used in a quotation.  
+- P154B02026: The quotation includes product[{0}], do not delete this product.  
+- P154B02027: Invalid channel. Please enter a valid channel first.  
+- P154B02028: You cannot delete the contact as it is already used in an opportunity.  
+- P154B02029: You cannot delete the contact as it is already used in a quotation.  
+- P155B02001: You cannot update property  
+- P155B02002: after creation.  
+- P155B02003: You cannot add new lines after creation.  
+- P155B02004: You cannot remove lines after creation.  
+- P155B02005: You cannot update property {0} after creation.  
+- P156B02001: No response from application server  
+- P156B02002: Server response incorrect  
+- P156B02003: IDP server authentication failed  
+- P158B03001: Invalid Support Request  
+- P158B03002: Invalid Support Request ID  
+- P158B03025: Invalid Employee ID  
+- P158B03031: Invalid Attachment ID  
+- P158B03048: This support request has already been closed.  
+- P158B03049: Failed to synchronize support request  
+- P159B04001: Invalid knowledge base item  
+- P159B04002: Invalid knowledge base item ID  
+- P165B02006: Publish failed.  
+- P165B02007: Multiple SKUs are linked to one Amazon item.  
+- P165B02008: Multiple Amazon items are linked to one SKU.  
+- P165B02009: Amazon item already linked to SKU  
+- P165B02010: Channel is inactive.  
+- P165B02011: Invalid channel ID  
+- P165B02012: Failed to get Amazon MWS API request  
+- P165B02013: Invalid Amazon Marketplace ID  
+- P165B02014: Request throttled by Amazon. Please wait for two minutes and then retry.  
+- P165B02015: Your chosen currency conflicts with Amazon marketplace currency ({0}).  
+- P165B02016: You cannot sell an inactive SKU.  
+- P165B02020: Failed to update Amazon stock.  
+- P165B02021: Failed to update Amazon item price.  
+- P165B02022: Failed to sell on Amazon.  
+- P165B02023: Failed to upload delivery information to Amazon.  
+- P165B02030: Failed to get Amazon item information.  
+- P165B02031: Failed to search on Amazon.  
+- P165B02040: Failed to download Amazon orders.  
+- P165B02041: Amazon item {0} is not downloaded.  
+- P165B02042: Failed to create invoice and payment receipt.  
+- P165B02043: Price must be greater than 0.  
+- P165B02044: FBA warehouse is mandatory.  
+- P165B02045: FBA warehouse cannot be the same as non-FBA warehouses.  
+- P165B02046: Seller ID is mandatory.  
+- P165B02047: AWS Access Key ID is mandatory.  
+- P165B02048: Secret Key is mandatory.  
+- P165B02049: MWS Auth Token is mandatory.  
+- P165B02050: Failed to delete product from Amazon. SKU code {0}.  
+- P165B02051: Failed to delete product from Amazon as specified product does not exist. SKU code {0}.  
+- P165B02052: Failed to delete product from Amazon as only listed products can be deleted. SKU code {0}.  
+- P165B02053: Operation type {0} not supported.  
+- P166B00001: No email service provider found.  
+- P166B00002: Please authorize your email service provider to continue.  
+- P166B00003: Email service provider is already synced.  
+- P166B00004: Emails not sent yet. Cannot sync back from email service provider.  
+- P166B00005: Campaign is already synced to email service provider.  
+- P166B00006: Please specify a target group.  
+- P166B00007: Failed to sync to email service provider. Please try again.  
+- P166B00008: Syncing data. Please wait…  
+- P166B00009: Data already synced to your email service provider.  
+- P166B00010: Please sync to email service provider first.  
+- P166B00011: Please select a member list from the email integration provider in campaign settings first  
+- P166B00012: Campaign does not exist  
+- P166B00013: Campaign type cannot be changed. It is already synced with your email service provider  
+- P166B00014: Rule fields invalid  
+- P166B00015: Failed to authorize SAP Anywhere. For more help, contact your administrator.  
+- P166B00016: Please assign a target group to this campaign.  
+- P166B00017: There are no members in this target group.  
+- P166B00018: Start date cannot be later than end date.  
+- P166B00019: Duplicated conditions  
+- P166B00020: The member list does not exist.  
+- P166B00021: The membership points cannot be less than 0.  
+- P166B00022: The expiration date is invalid.  
+- P166B00023: This customer is currently not a part of the membership.  
+- P166B00024: Points gained per unit currency cannot be less than 0.  
+- P166B00025: Minimum points for redemption cannot be less than 0.  
+- P166B00026: Maximum points for redemption per order cannot be less than 0.  
+- P166B00027: Point validity period cannot be less than 0.  
+- P166B00028: You cannot use your points right now as your point balance of {0} points is less than {1} points, the minimum amount required for redemption.  
+- P166B00029: You cannot use {0} points in this order as the maximum points usage permitted per order is {1} points.  
+- P166B00030: Sorry, currently you have insufficient points to carry on the operation.  
+- P166B00031: Points per currency unit cannot be less than 0.  
+- P166B00032: Failed to receive the attachment. Please try again.  
+- P166B00033: App ID or App Secret is invalid.  
+- P166B00034: To send out this message in WeChat, you must have at least 2 followers.  
+- P166B00035: Cannot find the attachment's url.  
+- P166B00036: Cannot get the WeChat content from backend. Please check again.  
+- P166B00037: The WeChat account does not exist. Please check again.  
+- P166B00038: {0} returns with error: {1}, {2}.  
+- P166B00039: This WeChat account has already been added.  
+- P166B00040: Failed to send the message to WeChat as you cannot send the same message twice in one day.  
+- P166B00041: The title of a WeChat message cannot be empty. Please enter a title first.  
+- P166B00042: You cannot send out WeChat messages without content.  
+- P166B00043: The cover image of the WeChat message cannot be empty. Please upload a cover image first.  
+- P166B00044: The cover image's file type must be PNG or JPEG.  
+- P166B00045: There is no online store available. Please create your online store first.  
+- P166B00046: A system error occurred on the WeChat Server. Please try again.  
+- P166B00060: The end date cannot be earlier than the start date.  
+- P166B00061: Awards of the same type cannot have overlapping durations.  
+- P166B00062: The Customer/Contact ID {0} is invalid. Please check again.  
+- P166B00063: When Customer/Contact ID is filled, you must choose a corresponding customer/contact type.  
+- P166B00064: This function is now still a trial version. Each hour we only support users for a limited number of attempts. If you want to continue using the function, we suggest you try again later.  
+- P166B00065: There are no members in this target group. Please choose another target group.  
+- P166B00066: Cannot sync back to SAP Anywhere as you have already bound this email account to another email service provider.  
+- P166B00067: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00068: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00069: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00070: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00071: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00072: Failed to cancel the authorization. Please try again later.  
+- P166B00073: Operation to the email account failed. Please try again later.  
+- P166B00074: The authorization is now invalid. Please cancel the authorization and authorize it again.  
+- P166B00075: Customer is invalid.  
+- P166B00076: Contact is invalid.  
+- P166B00077: Source is invalid.  
+- P166B00078: TargetGroup is invalid.  
+- P166B00079: Cannot import to a target group with conditions. Please choose a manually created target group for the import.  
+- P166B00080: Customer/Contact cannot be empty.  
+- P166B00081: Member duplicated.  
+- P166B00082: Lead(s) were already generated from selected feed(s).  
+- P166B00084: Feed was already closed.  
+- P166B00085: You cannot delete the customer as it is already used in Lead.  
+- P166B00086: You cannot delete the customer as it is already used in Target Group.  
+- P166B00087: You cannot delete the contact as it is already used in Lead.  
+- P166B00088: You cannot delete the contact as it is already used in Target Group.  
+- P166B00089: Signature validation error  
+- P166B00090: XML parsing error  
+- P166B00091: Signature computing error  
+- P166B00092: Illegal AES key  
+- P166B00093: App ID validation error  
+- P166B00094: AES encryption error  
+- P166B00095: AES decryption error  
+- P166B00096: Illegal buffer  
+- P166B00097: Failed to update card status as card ID ({}) cannot be found.  
+- P166B00098: WeChat notification ({}) invalid. This notification will be skipped.  
+- P166B00099: Only one WeChat membership card is permitted.  
+- P166B00100: The membership card can only be sent to a maximum of 10 Wechat IDs to preview.  
+- P166B00101: You cannot preview the WeChat Membership card before editing the card's information.  
+- P166B00102: You cannot preview non WeChat Membership cards.  
+- P166B00103: Only one WeChat membership card is permitted.  
+- P166B00104: Membership number count exceeds the quantity. Please modify the quantity.  
+- P166B00105: Please upload the logo before you upload the membership card to WeChat.  
+- P166B00106: To dispatch via WeChat, you must first bind a WeChat account.  
+- P166B00107: Customers were already generated from selected feeds.  
+- P166B00108: Valid to date must be after valid from date.  
+- P166B00109: The "Valid To" date must be later than today.  
+- P166B00110: Quantity must be greater than 0.  
+- P166B00111: This WeChat card has already been consumed.  
+- P166B00112: The WeChat card was deleted by the customer or given to a friend.  
+- P166B00113: The API is unauthorized for this card.  
+- P166B00114: Text analysis failed. Invalid email thread ID.  
+- P166B00115: Text analysis failed. Invalid email message ID.  
+- P166B00116: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00117: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00118: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00119: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00120: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00121: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00122: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00123: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00124: Only one WeChat account is allowed.  
+- P166B00125: The uploaded file to WeChat is invalid. Please check and upload a new file.  
+- P166B00126: The WeChat name does not exist.  
+- P166B00127: Please select a color if you want to dispatch the card on WeChat.  
+- P166B00128: You need to subscribe to the WeChat public account to receive messages from it.  
+- P166B00129: You need to upload a cover image for each article.  
+- P166B00130: Too many attempts. Please wait for a while and try again later.  
+- P166B00132: Points are insufficient according to the conversion rules configured in settings.  
+- P166B00133: Too many points are being used according to the conversion rules configured in settings.  
+- P166B00134: The points do not hold the same value as money.  
+- P166B00135: Duplicate campaign name exists.  
+- P166B00136: Organization address is empty.  
+- P166B00137: Invalid ID.  
+- P166B00138: Cost cannot be negative.  
+- P166B00139: API not authorized. Please open this function in your WeChat public account.  
+- P166B00140: You have not enabled the shake around function on your public account, please open it.  
+- P166B00141: Attachment is invalid. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00142: Cannot read the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00143: Cannot send the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00144: Cannot send the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00145: Cannot send the email with attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00146: The campaign does not exist.  
+- P166B00147: The beacon and page are created by different WeChat accounts.  
+- P166B00148: Too close to schedule!  
+- P166B00149: One social message was successfully sent just now. Please refresh your page for further operations.  
+- P166B00150: Hashtag must be shorter than 32 characters, and cannot include any spaces or special characters.  
+- P166B00151: Duplicate campaign hashtag exists.  
+- P166B00152: Please select a code type if you want to dispatch the card on WeChat.  
+- P168B00001: Invalid support request parameter.  
+- P168B00002: Invalid support user email.  
+- P168B00003: The support request has been sent out.  
+- P168B00004: Only power users can send a support request.  
+- P168B00005: Only power users can terminate a support request.  
+- P168B00006: The support user is already an available user.  
+- P177B00001: Valid from time must be earlier than Valid to time.  
+- P177B00002: Time periods must not overlap.  
+- P177B00003: Cannot set up tax rate when the tax rate type is exempt.  
+- P177B00006: At least one tax rate must be defined.  
+- P177B00007: You cannot delete the tax rule as it is currently applied to documents.  
+- P177B00008: You cannot update the tax rule as it is currently applied to documents.  
+- P177B00009: You cannot delete the tax rate as it is currently applied to documents.  
+- P177B00010: You cannot update the tax rate as it is currently applied to documents.  
+- P177B00011: Incorrect state assigned to city  
+- P177B00012: Incorrect country/region assigned to state  
+- P177B00013: Incorrect country/region or country/region group  
+- P177B00014: Country/Region (Country/Region Group) is a mandatory field.  
+- P177B00015: Incorrect state or state group  
+- P177B00016: The document's tax amount calculated by channels is different from the total tax amount of all the lines.  
+- P177B00017: Please specify the state and zip code for your company's address in Settings. SAP Anywhere will load the sales tax rules that apply to the your company's location.  
+- P177B00018: In order to calculate the tax, please enter the shipping address for current sales document (or dropship purchasing document), or the warehouse address for the current non-dropship purchasing document.  
+- P177B00019: In order to calculate the tax, please enter the address in your company profile for current sales document or the shipping address for the current purchase document.  
+- P177B00020: Document line not found  
+- P177B00021: Tax details not found  
+- P177B00022: Tax amount cannot be calculated by SAP Localization Hub Tax Service. Please check whether the zip codes of the revelant addresses are correctly maintained.  
+- P177B00023: Failed to retrieve SAP Localization Hub Tax Service token  
+- P177B00024: Please enter a valid date.  
+- P177B00025: “Valid To” date must be later than today.  
+- P177B00026: SAP Localization Hub Tax Server is down.  
+- P177B00027: Tax amount cannot be calculated by SAP Localization Hub Tax Service. The request format is invalid.  
+- P177B00028: Tax amount cannot be calculated by SAP Localization Hub Tax Service due to bad request.  
+- P177B00029: Tax amount cannot be calculated by SAP Localization Hub Tax Service. The content request type is invalid.  
+- P177B00030: Tax amount cannot be calculated by SAP Localization Hub Tax Service due to an unrecognized error. Please contact your system administrator.  
+- P178B00001: You cannot delete the country group as it has already been applied to tax rules.  
+- P179B00001: This product tax class already exists.  
+- P180B00001: No standard price list.  
+- P180B00002: Multiple standard price lists.  
+- P180B00003: Multiple price lists.  
+- P180B00004: Cannot find SKU  
+- P180B00005: Duplicate prices.  
+- P180B00006: No currency.  
+- P180B00007: No price result.  
+- P180B00008: No pricing method.  
+- P180B00009: No pricing method.  
+- P180B00010: The channel does not exist.  
+- P180B00011: Invalid Parameter.  
+- P180B00012: You cannot update currency in company profile.  
+- P180B00013: You cannot update pricing method in company profile.  
+- P180B00014: Customer does not exist.  
+- P180B10001: The conditons and benefits are not compliant with the promotion item.  
+- P180B10002: Currency of the promotion does not comply with that of the channel.  
+- P180B10003: Promotion channel pricing methods do not match.  
+- P180B10004: Currency {0} and pricing method {1} is not compliant with that in the company settings.  
+- P180B10005: The price cannot be negative  
+- P180B10006: There is no record of the price list (Price List: {0}, Currency: {1}, Pricing Method: {2}). This action will be skipped.  
+- P180B10007: There is no record of the price list ({0}), This action will be skipped.  
+- P180B10008: You do not have the permission to access the price.  
+- P180B10009: You do not have the permission to access the standard sales price.  
+- P180B10010: You do not have the permission to access the sales price.  
+- P181B00001: Cannot update pricing method.  
+- P181B00002: You cannot change the local currency as it has been changed once already.  
+- P181B00003: Cannot disable multiple currencies.  
+- P181B00004: Invalid parameter  
+- P181B00005: To disable this option, first fix cases where available-to-sell is negative.  
+- P181B00006: To disable this option, first fix cases where inventory is negative.  
+- P181B00007: You cannot change the exchange rate quotation as some of the foreign currencies are in use.  
+- P181B00008: Inventory cost calculation is only supported in China.  
+- P181B00010: You cannot disable the calculation of inventory estimated cost once it is enabled.  
+- P181B00011: TaaS is available in the US only.  
+- P181B00012: You can only choose 'shipping to' when using TaaS.  
+- P198810061: Please enter a product ID.  
+- P198810062: You must delete all subcategories before linking products.  
+- P198810063: Invalid circular reference.  
+- P198810064: You must remove all linked products before creating a subcategory.  
+- P198810065: You cannot remove this category as it has already been linked to service cases.  
+- P198812200: You cannot delete the stamp as it has already been used.  
+- P198812201: You cannot reset SKUs as they are already in use.  
+- P198812202: You cannot reset SKUs as they are already in use.  
+- P198812203: The product does not exist.  
+- P198812204: You cannot disable Inventory Tracking as the product is already in use in Inventory or Logistics.  
+- P198812205: You cannot create SKUs as the product is already in use in Inventory or Logistics.  
+- P198812206: You cannot create SKUs as the product is already listed in one or more channels.  
+- P198812207: You cannot delete this SKU as it is already listed in one or more channels.  
+- P198812208: You cannot delete the manufacturer as it is already in use in products.  
+- P198812209: You cannot delete the brand as it is already in use in products.  
+- P198812210: Cannot enable bundle product. Please disable SKU and enable inventory tracking first.  
+- P198812211: You must enable Inventory Tracking first.  
+- P198812212: You cannot add the product itself to the bundle.  
+- P198812213: There are invalid product codes for bundle components.  
+- P198812214: Code {0} not found in the system.  
+- P198812221: You cannot delete this SKU as it has been used in Inventory or Logistics.  
+- P198812230: Cannot delete SKU as it has already been listed in one or more channels.  
+- P198812300: You cannot set SKU as active when the product containing that SKU is inactive.  
+- P198812301: This variant value already exists.  
+- P198812302: You cannot delete variant value as it is already in use in SKUs.  
+- P198812303: The variant or the variant value you chose has just been deleted. Please choose or add a new one.  
+- P198812304: The purchase price cannot be negative.  
+- P198812305: The variant value already exists in the product.  
+- P198812306: The variant name already exists.  
+- P198831012: You cannot reset the SKUs as they are already in use in one or more bundle products.  
+- P198831013: You cannot delete the SKUs as they are already in use in one or more bundle products.  
+- P2014122401: Please delist SKUs from channels before changing their status to inactive.  
+- P2014122402: Please delist SKUs from channels before changing the status to inactive.  
+- P2014122403: Please delist SKUs from channels before changing the product code.  
+- P2014122404: Please choose a price list or a currency.  
+- P2014122405: Please enter a price.  
+- P2014122406: The SKU variant value already exists.  
+- P2014122407: SKU variant value is not the same as that of the product.  
+- P2014122408: Please choose one or more variant values.  
+- P2014122409: You cannot set SKUs as inactive as some of them are already in use in Inventory or Logistics.  
+- P2014122410: You cannot change the product code as some of SKUs are already in use in Inventory or Logistics.  
+- P2014122411: Please remove product from channels before setting the product as inactive.  
+- P2014122412: Please remove product from channels before changing Product Code.  
+- P2014122413: You cannot change the product code as the product has been used in Inventory or Logistics.  
+- P2014122414: You cannot change the product status to inactive as the product is already in use in Inventory or Logistics.  
+- P2014122415: This SKU code already exists.  
+- P2014122416: SKU code can not be empty.  
+- P2014122417: These SKU barcodes already exist: {0}  
+- P2014122418: SKU code {0} does not exist.  
+- P2014122577: Standard price list dos not exist in the system.  
+- P2014122578: Cannot save or update the price. The standard price with the condition(SKU:{0}, Currency:{1}, isNet:{2}) does not exist.  
+- P2015040201: The price({0}) must not be negative.  
+- P201504121541: You cannot set the default system carrier as inactive.  
+- P2015042401: You cannot enable SKUs as you have enabled bundle product.  
+- P2015042402: Quantity per bundle must be larger than 0.  
+- P2015042403: You cannot disable Inventory Tracking as you have enabled bundle product.  
+- P2015070601: The product {0} that contains the SKU {1} is not Inventory Tracking enabled.  
+- P2015070602: You cannot disable Inventory Tracking as some of the SKUs of this product are linked to bundle products.  
+- P2015070603: The product {0} that contains the SKU {1} is not active.  
+- P2015080417: You cannot change the UoM group to none as the product has already been referenced.  
+- P2015080418: You cannot change the UoM group to another with a different base UoM, as the product has already been used in Inventory or Logistics.  
+- P2015080419: The default purchase UoM is not in the UoM group.  
+- P2015080420: Default sales UoM is not in the UoM group.  
+- P2015081901: Only USD is supported as the currency for Pitney Bowes deliveries.  
+- P2015081902: Only the online store channel is supported by Pitney Bowes deliveries.  
+- P2015081903: Please create the Pitney Powes carrier in shipping settings first.  
+- P2015081904: To use Pitney Bowes, please provide the mobile number of the recipient for both the billing and shipping address.  
+- P2015081905: To use Pitney Bowes, please provide the recipient's name for both the billing and shipping address.  
+- P2015081906: Errors occurred while calling Pitney Bowes services.  
+- P2015081907: To use Pitney Bowes, please provide the buyer's email address.  
+- P2015081908: To use Pitney Bowes, please provide complete information for shipping address and billing address.  
+- P2015091801: Cannot be managed by batches as it is a bundle product.  
+- P2015091802: Cannot switch to None as batch numbers are maintained for this product.  
+- P2015091803: Cannot switch to batch management as it has been used in Inventory.  
+- P2015092101: Cannot switch to bundle product as it has been managed by batches.  
+- P2015092102: Shelf life must be within the date range of 1 to 99999.  
+- P2015092401: Cannot change the product code as it is already in use in Inventory.  
+- P2015101301: Cannot disable inventory tracking as you have enabled batch management for the product.  
+- P2015101601: Cannot change the product code as you have enabled batch management for some SKUs.  
+- P2015101602: Cannot change the product code as some of the SKUs are already used as bundle components.  
+- P20151016C1: Please specify the delivery type of UPS Express.  
+- P20151019C1: Please add UPS as a carrier in Shipping settings first.  
+- P20151019C2: To use UPS as the carrier, please provide your full company address in company profile first, including receipt's name and phone number.  
+- P20151019C3: To use UPS as the carrier, please provide the full warehouse address and shipping address first, including receipt's name and phone number.  
+- P20151019C4: To use UPS as the carrier, please specify the weight and weight unit.  
+- P20151019C5: To use UPS as the carrier, please specify the package size and the unit of length.  
+- P20151019C6: To void a UPS shipment, please provide the tracking number.  
+- P20151019C7: Cannot find the shipping label. Please create a UPS shipment order before printing shipping label.  
+- P20151019C8: You must enable electronic shipping labels first.  
+- P20151019C9: Failed to upload the UPS electronic shipping label to the Amazon cloud server. Please try again later.  
+- P20151019D1: UPS service is disabled for the current tenant.  
+- P20151019D2: Only the domestic shipments originated in the United States or the United Kingdom are currently supported.  
+- P2015102101: Category name already exists.  
+- P2015102102: The product category name that you fill in must be in the form of text. Also, you must start from level 1 and continue on in succession.  
+- P2015110201: Cannot enable SKUs as you have enabled batch management for the product.  
+- P2015110401: Cannot delete, or reset the SKU as you have enabled batch management for the product.  
+- P2015110501: Cannot enable batch management for the product as you need to enable inventory tracking for the product first.  
+- P2015112401: Code not found in the system.  
+- P2015112402: Code {0} not found in the system.  
+- P2015113001: SKU code in row {0} is invalid.  
+- P2015113002: Warehouse code in row {0} is invalid.  
+- P2015120101: Cannot enable SKU as you have enabled batch management for the product.  
+- P2015120201: SKU in row {0} does not belong to product {1}.  
+- P2015120301: Code in row {0} cannot be changed, as product {1} is single.  
+- P2015120901: Alert days must be between 1 and the shelf life days.  
+- P2015121001: Component product cannot be the same as the bundle product. Row number {0}.  
+- P2015121401: Product {0} cannot be used as bundle product because batch management is enabled for it.  
+- P2015121402: Product {0} cannot be used as bundle product or component product because it is inactive.  
+- P2015121403: Product {0} cannot be used as bundle product or component product because inventory tracking is disabled for it.  
+- P2015121601: UoM {0} is not purchase UoM.  
+- P2015121602: UoM {0} is not for sales UoM.  
+- P2015122801: You are not authorized to update product codes.  
+- P2015122802: You are not authorized to update sku codes.  
+- P2016011801: Vendor is not active.  
+- P2016012201: Product code type and product code cannot be both empty.  
+- P2016030301: The same attribute value already exists.  
+- P2016042101: Cannot disable inventory tracking as min. inventory level has been set for the product.  
+- P228812212: SKU {0} is already in use in orders: {1}  
+- P228812213: You cannot delete this SKU as it is already in use in one or more bundle products.  
+- P228812214: SKUs of Product {0} has already been used in orders: {1}  
+- P228812215: SKUs of Product {0} has already been used as a bundle component: {1}  
+- P228812216: You cannot enable SKUs for this product as it has been used as a component in one or more bundle products.  
+- Prm001: Please set conditions in Promotion Rules.  
+- Prm002: Please set benefits in Promotion Rules.  
+- Prm003: Please set types in Promotion Rules.  
+- UPS_SYS_001: Errors occurred while calling UPS services.  
+- UPS_SYS_002: Errors occurred while calling UPS services. Error code:{0}, Error description: {1}.  
+- V2015082501: Pitney Bowes authentication failed.  
+- V2015082502: Failed to receive quotation from Pitney Bowes  
+- V2015082503: Failed to create Pitney Bowes order  
+- V2015082504: Failed to confirm Pitney Bowes order  
+- V2015082505: Pitney Bowes order number was not returned from the external service.  
+- V2015082506: No response from Pitney Bowes service  
+- V2015082507: You are not authorized to view Pitney Bowes resources.  
+- V2015082508: Invalid data format for Pitney Bowes request record  
+- V2015082509: Pitney Bowes resource is not ready yet. There is a slight delay in processing Pitney Bowes orders through to a shippable state. Please try again later.  
+- V2015082510: Failed to generate Pitney Bowes tracking number  
+### <sapn id="b2c-mono">b2c-mono</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- P100B00001: You are not a guest user.  
+- P100B00002: Attachment not found  
+- P100B00003: Attachment does not exist.  
+- P100B00004: No permission to operate this attachment  
+- P100B00005: File format {0} is not supported.  
+- P100B00006: The file is empty or does not exist in the specified location.  
+- P100B00007: Virus scanner failed  
+- P100B00008: Incorrect object entity  
+- P100B00009: Failed to upload the file. Please try again.  
+- P100B00010: You cannot export the file as a PDF.  
+- P100B00011: Failed to download the file. Please try again.  
+- P100B00015: File size is too large.  
+- P100B00016: Failed to upload the file. The file name cannot contain special characters (including < > ' \ &).  
+- P100B00017: Failed to upload the file. This file may contain a virus.  
+- P100B00018: Failed to upload the file. This file is not an image.  
+- P100D00001: Cannot find the corresponding app.  
+- P100D00002: Webhook callback URL is invalid.  
+- P100D00003: Webhook does not support this event type.  
+- P100D00004: Cannot find the specified webhook.  
+- P100D00005: You are not authorized to update or delete the webhook for this app.  
+- P100D00006: Webhook event type cannot be updated.  
+- P100D00007: Webhook registration failed, as the webhook for this event type already exists.  
+- P101B02011: Team name cannot be empty.  
+- P101B02012: Team name already exists.  
+- P101B02018: Invalid Team input parameters.  
+- P101B02019: Missing Team employee id "{0}".  
+- P103B02005: You cannot delete an already triggered approval  
+- P103B02006: Approval "{0}" already exists  
+- P103B02007: User "{0}" is invalid  
+- P103B02008: Business object type does not exist  
+- P103B02009: You are not authorized to view this information  
+- P103B02010: Business object "{0}" does not exist  
+- P103B02011: You are not authorized to assign this object  
+- P103B02012: Invalid dynamic authorization id: {0}  
+- P103B02013: Invalid role id: {0}  
+- P103B02014: Invalid system business object id: {0}  
+- P103B02015: {0} is not a system predefined role.  
+- P103B02016: missing argument  
+- P103B02017: Please enter a role name.  
+- P103B02018: The role name has been used, please enter another name.  
+- P103B02019: Cannot delete {0}. It is a system predefined role.  
+- P103B02020: Cannot delete this role. It is already assigned to users.  
+- P103B02021: Invalid authorization item name: {0}  
+- P103B10000: You cannot unlock yourself  
+- P103B10001: You cannot lock yourself  
+- P103B10002: You cannot change yourself to normal user  
+- P103B10003: You cannot change yourself to key user  
+- P103B10004: You cannot view restricted price lists  
+- P103B10005: You are not authorized to change user permissions  
+- P103B10006: Permission item index "{0}" is invalid  
+- P103B10007: Permission argument is invalid  
+- P103B10008: You are not authorized to create users  
+- P103B10009: Cannot create user due to an unexpected error. Report error?  
+- P103B10010: Enter an email address  
+- P103B10011: Email address is invalid  
+- P103B10012: An account already exists for this email address. To reset your password, choose the “Forgot you password” link.  
+- P103B10013: You are not authorized to change user details  
+- P103B10014: Cannot update user due to an unexpected error. Report error?  
+- P103B10015: You cannot delete yourself  
+- P103B10016: You are not authorized to delete users  
+- P103B10017: Cannot delete user due to an unexpected error. Report error?  
+- P103B10018: Phone number {0} is invalid  
+- P103B10019: User {0} does not exist  
+- P103B10020: Business object identifier "{0}.{1}" is invalid  
+- P103B10021: Enter a valid password  
+- P103B10022: You are not authorized to change user passwords  
+- P103B10024: Enter a new password  
+- P103B10025: Enter the current password  
+- P103B10026: Your new password must not be the same as your current one  
+- P103B10027: Email Address {0} already exists.  
+- P103B10028: Current password is incorrect  
+- P103B10029: Invoke by createUserEmployee function to create user.  
+- P103B10030: Invoke by checkedUpdate function to update user info.  
+- P103B10031: No method available in property: {0}.  
+- P103B10032: Failed to get property: {0}.  
+- P103B10033: Business object entity key is null.  
+- P103B10034: Image upload failed.  
+- P103B10035: Attachment not found.  
+- P103B10036: Queue server is unavailable, please contact system administrator  
+- P103B10037: Cannot upload the template. Please make sure the file format is XLS and that content within the template is correct.  
+- P103B10038: File conversion failed, please contact system administrator  
+- P103B10039: Invalid setting for the manager. Please check.  
+- P103B10040: Cannot set this user as technical support user because the maximum number of technical support users has been reached.  
+- P103B10041: There must be at least one technical support user in the system. You must assign another user as technical support before removing this one.  
+- P103B20000: Invalid action  
+- P103B20001: Invalid input  
+- P103B20002: Local currency is not existing.  
+- P103B30000: Activity does not exist  
+- P103B30001: Status is invalid  
+- P103B30002: One or more mandatory fields are missing required information.  
+- P103B30003: One or more mandatory fields are missing required information.  
+- P103B30004: One or more mandatory fields are missing required information.  
+- P103B30005: User does not exist  
+- P103B30006: No permission to read  
+- P103B30007: No permission to write  
+- P103B30008: You cannot delete approval activities  
+- P103B30009: You cannot change the activity status  
+- P103B30010: You cannot change completed activities  
+- P103B30011: You cannot change the activity status  
+- P103B30012: You cannot approve or reject this activity  
+- P103B30013: You are not authorized to change the approval status  
+- P103B30014: Document type is invalid  
+- P103B30015: Business object not found  
+- P103B30016: Attachment does not exist  
+- P103B30017: Cannot create approval due to an unexpected error. Please try again.  
+- P103B30018: You cannot reopen approval activities  
+- P103B30019: Activity is already open  
+- P103B30020: {0} was sent to you for approval  
+- P103B30021: {1} assigned a {0} to you.  
+- P103B30022: {1} updated a {0}.  
+- P103B30023: A {1} for {0} was changed by {2}.  
+- P103B30024: A {1} for {0} was created by {2}.  
+- P103B30025: A {1} for {0} was deleted by {2}.  
+- P103B30026: {1} has approved a {0}.  
+- P103B30027: {1} has rejected a {0}.  
+- P103B30028: {1} has completed a {0}.  
+- P103B30029: A {1} for {0} has been completed by {2}.  
+- P103B30030: A {1} for {0} was reopened by {2}.  
+- P103B30031: A {1} for {0} has been approved by {2}.  
+- P103B30032: A {1} for {0} has been rejected by {2}.  
+- P103B30033: {1} reopened a {0}.  
+- P103B30034: You have already sent an authorization request. Please wait for approval  
+- P103B30035: {0} sent you a {1} for authorization approval  
+- P103B30036: {0} has granted you full access to {1}  
+- P103B30037: {0} has granted you read-only access to {1}  
+- P103B30038: {0} has rejected your request for accessing to {1}  
+- P103B30039: description  
+- P103B30040: You cannot attach an empty file  
+- P103B30041: Text  
+- P103B30042: Activity {0} is invalid  
+- P103B30043: A {1} for {0} was changed by {2}.  
+- P103B30044: A {1} for {0} was created by {2}.  
+- P103B30045: A {1} for {0} was deleted by {2}.  
+- P103B30046: User "{0}" is invalid  
+- P103B30047: {0} requests approval for {1} worth {2}  
+- P103B30048: Invalid action for this type of activity.  
+- P103B40001: The ContactPerson is invalid  
+- P103B50001: Attachment Upload Failed.  
+- P103B50002: Attachment Download Failed.  
+- P103B50003: Not Authorized to delete or update Attachment.  
+- P103B50004: Not Authorized to Create or Add Attachment.  
+- P103B50005: Not Authorized to Read Attachment.  
+- P103B60001: Taobao integration already active.  
+- P103B60002: Taobao integration already inactive.  
+- P103B60003: Taobao login failed: {0}.  
+- P103B60004: Do OAuth with Taobao first.  
+- P103B60005: SKU ID {0} is invalid. Product ID {0} is invalid.  
+- P103B60006: SKU ID {0} is invalid.  
+- P103B60007: Refresh token is expired.  
+- P103B60008: No RMB currency.  
+- P103B60009: Product code cannot be empty.  
+- P103B60010: Product code {0} is invalid.  
+- P103B60011: Products were delivered from Taobao, you need create an order and deliver it manually.  
+- P103B60012: Invalid channel type for Taobao Channel. Only Taobao or Tmall is valid.  
+- P103B60013: This trade has already been generated a Sales Order.  
+- P103B60014: Sales order {0} is invalid.  
+- P103B60015: Sales order {0} is already related to external order {1}.  
+- P103B60016: Cannot relate return order to trade.  
+- P103B70001: Quantity cannot be 0.  
+- P103B70002: Unit price cannot be 0.  
+- P103B70003: Insuffient stock  
+- P103B70004: Warehouse cannot be empty for products in stock-allocated status.  
+- P103B70005: You cannot change the price for products in stock-allocated status.  
+- P103B70006: You cannot change the quantity for products in stock-allocated status.  
+- P103B70007: You cannot change the warehouse for products in stock-allocated status.  
+- P103B70008: Invalid channel  
+- P103B70009: Failed to initial default values  
+- P103B70112: Discount percentage cannot be greater than 100%.  
+- P103B70113: Unit price cannot be less than 0.  
+- P103B70121: The signs (plus/minus) of quantity and gross total are different.  
+- P103B71001: To use Pitney Bowes, please provide the full warehouse address.  
+- P103B78001: Please add addresses.  
+- P103B78002: Please enable net price in company profile settings.  
+- P103B78003: Please enable gross price in company profile settings.  
+- P103B78004: Failed to read shipping label file  
+- P103B78101: Please specify applicable countries/regions.  
+- P103B78102: Please enter rates.  
+- P103B78104: Fixed rates cannot be created or deleted.  
+- P103B78105: Please enable fixed rates in shipping settings.  
+- P103B78201: Please enable at least one shipping method.  
+- P103B78202: You cannot create new shipping methods.  
+- P103B78203: You cannot delete shipping methods.  
+- P103B78204: You cannot disable the shipping method as it is already assigned to channels.  
+- P103B78205: Carrier-calculated rates are disabled for Chinese shipping carriers.  
+- P103B78206: Please enable carrier-calculated rates in shipping settings.  
+- P103B78302: There are lines with duplicated country/region, state, city, and zip code.  
+- P103B78303: Specified country/region not found  
+- P103B78304: Specified state not found  
+- P103B78305: State ID must be an integer.  
+- P103B78309: Weight From cannot be greater than Weight To.  
+- P103B78312: Increase weight must be greater than 0.  
+- P103B78314: Please enable Rates Based On Weight and Region in shipping settings.  
+- P103B78315: There are overlapping weight ranges for lines with the same country/region, state, city, and zip code.  
+- P103B78316: Please add information to the lines.  
+- P103B78409: Interior length cannot be greater than exterior length.  
+- P103B78410: Interior width cannot be greater than exterior width.  
+- P103B78411: Interior height cannot be greater than height length.  
+- P103B78502: Min. delivery days cannot be greater than max. delivery days.  
+- P103B78503: Valid From must be earlier than Valid To.  
+- P103B78504: Please enable free shipping in shipping settings.  
+- P103B78510: Please enable the shipping method first.  
+- P103B78511: Settings data for free-shipping does not exist.  
+- P103B78512: Settings data for fixed-rates does not exist.  
+- P103B78513: Cannot find setting data for carrier {0}  
+- P103B78514: Carrier {0} not found  
+- P103B78611: A network error occurred while calling a third-party shipping service.  
+- P103B78612: The third-party shipping service returned an authentication error.  
+- P103B78613: Failed to create the order using a third-party shipping service  
+- P103B78614: Failed to confirm the order using a third-party shipping service  
+- P103B78701: Shipping Carrier ID is invalid.  
+- P103B78702: Shipping Carrier IDs are duplicated.  
+- P103B78703: Shipping carrier not found  
+- P103B78704: Please enable the shipping carrier in shipping settings.  
+- P103B78705: Current shipping carrier is already used in sales deliveries.  
+- P103B78707: Please enter carrier code.  
+- P103B78708: Carrier-calculated rates are not supported by this shipping carrier.  
+- P103B78709: Please add printing templates in shipping carrier settings.  
+- P103B78710: Failed to download shipping label due to an unexpected error. Please try again later.  
+- P103B78712: Electronic labels are not supported by current carrier.  
+- P103B78714: Please specify S.F. Express delivery type.  
+- P103B78716: Please enter your monthly account.  
+- P103B78717: Please enter your access key.  
+- P103B78718: Please enter your customer check code.  
+- P103B78720: Please specify the delivery type first.  
+- P103B78801: S.F. Express web service returned an error: {0}.  
+- P103B78802: Failed to create S.F. Express electronic label.  
+- P103B78803: Please enter the recipient's state.  
+- P103B78804: Please enter the recipient's city.  
+- P103B78805: Please enter the sender's state.  
+- P103B78806: Please enter the sender's city.  
+- P103B78807: Please enter the total weight.  
+- P103B78901: Currency {0} not found. Please specify a valid one.  
+- P103B78902: Please specify a currency.  
+- P103B78903: You cannot delete the rate as it is already used.  
+- P103B78904: You cannot change the rate's name as the rate is already used.  
+- P103B80001: You must clear all rate settings before changing the exchange rate quotation method.  
+- P103B80002: Illegal arguments were passed to this function: {0}  
+- P103B80003: You must enter an exchange rate here or in Settings.  
+- P103B80004: Failed to send a test email; please ensure that the SMTP settings are correct.  
+- P103B80006: Email template not found  
+- P103B80007: Cannot change the local currency as it has already been used for some transactions.  
+- P103B80008: Email template already exists.  
+- P103B80009: This app name already exists.  
+- P103B80010: Failed to delete this app  
+- P103B80011: Failed to create OAuth client  
+- P103B80012: Failed to get IDP url  
+- P103B80013: Authorization failed  
+- P103B80015: Authorization failed, the password incorrect.  
+- P103B90001: content is limited 140 characters, when the note has an attachment  
+- P103B93125: Cannot create user due to maximum number of users exceeded.  
+- P103S10023: Failed to change password as the application has encountered an error. We are aware of the error and already working on a resolution.  
+- P133B00004: Failed to find the attachment. Please try again.  
+- P133B00005: Failed to find the image. Please try again.  
+- P133B00006: Failed to send posts to Twitter as you can only upload one GIF image at a time. Please try again.  
+- P133B00007: Failed to send out the message as the content is empty.  
+- P133B00008: Failed to authorize Twitter. Please try again.  
+- P133B00009: Failed to send the post to Twitter as you cannot send the same message twice in one day.  
+- P133B00010: Failed to send the post to Twitter as the content is more than 140 characters long.  
+- P133B00011: Failed to send the post to Twitter as today you have reached the maximum post number defined by Twitter.  
+- P133B00012: The authorization failed due to an unexpected error. Please try again.  
+- P133B00013: The message is already sent. To check the latest message status please refresh the page.  
+- P133B00014: Your current location does not support Twitter services.  
+- P133B00020: Failed to send the post to Facebook as you cannot send the same message twice in one day.  
+- P133B00021: Failed to send the post to Facebook as today you have reached the maximum post amount defined by Facebook.  
+- P133B00022: Failed to send posts to Facebook due to an unexpected error. Please try again.  
+- P133B00023: Failed to send the post to Facebook as SAP Anywhere did not obtain the corresponding permissions during the authorization process.  
+- P133B00024: Failed to send the post to Facebook as SAP Anywhere is not authorized to perform this operation.  
+- P133B00025: Failed to authorize Facebook. Please delete the Facebook account and redo OAuth.  
+- P133B00026: This Pinterest account is not linked to SAP Anywhere. Please check your Company Profile.  
+- P133B00027: Please upload an image.  
+- P133B00028: Description cannot exceed 500 characters.  
+- P133B00029: Please enter a valid URL.  
+- P133B00030: Your Weibo access token is invalid. Please go to Company Profile in Settings to authorize your Weibo account again.  
+- P133B00031: You cannot pin the image as the board does not exist.  
+- P133B00040: Invalid Facebook message ID  
+- P133B00041: This social media account does not exist.  
+- P133B00042: Failed to send the post to Facebook using the current URL. Please try using another URL.  
+- P133B00043: Pinterest authentication failed  
+- P133B00044: Pinterest service not found  
+- P133B00045: Pinterest service time out  
+- P133B00046: Too many requests sent to Pinterest  
+- P133B00047: Pinterest server error  
+- P133B00048: Unknown error from Pinterest service. Please try again later.  
+- P133B00049: Invalid social media message ID  
+- P133B00050: Cannot send a reply to this social media feed type  
+- P133B00051: Requests are being denied due to update limits.  
+- P133B00052: Failed to send reply to Facebook. Parent message doesn't exists.  
+- P134B7035: Failed to add domain. It duplicates with an existing domain.  
+- P134B7048: The uploaded certificate is invalid, or does not match your domain.  
+- P134B7148: The uploaded certificate key is encrypted, or empty.  
+- P149B02223: Length unit ID {0} is invalid.  
+- P149B02224: Weight unit ID {0} is invalid.  
+- P149B02225: Unit size must greater than 0.  
+- P150B00001: Default channel must be active.  
+- P150B00002: Cannot add warehouse. The same warehouse already exists: {0}  
+- P150B00003: Cannot add warehouse. This warehouse is inactive or does not exist: {0}  
+- P150B00004: Please add at least one warehouse.  
+- P150B00005: Cannot add payment method. The same payment method already exists: {0}  
+- P150B00006: You cannot create or update predefined channel types.  
+- P150B00007: You cannot delete predefined channel types.  
+- P150B00008: Specified currency is inconsistent with the currency in company profile.  
+- P150B00009: Specified pricing method is inconsistent with the pricing method in company profile.  
+- P150B00010: Specified currency is inconsistent with the currency for the sales price list of this channel.  
+- P150B00011: The pricing method of the sales price list is inconsistent with that of the channel.  
+- P150B00012: Standard price list must be system's standard price list.  
+- P150B00013: Sales price list must be system's sales price list.  
+- P150B00014: Pricing method must be either net or gross.  
+- P150B00015: You cannot change the currency once you add the channel.  
+- P150B00016: You cannot change the pricing method once the channel is added.  
+- P150B00018: Shopping cart update precision must be minute/hour/day/week.  
+- P150B00019: You cannot send email reminders to customers who abandon their shopping carts for less than {0} minutes.  
+- P150B00020: Currency ID {0} is invalid.  
+- P150B00021: Currency ID List is empty.  
+- P150B00022: Must select a currency for this channel.  
+- P150B00023: Channel ID {0} is invalid.  
+- P150B00024: The default channel already exists.  
+- P150B00025: Please select a channel currency.  
+- P150B00026: The currency and the price list currency do not match.  
+- P150B00027: The currency is not the local currency.  
+- P150B00028: You cannot set an inactive channel as the default channel.  
+- P150B00030: The domain has already been used. Please use another.  
+- P150B00031: Address is required.  
+- P150B00032: Please add at least one warehouse.  
+- P150B00033: Invalid domain name. Please enter domain name using letters and numbers only, and no longer than 63 characters.  
+- P150B00034: You must choose at least one currency.  
+- P150B00035: You cannot deactivate the channel. It is the last active channel.  
+- P150B00036: Failed to add domain. Please check your certificate files.  
+- P150B00037: Invalid domain name. Please enter another.  
+- P150B00038: You must upload domain certificate files.  
+- P150B00039: You must not remove the default domain or update its certificates.  
+- P150B00040: The domain you want to remove does not exist.  
+- P150B00041: You cannot choose the corporate customer. The target customers for the physical store channel are individual customers.  
+- P150B00042: You must choose at least one ship-to country/region.  
+- P150B00043: You must fill one Google Maps API key, or disable Google Maps in Store.  
+- P150B00044: Phone number registration is enabled. Therefore, Checkout Without Account is not currently supported.  
+- P150B00050: You cannot deactivate the default channel.  
+- P150B00051: Cannot create online store due to technical issues. The number of stores created has reached the upper limit. For details, please contact your administrator.  
+- P150B00052: Please select an owner for the channel.  
+- P150B00053: Please select a marketplace.  
+- P150B00054: Please select a currency.  
+- P150B00055: You cannot change the marketplace of an existing channel.  
+- P150B00056: You cannot change the product listing method.  
+- P150B00057: The external order ID cannot be empty.  
+- P150B00058: You must choose at least one pickup store, or disable Pickup in Store.  
+- P150B00060: All currencies assoicated with the channel are inactive. Please activate as least one of them.  
+- P150B00061: Checkout without account cannot be enabled in B2B online stores.  
+- P150B00062: This sales channel name already exists.  
+- P150B00063: Requested resource {0} exceeds its quota.  
+- P150B00070: You cannot delete the {0} as it is already in use.  
+- P150B00080: The customer has linked Channel Account.  
+- P150B00081: The customer has linked Pos Channel.  
+- P150B00082: The channel has linked with channel account.  
+- P150B00083: This channel has already linked to a Approval Template, please remove it first.  
+- P150B00084: This channel has already been deleted, it can't be set to active.  
+- P150B00085: Default channel can not be deleted.  
+- P150B00086: This channel can't be updated, it has already been discarded.  
+- P150B00100: Cannot load sales order.  
+- P150B00101: Source sales order is not specified.  
+- P150B00102: You can only copy the open and unpaid invoices.  
+- P150B00103: Please check the document status and the payment status.  
+- P150B00104: Please check the document status and the payment status.  
+- P150B00105: Please specify a payment method.  
+- P150B00106: Paid amount cannot exceed gross total.  
+- P150B00107: The amount cannceled must be greater than 0.  
+- P150B00108: The amount cannceled cannot exceed paid amount.  
+- P150B00109: The document is not paid yet.  
+- P150B00110: Un-invoiced order lines exist.  
+- P150B00111: The document's payment status is invalid.  
+- P150B00112: Paid amount must be greater than 0.  
+- P150B00113: Creation time and posting time cannot be later than due time.  
+- P150B00114: Cannot load invoice  
+- P150B00115: Selected documents must share the same customer.  
+- P150B00116: Selected documents must share the same currency.  
+- P150B00117: Cannot load credit memo  
+- P150B00118: Source document not specified  
+- P150B00119: Cannot load source document  
+- P150B00120: Cannot create this document directly  
+- P150B00121: Cannot load invoice line  
+- P150B00122: Copy paramter is null.  
+- P150B00123: Please specify a customer.  
+- P150B00124: Please specify a currency.  
+- P150B00125: Failed to create invoices for returned products  
+- P150B00126: There are no products or shipping costs to create invoices for.  
+- P150B00127: Please specify the local currency.  
+- P150B00128: Invalid invoice status  
+- P150B00129: Amount due must be equal to gross total in unpaid invoice.  
+- P150B00130: Paid amount cannot be greater than gross total in partially paid invoice.  
+- P150B00131: Paid amount must be equal to gross total in fully-paid invoice.  
+- P150B00132: Credit memos are not supported.  
+- P150B00133: Please input an exchange rate here or in business settings.  
+- P150B00134: Order line "{0}" has never been invoiced before.  
+- P150B00135: Cannot cancel the document. You can only cancel open and unpaid invoices and credit memos.  
+- P150B00136: Selected documents should share the same pricing method.  
+- P150B00137: Please specify a pricing method.  
+- P150B00138: Invalid address change  
+- P150B00139: There are no returned products to create credit memos for.  
+- P150B00140: Selected documents should share the same sales channel.  
+- P150B00141: Please specify a sales channel.  
+- P150B00142: Only orders from the general channel can be partially invoiced.  
+- P150B00143: Cannot generate invoice/credit memo for multiple orders that are not from the general channel.  
+- P150B00200: Please create a sales target first.  
+- P150B00201: You can only update the draft of a sales target.  
+- P150B00202: The quota must be greater than 0.  
+- P150B00203: You cannot be a target owner and a sales manager at the same time.  
+- P150B00204: You cannot add the same owner twice for a sales target.  
+- P150B00205: You can only assign a team's sales target to its sales manager.  
+- P150B00206: Failed to create the sales target as it already exists in the system.  
+- P150B00207: No employee was found.  
+- P150B00208: Failed to delete the sales targets.  
+- P150B00209: Cannot find the sales target.  
+- P151B02001: Invalid service case  
+- P151B02002: Invalid service case ID  
+- P151B02003: Invalid service case origin ID  
+- P151B02004: Invalid customer ID  
+- P151B02005: Invalid contact ID  
+- P151B02006: Invalid service case priority ID  
+- P151B02007: Invalid service case status ID  
+- P151B02009: Invalid service case support team ID  
+- P151B02010: Invalid service case assignee ID  
+- P151B02011: Invalid or unknown relation type  
+- P151B02020: Invalid service case object assignment input parameters  
+- P151B02021: Missing Service Case referenced object  
+- P151B02023: Missing Service Case related object enumeration  
+- P151B02025: Invalid Employee ID  
+- P151B02026: Please enter an email address.  
+- P151B02027: Please enter a phone number.  
+- P151B02028: Service Case Type Group cannot be empty.  
+- P151B02029: You cannot set the service case type group as it already exists.  
+- P151B02030: You cannot repeatedly add a document.  
+- P151B02031: Invalid Attachment ID  
+- P151B02034: The response time must be earlier than the resolution time.  
+- P151B02035: You cannot change the mandatory contact details in SAP Manage Anywhere.  
+- P151B02040: To send a knowledge base item to customers, you must publish it first.  
+- P151B02044: Invalid Channel ID  
+- P151B02047: The SAP Manage Anywhere Server is configured incorrectly.  
+- P151B02048: The service case has already been closed.  
+- P151B02049: The service case has already been assigned to someone.  
+- P151B02051: There are no types to be assigned.  
+- P151B02052: Cannot find the specified type group.  
+- P151B02053: The service case type does not exist or cannot be found.  
+- P151B02054: Please enter the customer's twitter account name.  
+- P151B02055: Please enter the company's twitter account name.  
+- P151B02056: Invalid social message attachment ID  
+- P151B02057: The company's twitter account is inactive.  
+- P151B02058: Mandatory field 'assignTo' is missing.  
+- P151B02059: Mandatory field 'assignToSocial' is missing.  
+- P151B02060: Invalid service case communication text.  
+- P151B02061: Response Time and Resolution Time cannot be empty concurrently.  
+- P151B02062: You have set reminders for Response Time, but the response time is empty. Please set the response time, or delete the reminder.  
+- P151B02063: You have set reminders for Resolution Time, but the resolution time is empty. Please set the resolution time, or delete the reminder.  
+- P151B02064: Failed to delete the service level as it is already assigned to a customer.  
+- P151B02065: You cannot delete the sales order as it is already used in a Service Case.  
+- P151B02066: You cannot delete the sales return as it is already used in a Service Case.  
+- P151B02067: You cannot delete the invoice as it is already used in a Service Case.  
+- P151B02068: You cannot delete the payment as it is already used in a Service Case.  
+- P151B02069: You cannot delete the product as it is already used in a Service Case.  
+- P151B02070: You cannot delete the category as it is already used in a Service Case.  
+- P151B02071: You cannot delete the customer as it is already used in a Service Case.  
+- P151B02072: Please enter the customer's Facebook account name.  
+- P151B02073: Please enter the company's Facebook account name.  
+- P151B02074: The company's Facebook account is inactive.  
+- P151B02075: Only one attachment is allowed for Facebook communication.  
+- P151B02076: Listening to the company's Twitter account is disabled.  
+- P151B02077: Listening to the company's Facebook account is disabled.  
+- P151B02078: Service case(s) were already generated from selected feed(s).  
+- P151B02079: You cannot delete contact person as it is already used in a Service Case.  
+- P151B02080: You cannot delete service team as it is already used in a Service Case.  
+- P151B02081: Cannot reply via service case communication. No parent message has been found.  
+- P154B02001: Please enter a number greater than 0 in "Potential Amount" field.  
+- P154B02002: Please enter a number greater than 0 in "Rate" field.  
+- P154B02003: Start date cannot be later than predicated closing date.  
+- P154B02004: Start date cannot be later than closing date.  
+- P154B02005: Company Local Currency cannot be empty.  
+- P154B02006: Exchange Rate Quotation Method cannot be empty.  
+- P154B02007: Invalid Products Unit Price: Price must be greater than or equal to 0.  
+- P154B02008: Document total must be greater than or equal to 0.  
+- P154B02009: Cannot remove the record as it is linked to another sales opportunity record.  
+- P154B02010: Product quantity must be greater than or equal to 0.  
+- P154B02011: Transaction currency of the document is invalid.  
+- P154B02012: The currency list of sales channel is empty.  
+- P154B02020: You cannot delete the customer as it is already used in an opportunity.  
+- P154B02022: The opportunity includes product[{0}], do not delete this product.  
+- P154B02024: You cannot delete {0} as it is already used in a quotation.  
+- P154B02026: The quotation includes product[{0}], do not delete this product.  
+- P154B02027: Invalid channel. Please enter a valid channel first.  
+- P154B02028: You cannot delete the contact as it is already used in an opportunity.  
+- P154B02029: You cannot delete the contact as it is already used in a quotation.  
+- P155B02001: You cannot update property  
+- P155B02002: after creation.  
+- P155B02003: You cannot add new lines after creation.  
+- P155B02004: You cannot remove lines after creation.  
+- P155B02005: You cannot update property {0} after creation.  
+- P156B02001: No response from application server  
+- P156B02002: Server response incorrect  
+- P156B02003: IDP server authentication failed  
+- P158B03001: Invalid Support Request  
+- P158B03002: Invalid Support Request ID  
+- P158B03025: Invalid Employee ID  
+- P158B03031: Invalid Attachment ID  
+- P158B03048: This support request has already been closed.  
+- P158B03049: Failed to synchronize support request  
+- P159B04001: Invalid knowledge base item  
+- P159B04002: Invalid knowledge base item ID  
+- P161B10001: Please enter a positive number.  
+- P161B10002: Please enter a positive number.  
+- P161B10003: You cannot set inactive payment terms as the system default.  
+- P161B10005: You cannot deselect the "System Default"checkbox. To make this payment term differ from the system default, you must set another as the system default.  
+- P161B10006: You cannot deactivate the payment term as it is set as system default. To inactivate it, set another payment term as the system default first.  
+- P165B02006: Publish failed.  
+- P165B02007: Multiple SKUs are linked to one Amazon item.  
+- P165B02008: Multiple Amazon items are linked to one SKU.  
+- P165B02009: Amazon item already linked to SKU  
+- P165B02010: Channel is inactive.  
+- P165B02011: Invalid channel ID  
+- P165B02012: Failed to get Amazon MWS API request  
+- P165B02013: Invalid Amazon Marketplace ID  
+- P165B02014: Request throttled by Amazon. Please wait for two minutes and then retry.  
+- P165B02015: Your chosen currency conflicts with Amazon marketplace currency ({0}).  
+- P165B02016: You cannot sell an inactive SKU.  
+- P165B02020: Failed to update Amazon stock.  
+- P165B02021: Failed to update Amazon item price.  
+- P165B02022: Failed to sell on Amazon.  
+- P165B02023: Failed to upload delivery information to Amazon.  
+- P165B02030: Failed to get Amazon item information.  
+- P165B02031: Failed to search on Amazon.  
+- P165B02040: Failed to download Amazon orders.  
+- P165B02041: Amazon item {0} is not downloaded.  
+- P165B02042: Failed to create invoice and payment receipt.  
+- P165B02043: Price must be greater than 0.  
+- P165B02044: FBA warehouse is mandatory.  
+- P165B02045: FBA warehouse cannot be the same as non-FBA warehouses.  
+- P165B02046: Seller ID is mandatory.  
+- P165B02047: AWS Access Key ID is mandatory.  
+- P165B02048: Secret Key is mandatory.  
+- P165B02049: MWS Auth Token is mandatory.  
+- P165B02050: Failed to delete product from Amazon. SKU code {0}.  
+- P165B02051: Failed to delete product from Amazon as specified product does not exist. SKU code {0}.  
+- P165B02052: Failed to delete product from Amazon as only listed products can be deleted. SKU code {0}.  
+- P165B02053: Operation type {0} not supported.  
+- P166B00001: No email service provider found.  
+- P166B00002: Please authorize your email service provider to continue.  
+- P166B00003: Email service provider is already synced.  
+- P166B00004: Emails not sent yet. Cannot sync back from email service provider.  
+- P166B00005: Campaign is already synced to email service provider.  
+- P166B00006: Please specify a target group.  
+- P166B00007: Failed to sync to email service provider. Please try again.  
+- P166B00008: Syncing data. Please wait…  
+- P166B00009: Data already synced to your email service provider.  
+- P166B00010: Please sync to email service provider first.  
+- P166B00011: Please select a member list from the email integration provider in campaign settings first  
+- P166B00012: Campaign does not exist  
+- P166B00013: Campaign type cannot be changed. It is already synced with your email service provider  
+- P166B00014: Rule fields invalid  
+- P166B00015: Failed to authorize SAP Anywhere. For more help, contact your administrator.  
+- P166B00016: Please assign a target group to this campaign.  
+- P166B00017: There are no members in this target group.  
+- P166B00018: Start date cannot be later than end date.  
+- P166B00019: Duplicated conditions  
+- P166B00020: The member list does not exist.  
+- P166B00021: The membership points cannot be less than 0.  
+- P166B00022: The expiration date is invalid.  
+- P166B00023: This customer is currently not a part of the membership.  
+- P166B00024: Points gained per unit currency cannot be less than 0.  
+- P166B00025: Minimum points for redemption cannot be less than 0.  
+- P166B00026: Maximum points for redemption per order cannot be less than 0.  
+- P166B00027: Point validity period cannot be less than 0.  
+- P166B00028: You cannot use your points right now as your point balance of {0} points is less than {1} points, the minimum amount required for redemption.  
+- P166B00029: You cannot use {0} points in this order as the maximum points usage permitted per order is {1} points.  
+- P166B00030: Sorry, currently you have insufficient points to carry on the operation.  
+- P166B00031: Points per currency unit cannot be less than 0.  
+- P166B00032: Failed to receive the attachment. Please try again.  
+- P166B00033: App ID or App Secret is invalid.  
+- P166B00034: To send out this message in WeChat, you must have at least 2 followers.  
+- P166B00035: Cannot find the attachment's url.  
+- P166B00036: Cannot get the WeChat content from backend. Please check again.  
+- P166B00037: The WeChat account does not exist. Please check again.  
+- P166B00038: {0} returns with error: {1}, {2}.  
+- P166B00039: This WeChat account has already been added.  
+- P166B00040: Failed to send the message to WeChat as you cannot send the same message twice in one day.  
+- P166B00041: The title of a WeChat message cannot be empty. Please enter a title first.  
+- P166B00042: You cannot send out WeChat messages without content.  
+- P166B00043: The cover image of the WeChat message cannot be empty. Please upload a cover image first.  
+- P166B00044: The cover image's file type must be PNG or JPEG.  
+- P166B00045: There is no online store available. Please create your online store first.  
+- P166B00046: A system error occurred on the WeChat Server. Please try again.  
+- P166B00060: The end date cannot be earlier than the start date.  
+- P166B00061: Awards of the same type cannot have overlapping durations.  
+- P166B00062: The Customer/Contact ID {0} is invalid. Please check again.  
+- P166B00063: When Customer/Contact ID is filled, you must choose a corresponding customer/contact type.  
+- P166B00064: This function is now still a trial version. Each hour we only support users for a limited number of attempts. If you want to continue using the function, we suggest you try again later.  
+- P166B00065: There are no members in this target group. Please choose another target group.  
+- P166B00066: Cannot sync back to SAP Anywhere as you have already bound this email account to another email service provider.  
+- P166B00067: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00068: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00069: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00070: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00071: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00072: Failed to cancel the authorization. Please try again later.  
+- P166B00073: Operation to the email account failed. Please try again later.  
+- P166B00074: The authorization is now invalid. Please cancel the authorization and authorize it again.  
+- P166B00075: Customer is invalid.  
+- P166B00076: Contact is invalid.  
+- P166B00077: Source is invalid.  
+- P166B00078: TargetGroup is invalid.  
+- P166B00079: Cannot import to a target group with conditions. Please choose a manually created target group for the import.  
+- P166B00080: Customer/Contact cannot be empty.  
+- P166B00081: Member duplicated.  
+- P166B00082: Lead(s) were already generated from selected feed(s).  
+- P166B00084: Feed was already closed.  
+- P166B00085: You cannot delete the customer as it is already used in Lead.  
+- P166B00086: You cannot delete the customer as it is already used in Target Group.  
+- P166B00087: You cannot delete the contact as it is already used in Lead.  
+- P166B00088: You cannot delete the contact as it is already used in Target Group.  
+- P166B00089: Signature validation error  
+- P166B00090: XML parsing error  
+- P166B00091: Signature computing error  
+- P166B00092: Illegal AES key  
+- P166B00093: App ID validation error  
+- P166B00094: AES encryption error  
+- P166B00095: AES decryption error  
+- P166B00096: Illegal buffer  
+- P166B00097: Failed to update card status as card ID ({}) cannot be found.  
+- P166B00098: WeChat notification ({}) invalid. This notification will be skipped.  
+- P166B00099: Only one WeChat membership card is permitted.  
+- P166B00100: The membership card can only be sent to a maximum of 10 Wechat IDs to preview.  
+- P166B00101: You cannot preview the WeChat Membership card before editing the card's information.  
+- P166B00102: You cannot preview non WeChat Membership cards.  
+- P166B00103: Only one WeChat membership card is permitted.  
+- P166B00104: Membership number count exceeds the quantity. Please modify the quantity.  
+- P166B00105: Please upload the logo before you upload the membership card to WeChat.  
+- P166B00106: To dispatch via WeChat, you must first bind a WeChat account.  
+- P166B00107: Customers were already generated from selected feeds.  
+- P166B00108: Valid to date must be after valid from date.  
+- P166B00109: The "Valid To" date must be later than today.  
+- P166B00110: Quantity must be greater than 0.  
+- P166B00111: This WeChat card has already been consumed.  
+- P166B00112: The WeChat card was deleted by the customer or given to a friend.  
+- P166B00113: The API is unauthorized for this card.  
+- P166B00114: Text analysis failed. Invalid email thread ID.  
+- P166B00115: Text analysis failed. Invalid email message ID.  
+- P166B00116: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00117: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00118: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00119: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00120: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00121: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00122: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00123: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00124: Only one WeChat account is allowed.  
+- P166B00125: The uploaded file to WeChat is invalid. Please check and upload a new file.  
+- P166B00126: The WeChat name does not exist.  
+- P166B00127: Please select a color if you want to dispatch the card on WeChat.  
+- P166B00128: You need to subscribe to the WeChat public account to receive messages from it.  
+- P166B00129: You need to upload a cover image for each article.  
+- P166B00130: Too many attempts. Please wait for a while and try again later.  
+- P166B00132: Points are insufficient according to the conversion rules configured in settings.  
+- P166B00133: Too many points are being used according to the conversion rules configured in settings.  
+- P166B00134: The points do not hold the same value as money.  
+- P166B00135: Duplicate campaign name exists.  
+- P166B00136: Organization address is empty.  
+- P166B00137: Invalid ID.  
+- P166B00138: Cost cannot be negative.  
+- P166B00139: API not authorized. Please open this function in your WeChat public account.  
+- P166B00140: You have not enabled the shake around function on your public account, please open it.  
+- P166B00141: Attachment is invalid. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00142: Cannot read the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00143: Cannot send the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00144: Cannot send the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00145: Cannot send the email with attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00146: The campaign does not exist.  
+- P166B00147: The beacon and page are created by different WeChat accounts.  
+- P166B00148: Too close to schedule!  
+- P166B00149: One social message was successfully sent just now. Please refresh your page for further operations.  
+- P166B00150: Hashtag must be shorter than 32 characters, and cannot include any spaces or special characters.  
+- P166B00151: Duplicate campaign hashtag exists.  
+- P166B00152: Please select a code type if you want to dispatch the card on WeChat.  
+- P168B00001: Invalid support request parameter.  
+- P168B00002: Invalid support user email.  
+- P168B00003: The support request has been sent out.  
+- P168B00004: Only power users can send a support request.  
+- P168B00005: Only power users can terminate a support request.  
+- P168B00006: The support user is already an available user.  
+- P201504121541: You cannot set the default system carrier as inactive.  
+- P2015081901: Only USD is supported as the currency for Pitney Bowes deliveries.  
+- P2015081902: Only the online store channel is supported by Pitney Bowes deliveries.  
+- P2015081903: Please create the Pitney Powes carrier in shipping settings first.  
+- P2015081904: To use Pitney Bowes, please provide the mobile number of the recipient for both the billing and shipping address.  
+- P2015081905: To use Pitney Bowes, please provide the recipient's name for both the billing and shipping address.  
+- P2015081906: Errors occurred while calling Pitney Bowes services.  
+- P2015081907: To use Pitney Bowes, please provide the buyer's email address.  
+- P2015081908: To use Pitney Bowes, please provide complete information for shipping address and billing address.  
+- P20151016C1: Please specify the delivery type of UPS Express.  
+- P20151019C1: Please add UPS as a carrier in Shipping settings first.  
+- P20151019C2: To use UPS as the carrier, please provide your full company address in company profile first, including receipt's name and phone number.  
+- P20151019C3: To use UPS as the carrier, please provide the full warehouse address and shipping address first, including receipt's name and phone number.  
+- P20151019C4: To use UPS as the carrier, please specify the weight and weight unit.  
+- P20151019C5: To use UPS as the carrier, please specify the package size and the unit of length.  
+- P20151019C6: To void a UPS shipment, please provide the tracking number.  
+- P20151019C7: Cannot find the shipping label. Please create a UPS shipment order before printing shipping label.  
+- P20151019C8: You must enable electronic shipping labels first.  
+- P20151019C9: Failed to upload the UPS electronic shipping label to the Amazon cloud server. Please try again later.  
+- P20151019D1: UPS service is disabled for the current tenant.  
+- P20151019D2: Only the domestic shipments originated in the United States or the United Kingdom are currently supported.  
+- UPS_SYS_001: Errors occurred while calling UPS services.  
+- UPS_SYS_002: Errors occurred while calling UPS services. Error code:{0}, Error description: {1}.  
+- V2015082501: Pitney Bowes authentication failed.  
+- V2015082502: Failed to receive quotation from Pitney Bowes  
+- V2015082503: Failed to create Pitney Bowes order  
+- V2015082504: Failed to confirm Pitney Bowes order  
+- V2015082505: Pitney Bowes order number was not returned from the external service.  
+- V2015082506: No response from Pitney Bowes service  
+- V2015082507: You are not authorized to view Pitney Bowes resources.  
+- V2015082508: Invalid data format for Pitney Bowes request record  
+- V2015082509: Pitney Bowes resource is not ready yet. There is a slight delay in processing Pitney Bowes orders through to a shippable state. Please try again later.  
+- V2015082510: Failed to generate Pitney Bowes tracking number  
+### <sapn id="sip">sip</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- API0000004: Failed to capture authorized amount  
+- API0000005: Field {0} is read-only.  
+- P100B00001: You are not a guest user.  
+- P100B00002: Attachment not found  
+- P100B00003: Attachment does not exist.  
+- P100B00004: No permission to operate this attachment  
+- P100B00005: File format {0} is not supported.  
+- P100B00006: The file is empty or does not exist in the specified location.  
+- P100B00007: Virus scanner failed  
+- P100B00008: Incorrect object entity  
+- P100B00009: Failed to upload the file. Please try again.  
+- P100B00010: You cannot export the file as a PDF.  
+- P100B00011: Failed to download the file. Please try again.  
+- P100B00015: File size is too large.  
+- P100B00016: Failed to upload the file. The file name cannot contain special characters (including < > ' \ &).  
+- P100B00017: Failed to upload the file. This file may contain a virus.  
+- P100B00018: Failed to upload the file. This file is not an image.  
+- P100D00001: Cannot find the corresponding app.  
+- P100D00002: Webhook callback URL is invalid.  
+- P100D00003: Webhook does not support this event type.  
+- P100D00004: Cannot find the specified webhook.  
+- P100D00005: You are not authorized to update or delete the webhook for this app.  
+- P100D00006: Webhook event type cannot be updated.  
+- P100D00007: Webhook registration failed, as the webhook for this event type already exists.  
+- P103B10040: Cannot set this user as technical support user because the maximum number of technical support users has been reached.  
+- P103B10041: There must be at least one technical support user in the system. You must assign another user as technical support before removing this one.  
+- P103B20000: Invalid action  
+- P103B20002: Local currency is not existing.  
+- P103B70001: Quantity cannot be 0.  
+- P103B70002: Unit price cannot be 0.  
+- P103B70003: Insuffient stock  
+- P103B70004: Warehouse cannot be empty for products in stock-allocated status.  
+- P103B70005: You cannot change the price for products in stock-allocated status.  
+- P103B70006: You cannot change the quantity for products in stock-allocated status.  
+- P103B70007: You cannot change the warehouse for products in stock-allocated status.  
+- P103B70008: Invalid channel  
+- P103B70009: Failed to initial default values  
+- P103B70112: Discount percentage cannot be greater than 100%.  
+- P103B70113: Unit price cannot be less than 0.  
+- P103B70121: The signs (plus/minus) of quantity and gross total are different.  
+- P134B7035: Failed to add domain. It duplicates with an existing domain.  
+- P134B7048: The uploaded certificate is invalid, or does not match your domain.  
+- P149B02223: Length unit ID {0} is invalid.  
+- P149B02224: Weight unit ID {0} is invalid.  
+- P149B02225: Unit size must greater than 0.  
+- P150B00001: Default channel must be active.  
+- P150B00002: Cannot add warehouse. The same warehouse already exists: {0}  
+- P150B00003: Cannot add warehouse. This warehouse is inactive or does not exist: {0}  
+- P150B00004: Please add at least one warehouse.  
+- P150B00005: Cannot add payment method. The same payment method already exists: {0}  
+- P150B00006: You cannot create or update predefined channel types.  
+- P150B00007: You cannot delete predefined channel types.  
+- P150B00008: Specified currency is inconsistent with the currency in company profile.  
+- P150B00009: Specified pricing method is inconsistent with the pricing method in company profile.  
+- P150B00010: Specified currency is inconsistent with the currency for the sales price list of this channel.  
+- P150B00011: The pricing method of the sales price list is inconsistent with that of the channel.  
+- P150B00012: Standard price list must be system's standard price list.  
+- P150B00013: Sales price list must be system's sales price list.  
+- P150B00014: Pricing method must be either net or gross.  
+- P150B00015: You cannot change the currency once you add the channel.  
+- P150B00016: You cannot change the pricing method once the channel is added.  
+- P150B00018: Shopping cart update precision must be minute/hour/day/week.  
+- P150B00019: You cannot send email reminders to customers who abandon their shopping carts for less than {0} minutes.  
+- P150B00020: Currency ID {0} is invalid.  
+- P150B00021: Currency ID List is empty.  
+- P150B00022: Must select a currency for this channel.  
+- P150B00023: Channel ID {0} is invalid.  
+- P150B00024: The default channel already exists.  
+- P150B00025: Please select a channel currency.  
+- P150B00026: The currency and the price list currency do not match.  
+- P150B00027: The currency is not the local currency.  
+- P150B00028: You cannot set an inactive channel as the default channel.  
+- P150B00030: The domain has already been used. Please use another.  
+- P150B00031: Address is required.  
+- P150B00032: Please add at least one warehouse.  
+- P150B00033: Invalid domain name. Please enter domain name using letters and numbers only, and no longer than 63 characters.  
+- P150B00034: You must choose at least one currency.  
+- P150B00035: You cannot deactivate the channel. It is the last active channel.  
+- P150B00036: Failed to add domain. Please check your certificate files.  
+- P150B00037: Invalid domain name. Please enter another.  
+- P150B00038: You must upload domain certificate files.  
+- P150B00039: You must not remove the default domain or update its certificates.  
+- P150B00040: The domain you want to remove does not exist.  
+- P150B00041: You cannot choose the corporate customer. The target customers for the physical store channel are individual customers.  
+- P150B00042: You must choose at least one ship-to country/region.  
+- P150B00050: You cannot deactivate the default channel.  
+- P150B00051: Cannot create online store due to technical issues. The number of stores created has reached the upper limit. For details, please contact your administrator.  
+- P150B00052: Please select an owner for the channel.  
+- P150B00053: Please select a marketplace.  
+- P150B00054: Please select a currency.  
+- P150B00055: You cannot change the marketplace of an existing channel.  
+- P150B00056: You cannot change the product listing method.  
+- P150B00057: The external order ID cannot be empty.  
+- P150B00058: You must choose at least one pickup store, or disable Pickup in Store.  
+- P150B00060: All currencies assoicated with the channel are inactive. Please activate as least one of them.  
+- P150B00061: Checkout without account cannot be enabled in B2B online stores.  
+- P150B00100: Cannot load sales order.  
+- P150B00101: Source sales order is not specified.  
+- P150B00102: You can only copy the open and unpaid invoices.  
+- P150B00103: Please check the document status and the payment status.  
+- P150B00104: Please check the document status and the payment status.  
+- P150B00105: Please specify a payment method.  
+- P150B00106: Paid amount cannot exceed gross total.  
+- P150B00107: The amount cannceled must be greater than 0.  
+- P150B00108: The amount cannceled cannot exceed paid amount.  
+- P150B00109: The document is not paid yet.  
+- P150B00110: Un-invoiced order lines exist.  
+- P150B00111: The document's payment status is invalid.  
+- P150B00112: Paid amount must be greater than 0.  
+- P150B00113: Creation time and posting time cannot be later than due time.  
+- P150B00114: Cannot load invoice  
+- P150B00115: Selected documents must share the same customer.  
+- P150B00116: Selected documents must share the same currency.  
+- P150B00117: Cannot load credit memo  
+- P150B00118: Source document not specified  
+- P150B00119: Cannot load source document  
+- P150B00120: Cannot create this document directly  
+- P150B00121: Cannot load invoice line  
+- P150B00122: Copy paramter is null.  
+- P150B00123: Please specify a customer.  
+- P150B00124: Please specify a currency.  
+- P150B00125: Failed to create invoices for returned products  
+- P150B00126: There are no products or shipping costs to create invoices for.  
+- P150B00127: Please specify the local currency.  
+- P150B00128: Invalid invoice status  
+- P150B00129: Amount due must be equal to gross total in unpaid invoice.  
+- P150B00130: Paid amount cannot be greater than gross total in partially paid invoice.  
+- P150B00131: Paid amount must be equal to gross total in fully-paid invoice.  
+- P150B00132: Credit memos are not supported.  
+- P150B00133: Please input an exchange rate here or in business settings.  
+- P150B00134: Order line "{0}" has never been invoiced before.  
+- P150B00135: Cannot cancel the document. You can only cancel open and unpaid invoices and credit memos.  
+- P150B00136: Selected documents should share the same pricing method.  
+- P150B00137: Please specify a pricing method.  
+- P150B00138: Invalid address change  
+- P150B00139: There are no returned products to create credit memos for.  
+- P150B00140: Selected documents should share the same sales channel.  
+- P150B00141: Please specify a sales channel.  
+- P150B00142: Only orders from the general channel can be partially invoiced.  
+- P150B00143: Cannot generate invoice/credit memo for multiple orders that are not from the general channel.  
+- P150B00200: Please create a sales target first.  
+- P150B00201: You can only update the draft of a sales target.  
+- P150B00202: The quota must be greater than 0.  
+- P150B00203: You cannot be a target owner and a sales manager at the same time.  
+- P150B00204: You cannot add the same owner twice for a sales target.  
+- P150B00205: You can only assign a team's sales target to its sales manager.  
+- P150B00206: Failed to create the sales target as it already exists in the system.  
+- P150B00207: No employee was found.  
+- P150B00208: Failed to delete the sales targets.  
+- P150B00209: Cannot find the sales target.  
+- P150B02001: Corporate Name cannot be empty.  
+- P150B02002: Last Name cannot be empty.  
+- P150B02003: Customer Type cannot be empty.  
+- P150B02004: Address is not assigned to the customer.  
+- P150B02005: Customer cannot be edited.  
+- P150B02006: Main contact does not exist.  
+- P150B02007: Sales channel does not exist.  
+- P150B02008: You cannot delete this industry as it is being used by some customers.  
+- P150B02009: You cannot delete this customer group as it is being been used by some customers.  
+- P150B02010: Failed to create/update duplicated customer.  
+- P150B02011: Cannot continue with the process as the status of the customer's payment term was changed to inactive. Please choose another payment term for the customer, or go to Settings and change the status to active.  
+- P150B02012: Cannot continue with the process as the status of the customer's payment method was changed to inactive. Please choose another payment method for the customer, or go to Settings and change the status to active.  
+- P150B02013: Cannot change the customer for the contact. You can remove the customer if you no longer need it.  
+- P150B02014: Only a corporate customer can be added to the contact.  
+- P150B02015: Contact of a customer cannot be assigned as the main contact of another customer.  
+- P150B02016: Inactive email address. Please use a different one, or contact your administrator.  
+- P150B02017: Cannot continue with the process as the status of the customer's membership level was changed to inactive. Please choose another membership level for the customer, or go to Settings and change their status to active.  
+- P150B02018: You cannot delete this contact as it is the contact of an existing customer.  
+- P150B02019: Credit limit cannot be less than 0.  
+- P150B02020: Credit alert threshold cannot be less than 0.  
+- P150B02021: Credit alert threshold cannot be larger than credit limit.  
+- P150B02022: You cannot delete the customer as it has channel account(s).  
+- P150B02023: You cannot delete the contact as it is already used in channel account(s).  
+- P150B02024: You cannot delete the customer as there are membership event(s) created for it.  
+- P150B02025: You cannot delete the customer as it has duplicate(s).  
+- P150B02026: You cannot delete the customer as it is a duplicate of another customer.  
+- P150B02027: You can only modify the name of predefined membership level.  
+- P150B02028: You cannot delete the customer as it is the default customer of the physical store channel.  
+- P150B02029: This email already exists.  
+- P150B02030: This membership card No. already exists.  
+- P150B02031: This cellphone already exists.  
+- P150B02032: This customer group already exists.  
+- P150B02033: You cannot delete this language as it is being used by some customers or contacts.  
+- P150B02034: You are not authorized to delete {0}.  
+- P150B02035: Cannot find manual business code of customer.  
+- P150B02036: Return credit log can not have zero amount.  
+- P150B02037: Return credit account can not be below zero.  
+- P150B02038: Return credit log of document type should have foreign currency id.  
+- P150B02039: You cannot delete the customer as it is already used in {0}.  
+- P150B02040: You cannot delete the contact as it is already used in {0}.  
+- P150B02041: The customer has been restored before hard deletion.  
+- P150B02042: The contact has been restored before hard deletion.  
+- P150B76040: Please enter sender's email address in SMTP settings.  
+- P150B76041: Current prepayment type does not support the payment methods of the "Authorization" type.  
+- P150B76042: Current prepayment type does not support the payment methods of the "Sale" type.  
+- P150B76043: Payments do not support the payment method {0}, which belongs to the "Authorization" type.  
+- P150B76045: Cannot add more than one payment method of the "Authorization" type in the prepayment.  
+- P150B76046: Cannot find any payment method of the "Authorization" type.  
+- P150B76048: Prepayments of the "Authorization" type must have a payment method assigned.  
+- P150B76049: A reference number already exists in the prepayment.  
+- P150B76050: Transaction ID not found.  
+- P150B76051: Cannot void the prepayment since it is already used. Please cancel the related payment first.  
+- P150B76052: Cannot void the prepayment since it is not the "Authorization" type.  
+- P150B76053: You cannot use the payment methods "PAYPAL_EC" and "PAYPAL_PAYFLOW_PRO" in a single document.  
+- P150B76054: Failed to capture.  
+- P150B76055: Customer cannot be changed to "Individual" type due to linked contacts that already exist.  
+- P150B76056: Customer type cannot be changed due to linked channel accounts.  
+- P150BEM001: Internal Error: wrong message content or format. Please contact your system administrator.  
+- P150BEM002: Invalid source order information.  
+- P150BEM003: Specified sales order not found. Please enter a valid sales order.  
+- P150BEM004: Invalid sales order line ID.  
+- P150BEM005: Unknown error occurs.  
+- P161B10001: Please enter a positive number.  
+- P161B10002: Please enter a positive number.  
+- P161B10003: You cannot set inactive payment terms as the system default.  
+- P161B10005: You cannot deselect the "System Default"checkbox. To make this payment term differ from the system default, you must set another as the system default.  
+- P161B10006: You cannot deactivate the payment term as it is set as system default. To inactivate it, set another payment term as the system default first.  
+- P166B00021: The membership points cannot be less than 0.  
+- P166B00022: The expiration date is invalid.  
+- P166B00023: This customer is currently not a part of the membership.  
+- P166B00024: Points gained per unit currency cannot be less than 0.  
+- P166B00025: Minimum points for redemption cannot be less than 0.  
+- P166B00026: Maximum points for redemption per order cannot be less than 0.  
+- P166B00027: Point validity period cannot be less than 0.  
+- P166B00028: You cannot use your points right now as your point balance of {0} points is less than {1} points, the minimum amount required for redemption.  
+- P166B00029: You cannot use {0} points in this order as the maximum points usage permitted per order is {1} points.  
+- P166B00030: Sorry, currently you have insufficient points to carry on the operation.  
+- P166B00031: Points per currency unit cannot be less than 0.  
+- P166B00060: The end date cannot be earlier than the start date.  
+- P166B00061: Awards of the same type cannot have overlapping durations.  
+- P166B00132: Points are insufficient according to the conversion rules configured in settings.  
+- P166B00133: Too many points are being used according to the conversion rules configured in settings.  
+- P166B00134: The points do not hold the same value as money.  
+- P178B00001: You cannot delete the country group as it has already been applied to tax rules.  
+- P181B00001: Cannot update pricing method.  
+- P181B00002: You cannot change the local currency as it has been changed once already.  
+- P181B00003: Cannot disable multiple currencies.  
+- P181B00004: Invalid parameter  
+- P181B00005: To disable this option, first fix cases where available-to-sell is negative.  
+- P181B00006: To disable this option, first fix cases where inventory is negative.  
+- P181B00007: You cannot change the exchange rate quotation as some of the foreign currencies are in use.  
+- P181B00008: Inventory cost calculation is only supported in China.  
+- P181B00010: You cannot disable the calculation of inventory estimated cost once it is enabled.  
+- P181B00011: TaaS is available in the US only.  
+- P181B00012: You can only choose 'shipping to' when using TaaS.  
+- P181B00013: Currency {0} not found. Please specify a valid one.  
+- P181B00014: Please specify a currency.  
+- PCOBC00001: {0} is required as manual series is selected.  
+- Prm001: Please set conditions in Promotion Rules.  
+- Prm002: Please set benefits in Promotion Rules.  
+- Prm003: Please set types in Promotion Rules.  
+### <sapn id="productivity">productivity</span>
+- P100601100: No warehouse/product (SKU) found in the template. Please download the latest template and try again.  
+- P102B02101: The locale information in the template has been changed. Please change it back to the original.  
+- P102B02102: The template has worksheets added, removed or renamed. Please change it back to the original.  
+- P102B02103: The template is out of date. Please download the latest version, fill in the data, and import again.  
+- P102B02104: The currency in column {0} is invalid.  
+- P102B02105: You can only go through the onboarding settings once.  
+- P20150327: Invalid SKU Code {0}.  
+- P2015032748: You cannot assign the main contact person {0}, as you have not selected a customer yet.  
+- P20150328: One or more price lists do not exist.  
+- P201506191: Invalid price  
+- P2015072101: The product cannot be found in the system.  
+- P2015072401: Price successfully updated  
+- P2015072402: Basic product information already updated  
+- P2015080401: {0} cannot be negative.  
+- P2015080412: The UoM group has not been assigned to the product.  
+- P2015080413: Cannot find the base UoM in the current product.  
+- P2015080414: You cannot enter an inventory UoM if you choose None as the UoM group.  
+- P2015091401: You are not authorized to import purchase prices. Please empty the purchase price columns first if you want to update other fields.  
+- P2015091701: The document cannot have more than {0} lines of data. Please split it into multiple documents.  
+- P20160524: Batch number in row {0} is invalid.  
+### <sapn id="sms">sms</span>
+### <sapn id="channel-lcm">channel-lcm</span>
+### <sapn id="udo">udo</span>
+- UDO01A0001: You do not have READ authorization on udo permission items: {0}  
+- UDO01A0002: You do not have WRITE authorization on udo permission items: {0}  
+- UDO01A0003: {0}:{1} UDO not exist  
+- UDO01A0004: Content {0} type is not correct  
+- UDO01A0005: udo {0} properties: namespace and name cannot be updated  
+- UDO01A0006: udo node {0} property name cannot be updated  
+- UDO01A0007: Namespace only can be 'ext.default'  
+- UDO01B0001: udo node meta cannot have duplicate name {0}  
+### <sapn id="pricing">pricing</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- P150BEM001: Internal Error: incorrect message content or format. Please contact your system administrator.  
+- P150BEM002: Invalid source order information.  
+- P180B00001: No standard price list.  
+- P180B00002: Multiple standard price lists.  
+- P180B00003: Multiple price lists.  
+- P180B00004: Cannot find SKU  
+- P180B00005: Duplicate prices.  
+- P180B00006: No currency.  
+- P180B00007: No price result.  
+- P180B00008: No pricing method.  
+- P180B00009: No pricing method.  
+- P180B00010: The channel does not exist.  
+- P180B00011: Invalid Parameter.  
+- P180B00012: You cannot update currency in company profile.  
+- P180B00013: You cannot update pricing method in company profile.  
+- P180B00014: Customer does not exist.  
+- P180B00016: Provided sales channel {0} and sales price list {1} does not have a common currency.  
+- P180B00017: Provided sales channel {0} and sales price list {1} does not have the same pricing method.  
+- P180B00018: Provided sales price list {0} is of a standard type, which is not applicable in this API.  
+- P180B00019: Sales channel by id {0} is not valid.  
+- P180B00020: Sales price list cannot be found by the provided id {0}.  
+- P180B00021: Sales channel {0} does not support associating with any sales price lists.  
+- P180B00022: Sales channel {0} with the currency {1} has already been assigned a sales price list.  
+- P180B10001: The conditons and benefits are not compliant with the promotion item.  
+- P180B10002: Currency of the promotion does not comply with that of the channel.  
+- P180B10003: Promotion channel pricing methods do not match.  
+- P180B10004: Currency {0} and pricing method {1} is not compliant with that in the company settings.  
+- P180B10005: The price cannot be negative  
+- P180B10006: There is no record of the price list (Price List: {0}, Currency: {1}, Pricing Method: {2}). This action will be skipped.  
+- P180B10007: There is no record of the price list ({0}), This action will be skipped.  
+- P180B10008: You do not have the permission to access the price.  
+- P180B10009: You do not have the permission to access the standard sales price.  
+- P180B10010: You do not have the permission to access the sales price.  
+- P180B10011: Network connection failed while uploading images.  
+- P180B10012: Failed to upload images due to network issues. Please try again later.  
+- P180B10013: Your attachment size exceeds the package you purchased. If you need a larger size quota for attachments, please upgrade your package.  
+- P180B11001: Promotion cannot be found by the provided id {0}.  
+- Prm001: Please set conditions in Promotion Rules.  
+- Prm002: Please set benefits in Promotion Rules.  
+- Prm003: Please set types in Promotion Rules.  
+### <sapn id="tax-engine-proxy">tax-engine-proxy</span>
+### <sapn id="frw">frw</span>
+- AUTH_10001: The operation you executed is not applicable for this kind of business object.  
+- AUTH_10002: You do not have {0} authorization on following {1}: {2}.  
+- AUTH_10003: You do not have {0} authorization on any following permission items: {1}  
+- AUTH_10004: You are accessing an improperly exposed resource, prohibited!.  
+- AUTH_10005: You are not authorized to perform this operation. Please contact a power user.  
+- P0SYS500: The parameter type mismatch when trying to access this API.  
+- P100C00001: The API key cannot be empty.  
+- P100C00002: The app does not exist.  
+- P100C00003: Authorization failed  
+- P100C00004: Only power users are authorized to perform this operation.  
+- P100C00005: Installation failed.  
+- P100C00006: Uninstallation failed.  
+- P100C00007: Failed to uninstall the app, as it is not installed to the system.  
+- P100C00008: Failed to install the app, since it already exists in the system.  
+- P100C00009: The callback url for app installation is incorrect.  
+- P100C00010: This is not the sandbox system. You can install or apply a test app only in the sandbox system.  
+- P100C00011: Failed to connect to the SAP Anywhere app store. Please contact the service provider or your administrator.  
+- P100C00012: A system error occurred. Please contact the service provider or your administrator.  
+- P100C00013: The return result of the SAP Anywhere app store is incorrect. Please contact the service provider or your administrator.  
+- P100C00014: Faield to connect to the SAP Anywhere logon server. Please contact the service provider or your administrator.  
+- P100C00015: The return result of the SAP Anywhere logon server is incorrect. Please contact the service provider or your administrator.  
+- P100C00016: Installation failed  
+- P100C00017: Authorization failed  
+- P100C00018: Authorization code is empty.  
+- P100C00019: App secret is empty.  
+- P100C00020: The callback URL for the app is empty or invalid.  
+- P100C00021: The grant type is empty.  
+- P100C00022: The grant type is invalid.  
+- P100C00023: The refresh token is empty.  
+- P100C00024: The callback URL for the app installation is incorrect.  
+- P100C00025: Authorization failed. The request origin does not have a signature.  
+- P100C00026: Authorization failed. The signature of the request is invalid.  
+- P100C00027: Installation or authorization failed as the app is off shelf.  
+- P100C00028: Authorization failed. The app is not published.  
+- P100C00029: Failed to obtain access token.  
+- P101C00001: Telecom SMS account does not exist.  
+- P101C00002: Telecom SMS app does not exist.  
+- P101C00003: Telecom SMS service is not available.  
+- P101C00004: Cannot create duplicate Telecom accounts.  
+- P101C00005: Telecom SMS account is under review.  
+- P101C00006: Invalid SMS parameter.  
+- P105B00001: Field {0}: validation failed.  
+- P105B00002: Field {0} is required.  
+- P105B00003: Field {0} is read-only.  
+- P105B00004: Field {0} is unchangeable.  
+- P105B00005: Internal Error  
+- P105B00006: Cannot find resource with ID {0}.  
+- P105B00007: Field {0} does not exist.  
+- P105B00008: The number of items per page cannot exceed maximum value: {0}.  
+- P105B00009: Failed to parse the query. Please check your parameter, field names, and values.  
+- P105B00010: Query on field {0} is not supported.  
+- P105B00011: Database error occurred with error code: {0}, internal error code: {1} and cause: {2}, make sure your input is semantically/syntactically correct.  
+- P105B00012: Request parameter: {0} should be set a not empty value.  
+- P121B03001: The rule is invalid.  
+- P121B03002: {0} should be a type of {1}  
+- P121B03003: The enum value is invalid.  
+- P121B03004: Action "{0}" does not exist for {1}  
+- P121B03005: Permission value "{0}" of {1} is invalid  
+- P121B03006: Another user or another operation modified the data; to continue, open the window again.  
+- P121B03011: Path{0}, The syntax of rang {1} is invalid  
+- P121B03012: Unexpected character: {0}.  
+- P121B03013: {0}  
+- P121B03014: The range is invalid.  
+- P121B03015: Name {0} or name space {1} is invalid.  
+- P121B03016: Property {0} is invalid.  
+- P121B03017: Property {0} is disabled.  
+- P121B03018: The value of {0} is blank.  
+- P121B03019: Name {0} is invalid.  
+- P121B03020: In the bo meta {0}, cannot find action meta {1}.  
+- P121B03021: In the node meta {0}, cannot find property meta {1}.  
+- P121B03022: In the node meta {0}, cannot find node type meta {1}.  
+- P121B03025: Invalid server type: {0}.  
+- P121S03008: Query operator does not exist.  
+- P121S03009: {0} is an invalid operator.  
+- P121S03010: Cannot enter more than one expression for Boolean parenthesis.  
+- P121S03023: {0}.  
+- P121S03024: You cannot perform this action due to the authorization restriction of your role.  
+- P121S03026: This User cannot write [{0}] data.  
+- P121S03027: This User[{0}] read authorization does not exist.  
+- P121S03028: This User[{0}] write authorization does not exist.  
+- P121S03029: This User[{0}] no read authorization, not shared with read.  
+- P121S03030: This User[{0}] no read write authorization, not shared with read write.  
+- P121S03031: Line {0}, char position {1} syntax error: {2}.  
+- P121S03032: Cannot find company setting information.  
+- P121S03033: The resource you are using reached the maximum of the package you purchased. If you need to create more, please upgrade your package.  
+- P121S03034: Service is temporarily unavailable due to an error while accessing dependent service: {}.  
+- P124B02004: {0} is not a valid type.  
+- P124B02005: {0} is not a valid number.  
+- P124B02006: {0} is not a valid date format.  
+- P124B02007: {0} is not a valid value.  
+- P125B02004: {0} does not exist.  
+- P125B02005: The business object ''{0}'' does not exist.  
+- P125B02006: This field already exists.  
+- P125B02007: API name already exists.  
+- P125B02008: The validation rule and valid values cannot exist concurrently.  
+- P125B02009: The linked Business Object {0} does not exist.  
+- P125B02010: The linked Business Object {0}''s metadata is invalid.  
+- P125B02011: Business objects support only long integers  
+- P125B02015: Cannot find business object  
+- P125B02016: It cannot be longer than {0} characters.  
+- P125B02017: Invalid property value {0}  
+- P125B02018: Invalid property time value {0}  
+- P125B02019: {0} does not exist.  
+- P125B02020: {0} is an invalid type of custom field.  
+- P125B02021: One or more mandatory fields are missing the required information.  
+- P125B02022: Custom field name cannot be empty.  
+- P125B02024: Cannot create custom field.  
+- P125B02025: This valid value already exists.  
+- P125B02026: Cannot delete UDF {0}  
+- P125B02027: Invalid property error:{0}.  
+- P125B02028: You must assign a specified key.  
+- P125B02029: Missing metadata of BO {0}.  
+- P125B02030: The entity {0} does not update permission.  
+- P125B02031: Please use other query types.  
+- P125B02032: Only supports single primary key.  
+- P125B02033: Error when retrieving property value of business object {0}.  
+- P125B02034: Cannot find business object  
+- P125B02051: Property {0} validation error:{1}.  
+- P125B02055: Invalid business object type  
+- P125B02056: The business object already exists.  
+- P125B02057: Invalid User Defined Object  
+- P125B02058: The custom field name is invalid. The name can contain up to 18 characters, consisting of letters and numbers only; it must start with a letter.  
+- P125B02059: Invalid User Defined Object Node  
+- P125B02060: User {0} does not exist.  
+- P125B02061: This field is mandatory.  
+- P125B02062: The user level default value does not follow the field's rule.  
+- P125B02063: The code does not satisfy the defined coding rules. Please change the code or modify the coding rules.  
+- P125B02064: Series already exists.  
+- P125B02065: Series does not exist.  
+- P125B02066: Business object namespace is empty  
+- P125B02067: Business object name is empty  
+- P125B02068: The name is empty  
+- P125B02069: The code must contain at least one character.  
+- P125B02070: The code must start with a number greater than or equal to 1.  
+- P125B02071: The ending number must be greater than or equal to 1, and larger than the starting number.  
+- P125B02072: You cannot edit this record.  
+- P125B02073: You cannot delete the code as it has already been used.  
+- P125B02074: Wrong code default value  
+- P125B02075: Job schedule submit failed.  
+- P125B02076: Cannot delete addon field  
+- P125B02077: Query job by group failed.  
+- P125B02078: Property {0} is invalid.  
+- P125B02079: The starting number cannot exceed the defined code range.  
+- P125B02080: Length of code cannot exceed 15 characters.  
+- P125B02081: The code must have a prefix or a suffix  
+- P125B02082: Name can only contain letters and numbers and must start with a letter.  
+- P125B02083: Namespace can only contain letters, numbers, or periods and must start with a letter.  
+- P125B02084: Target business object type is invalid.  
+- P125B02085: Cannot get changed properties on BO {0} which has no snapshot taken.  
+- P125B02086: You do not have {0} authorization on following {1}: {2}.  
+- P125B02087: API name can only contain letters and numbers and must start with a letter.  
+- P125B02088: The parameter {0}:{1} type does not match  
+- P125B02089: Team {0} does not exist.  
+- P125B02100: Series prefix must contain at least one non-number character  
+- P125B02101: Series suffix must contain at least one non-number character  
+- P125B02111: Cannot set a finished series as a default series  
+- P125S02012: Invalid JPQL statement {0}  
+- P125S02013: Unrecognized JPQL statement {0}  
+- P125S02014: Unable to find out alias {0} in the query  
+- P125S02035: The target business object does not have a primary property.  
+- P125S02036: Expected an entity manager factory for the persistence unit named {0}.  
+- P125S02037: Unknown bo type {0}.  
+- P125S02038: Cannot reserve more txt columns.  
+- P125S02039: Cannot reserve more stxt columns.  
+- P125S02040: Cannot reserve more numeric columns.  
+- P125S02041: Cannot reserve more datetime columns.  
+- P125S02042: Incorrect format of returned column {0}  
+- P125S02043: Snapshot value of property {0} was not taken.  
+- P125S02044: BO class must be specified.  
+- P125S02045: On bo {0} root node,association {1} not found.  
+- P125S02046: Sending email failed  
+- P125S02047: BONodeImplementation annotation is missing on class {0}.  
+- P125S02048: Not BO Type, cannot be assigned.  
+- P125S02049: Business object type is invalid.  
+- P125S02050: On class {0},field {1} not found.  
+- P125S02087: Error parsing BOQL [{0}] to JPQL.  
+- P125S02088: Error creating query.  
+- P125S02090: In the entity [{0}],can not found system/customized property [{1}].  
+- P125S02091: Dividing by 0 is not permitted.  
+- P125S02092: Money currency {0} is not valid  
+- P125S02093: Money currency is missing  
+- P125S02094: Can not get the current user information.  
+- P125S02095: missing argument  
+- P125S02096: User {0} does not exist  
+- P125S02097: Currency code can only consist of 1 to 3 letters.  
+- P125S02098: This currency code already exists.  
+- P125S02099: You cannot decrease the number of decimal places.  
+- P125S02100: A prefix must include at least one non-numeric character.  
+- P125S02101: A prefix must include at least one non-numeric character.  
+- P125S02102: State is not valid  
+- P125S02103: Full name cannot be empty  
+- P125S02104: Cannot add a validation rule as the field had been used.  
+- P125S02105: The currency code does not exist or is inactive.  
+- P125S02106: The currency is inactive.  
+- P125S02107: Exchange rate must be greater than 0.  
+- P125S02108: Valid value cannot be empty.  
+- P125S02109: The property you are trying to delete is already in use in a Service Case. Please refresh the page and unassign the property from the Service Case first.  
+- P125S02110: Cannot retrieve the SAP HANA database connection information for the service unit.  
+- P125S02111: You cannot delete or edit the property as it is already in use in a Service Case. Please refresh the page and unassign the property from the Service Case first.  
+- P125S02112: The property you are trying to delete is already in use in Knowledge Base. Please refresh the page and unassign the property from Knowledge Base first.  
+- P125S02113: You cannot delete or edit the property as it is already in use in Knowledge Base. Please refresh the page and unassign the property from Knowledge Base first.  
+- P125S02114: You cannot deactivate the currency as it is currently used by channels.  
+- P125S02120: System predefined property you are trying to delete is not deletable.  
+- P127B00001: EntitySet name of {0} not found.  
+- P127B00002: Unknown to identify of {0} internet 'Media Type'  
+- P127B00006: Uri encode error  
+- P127B00007: Complex key cannot be represented as a single value  
+- P127B00008: EdmType '{0}' not found  
+- P127B00011: {0} method cannot found  
+- P127B00012: invalid JSON content  
+- P127B00013: unhandled property {0}  
+- P127B00014: unhandled property type {0}  
+- P127B00015: json write error  
+- P127B00020: Invalid input value  
+- P127B00021: Entity [{0}] binding function [{1}] not found  
+- P127B00022: Unable to tokenize: {0} current: {1} rem: {2}  
+- P127B00023: Key string cannot be null  
+- P127B00024: Key string cannot be empty  
+- P127B00025: Bad key string {0}  
+- P127B00026: Bad value string {0} as part of key string {1}  
+- P127S00003: Unable to locate format parser for {0} and format {1}  
+- P127S00004: Unknown odata version  
+- P127S00005: {0} of commandType not found  
+- P127S00009: Function not supported yet  
+- P127S00010: unexpected aggregate function {0}  
+- P127S00016: Edm item type is required  
+- P127S00017: Cannot find OData producer  
+- P127S00018: EdmType not instance of EdmCollectionType  
+- P127S00019: Property {1} does not exist for method {0}  
+- P129B00001: Failed to log on. Please contact your administrator.  
+- P129B00002: Name of {0} does not exist. Identifier is {1}  
+- P129B00004: Business object not found, or you are not authorized to view it  
+- P129B00005: BO identifier of {0} does not found  
+- P129B00006: The metadata is being modified, please try again later.  
+- P129B00007: {0} does not exist.  
+- P129B00009: Input format is incorrect.  
+- P129B00010: Cannot find the object {0} service metadata.  
+- P129B00011: Invalid tenant name {0}.  
+- P129B00016: Service Unit[{0}] of the application server and service unit [{1}] of the requested tenant does not match.  
+- P129B00017: Property {0} value exceeds range.  
+- P129B00018: You are not allowed to create this object  
+- P129B00019: You are not allowed to read this object  
+- P129B00020: You are not allowed to update this object  
+- P129B00021: You are not allowed to delete this object  
+- P129B00022: Cannot generate a barcode. Please correct this product's barcode.  
+- P129B00023: You do not have {0} permission on any of following permission items: {1}  
+- P129B00024: Your account has been locked.  
+- P129B00025: This {1} in {0} already exists.  
+- P129B00026: Only power users are allowed to perform this operation.  
+- P129B00027: Support users that have read-only access and cannot perform this operation.  
+- P129B00028: Operation failed due to duplicate constraints.  
+- P129B00029: You are not allowed to access this service. Make sure you are using the correct account and link.  
+- P129B00030: The permission item is invalid.  
+- P129B00031: You are not authorized to access this operation.  
+- P129S00003: The application has encountered an error. We are aware of the error and are already working on a resolution.  
+- P129S00008: Unexpected error: {0}  
+- P129S00012: Action {0} not found in service metadata.  
+- P129S00013: Cannot embed object type in complex type {0}.  
+- P129S00014: No default constructor found in calss {0}.  
+- P129S00015: The application has encountered an error with code: {0}. We are aware of the error and are already working on a resolution.  
+- P135B000011: Please enter a name for the custom object.  
+- P135B00007: Only one business key allowed  
+- P135B00008: {0} already exists.  
+- P135B00017: Custom Field's namespace cannot using "com.sap.sbo".  
+- P136B00001: The property {0} does not exist.  
+- P136B00002: {0} is not a valid table.  
+- P136B00003: Insufficient tables.  
+- P136B00004: Insuficient columns.  
+- P136B00005: Business Key User Property cannot be removed.  
+- P136B00006: Custom Field {0} does not belong to Custom Object {1}  
+- P200B00001: Currently another user is updating this record. Please wait for a while and try later.  
+- P300B00001: {0} value is not correct  
+### <sapn id="inventory">inventory</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- P100B00001: You are not a guest user.  
+- P100B00002: Attachment not found  
+- P100B00003: Attachment does not exist.  
+- P100B00004: No permission to operate this attachment  
+- P100B00005: File format {0} is not supported.  
+- P100B00006: The file is empty or does not exist in the specified location.  
+- P100B00007: Virus scanner failed  
+- P100B00008: Incorrect object entity  
+- P100B00009: Failed to upload the file. Please try again.  
+- P100B00010: You cannot export the file as a PDF.  
+- P100B00011: Failed to download the file. Please try again.  
+- P100B00015: File size is too large.  
+- P100B00016: Failed to upload the file. The file name cannot contain special characters (including < > ' \ &).  
+- P100B00017: Failed to upload the file. This file may contain a virus.  
+- P100B00018: Failed to upload the file. This file is not an image.  
+- P100D00001: Cannot find the corresponding app.  
+- P100D00002: Webhook callback URL is invalid.  
+- P100D00003: Webhook does not support this event type.  
+- P100D00004: Cannot find the specified webhook.  
+- P100D00005: You are not authorized to update or delete the webhook for this app.  
+- P100D00006: Webhook event type cannot be updated.  
+- P100D00007: Webhook registration failed, as the webhook for this event type already exists.  
+- P101B02011: Team name cannot be empty.  
+- P101B02012: Team name already exists.  
+- P101B02018: Invalid Team input parameters.  
+- P101B02019: Missing Team employee id "{0}".  
+- P103B02005: You cannot delete an already triggered approval  
+- P103B02006: Approval "{0}" already exists  
+- P103B02007: User "{0}" is invalid  
+- P103B02008: Business object type does not exist  
+- P103B02009: You are not authorized to view this information  
+- P103B02010: Business object "{0}" does not exist  
+- P103B02011: You are not authorized to assign this object  
+- P103B02012: Invalid dynamic authorization id: {0}  
+- P103B02013: Invalid role id: {0}  
+- P103B02014: Invalid system business object id: {0}  
+- P103B02015: {0} is not a system predefined role.  
+- P103B02016: missing argument  
+- P103B02017: Please enter a role name.  
+- P103B02018: The role name has been used, please enter another name.  
+- P103B02019: Cannot delete {0}. It is a system predefined role.  
+- P103B02020: Cannot delete this role. It is already assigned to users.  
+- P103B02021: Invalid authorization item name: {0}  
+- P103B10000: You cannot unlock yourself  
+- P103B10001: You cannot lock yourself  
+- P103B10002: You cannot change yourself to normal user  
+- P103B10003: You cannot change yourself to key user  
+- P103B10004: You cannot view restricted price lists  
+- P103B10005: You are not authorized to change user permissions  
+- P103B10006: Permission item index "{0}" is invalid  
+- P103B10007: Permission argument is invalid  
+- P103B10008: You are not authorized to create users  
+- P103B10009: Cannot create user due to an unexpected error. Report error?  
+- P103B10010: Enter an email address  
+- P103B10011: Email address is invalid  
+- P103B10012: An account already exists for this email address. To reset your password, choose the “Forgot you password” link.  
+- P103B10013: You are not authorized to change user details  
+- P103B10014: Cannot update user due to an unexpected error. Report error?  
+- P103B10015: You cannot delete yourself  
+- P103B10016: You are not authorized to delete users  
+- P103B10017: Cannot delete user due to an unexpected error. Report error?  
+- P103B10018: Phone number {0} is invalid  
+- P103B10019: User {0} does not exist  
+- P103B10020: Business object identifier "{0}.{1}" is invalid  
+- P103B10021: Enter a valid password  
+- P103B10022: You are not authorized to change user passwords  
+- P103B10024: Enter a new password  
+- P103B10025: Enter the current password  
+- P103B10026: Your new password must not be the same as your current one  
+- P103B10027: Email Address {0} already exists.  
+- P103B10028: Current password is incorrect  
+- P103B10029: Invoke by createUserEmployee function to create user.  
+- P103B10030: Invoke by checkedUpdate function to update user info.  
+- P103B10031: No method available in property: {0}.  
+- P103B10032: Failed to get property: {0}.  
+- P103B10033: Business object entity key is null.  
+- P103B10034: Image upload failed.  
+- P103B10035: Attachment not found.  
+- P103B10036: Queue server is unavailable, please contact system administrator  
+- P103B10037: Cannot upload the template. Please make sure the file format is XLS and that content within the template is correct.  
+- P103B10038: File conversion failed, please contact system administrator  
+- P103B10039: Invalid setting for the manager. Please check.  
+- P103B10040: Cannot set this user as technical support user because the maximum number of technical support users has been reached.  
+- P103B10041: There must be at least one technical support user in the system. You must assign another user as technical support before removing this one.  
+- P103B20000: Invalid action  
+- P103B20001: Invalid input  
+- P103B20002: Local currency is not existing.  
+- P103B30000: Activity does not exist  
+- P103B30001: Status is invalid  
+- P103B30002: One or more mandatory fields are missing required information.  
+- P103B30003: One or more mandatory fields are missing required information.  
+- P103B30004: One or more mandatory fields are missing required information.  
+- P103B30005: User does not exist  
+- P103B30006: No permission to read  
+- P103B30007: No permission to write  
+- P103B30008: You cannot delete approval activities  
+- P103B30009: You cannot change the activity status  
+- P103B30010: You cannot change completed activities  
+- P103B30011: You cannot change the activity status  
+- P103B30012: You cannot approve or reject this activity  
+- P103B30013: You are not authorized to change the approval status  
+- P103B30014: Document type is invalid  
+- P103B30015: Business object not found  
+- P103B30016: Attachment does not exist  
+- P103B30017: Cannot create approval due to an unexpected error. Please try again.  
+- P103B30018: You cannot reopen approval activities  
+- P103B30019: Activity is already open  
+- P103B30020: {0} was sent to you for approval  
+- P103B30021: {1} assigned a {0} to you.  
+- P103B30022: {1} updated a {0}.  
+- P103B30023: A {1} for {0} was changed by {2}.  
+- P103B30024: A {1} for {0} was created by {2}.  
+- P103B30025: A {1} for {0} was deleted by {2}.  
+- P103B30026: {1} has approved a {0}.  
+- P103B30027: {1} has rejected a {0}.  
+- P103B30028: {1} has completed a {0}.  
+- P103B30029: A {1} for {0} has been completed by {2}.  
+- P103B30030: A {1} for {0} was reopened by {2}.  
+- P103B30031: A {1} for {0} has been approved by {2}.  
+- P103B30032: A {1} for {0} has been rejected by {2}.  
+- P103B30033: {1} reopened a {0}.  
+- P103B30034: You have already sent an authorization request. Please wait for approval  
+- P103B30035: {0} sent you a {1} for authorization approval  
+- P103B30036: {0} has granted you full access to {1}  
+- P103B30037: {0} has granted you read-only access to {1}  
+- P103B30038: {0} has rejected your request for accessing to {1}  
+- P103B30039: description  
+- P103B30040: You cannot attach an empty file  
+- P103B30041: Text  
+- P103B30042: Activity {0} is invalid  
+- P103B30043: A {1} for {0} was changed by {2}.  
+- P103B30044: A {1} for {0} was created by {2}.  
+- P103B30045: A {1} for {0} was deleted by {2}.  
+- P103B30046: User "{0}" is invalid  
+- P103B30047: {0} requests approval for {1} worth {2}  
+- P103B30048: Invalid action for this type of activity.  
+- P103B40001: The ContactPerson is invalid  
+- P103B50001: Attachment Upload Failed.  
+- P103B50002: Attachment Download Failed.  
+- P103B50003: Not Authorized to delete or update Attachment.  
+- P103B50004: Not Authorized to Create or Add Attachment.  
+- P103B50005: Not Authorized to Read Attachment.  
+- P103B60001: Taobao integration already active.  
+- P103B60002: Taobao integration already inactive.  
+- P103B60003: Taobao login failed: {0}.  
+- P103B60004: Do OAuth with Taobao first.  
+- P103B60005: SKU ID {0} is invalid. Product ID {0} is invalid.  
+- P103B60006: SKU ID {0} is invalid.  
+- P103B60007: Refresh token is expired.  
+- P103B60008: No RMB currency.  
+- P103B60009: Product code cannot be empty.  
+- P103B60010: Product code {0} is invalid.  
+- P103B60011: Products were delivered from Taobao, you need create an order and deliver it manually.  
+- P103B60012: Invalid channel type for Taobao Channel. Only Taobao or Tmall is valid.  
+- P103B60013: This trade has already been generated a Sales Order.  
+- P103B60014: Sales order {0} is invalid.  
+- P103B60015: Sales order {0} is already related to external order {1}.  
+- P103B60016: Cannot relate return order to trade.  
+- P103B70001: Quantity cannot be 0.  
+- P103B70002: Unit price cannot be 0.  
+- P103B70003: Insuffient stock  
+- P103B70004: Warehouse cannot be empty for products in stock-allocated status.  
+- P103B70005: You cannot change the price for products in stock-allocated status.  
+- P103B70006: You cannot change the quantity for products in stock-allocated status.  
+- P103B70007: You cannot change the warehouse for products in stock-allocated status.  
+- P103B70008: Invalid channel  
+- P103B70009: Failed to initial default values  
+- P103B70112: Discount percentage cannot be greater than 100%.  
+- P103B70113: Unit price cannot be less than 0.  
+- P103B70121: The signs (plus/minus) of quantity and gross total are different.  
+- P103B90001: content is limited 140 characters, when the note has an attachment  
+- P103B93125: Cannot create user due to maximum number of users exceeded.  
+- P103S10023: Failed to change password as the application has encountered an error. We are aware of the error and already working on a resolution.  
+- P134B7035: Failed to add domain. It duplicates with an existing domain.  
+- P134B7048: The uploaded certificate is invalid, or does not match your domain.  
+- P149B02001: Receipt quantity must be greater than 0.  
+- P149B02002: You cannot delete inventory receipts.  
+- P149B02021: Line {0}: Quantity must be greater than 0.  
+- P149B02022: Line {0}: Quantity cannot exceed the in-stock quantity.  
+- P149B02023: You cannot delete inventory issues.  
+- P149B02026: This warehouse is currently inactive. To continue, please activate the warehouse.  
+- P149B02027: This product is a non-inventory product.  
+- P149B02028: Warehouse must be blank when it is a dropship order.  
+- P149B02029: Please specify a warehouse when it is not a dropship order.  
+- P149B02041: Counted quantity cannot be less than 0.  
+- P149B02042: SKU {0} has been entered more than once.  
+- P149B02043: Specified SKU not found. Please enter a valid SKU.  
+- P149B02044: Specified warehouse not found. Please enter a valid warehouse.  
+- P149B02045: Please add products.  
+- P149B02046: You cannot delete inventory counts.  
+- P149B02047: Line {0}: Counted quantity is mandatory.  
+- P149B02048: Line {0} Batch number {1} is duplicated.  
+- P149B02049: Invalid batch number. The batch number is empty, or non-existent, or not associated with SKU "{0}".   
+- P149B02050: You cannot confirm counting, because it has already been closed or cancelled.  
+- P149B02051: You cannot cancel counting, because it has already been closed or cancelled.   
+- P149B02061: Line {0}: Quantity must be greater than 0.  
+- P149B02062: Specified product not found. Please enter a valid product.  
+- P149B02063: Product %{0}% has been entered more than once.  
+- P149B02064: Specified warehouse not found. Please enter a valid warehouse.  
+- P149B02065: You cannot delete inventory opening balances.  
+- P149B02066: Line {0}: All batch quantities should have the same sign (plus/minus).  
+- P149B02067: Line {0}: Duplicated product found in existing opening balances  
+- P149B02068: Line {0}: Unit price cannot be less than 0.  
+- P149B02081: Warehouse cannot be null or from-warehouse and to-warehouse cannot be the same.  
+- P149B02082: Line {0}: Transfer-out quantity must be greater than 0.  
+- P149B02083: Line {0}: Quantity cannot exceed the in-stock quantity.  
+- P149B02084: Specified warehouse not found. Please enter a valid warehouse.  
+- P149B02085: Specified SKU not found. Please enter a valid SKU.  
+- P149B02086: You cannot delete inventory transfers.  
+- P149B02087: Transfer-in time cannot be earlier than transfer-out time.  
+- P149B02088: Line {0}: Transfer-in quantity must be greater than 0.  
+- P149B02089: Line {0}: Transfer-in quantity cannot be greater than transfer-out quantity.  
+- P149B02090: Pleae enter the transfer-out time.  
+- P149B02141: You cannot deactivate this warehouse as the amount of inventory is greater than 0.  
+- P149B02144: You cannot change the status of a warehouse once it is used in channels.  
+- P149B02145: You cannot delete warehouses.  
+- P149B02146: Please enter a warehouse code.  
+- P149B02147: Please enter a warehouse name.  
+- P149B02148: You cannot update the warehouse code as it already exists.  
+- P149B02149: Duplicated operator found. Please choose another.  
+- P149B02161: Quantity must be greater than 0.  
+- P149B02162: You cannot update the inventory log.  
+- P149B02163: You cannot delete the inventory log.  
+- P149B02182: Inventory UoM used in current document is inconsistent with the one specified in product master data. Please select the product again.  
+- P149B02183: Invalid product. Please enter a valid one.  
+- P149B02184: Invalid warehouse. Please enter a valid one.  
+- P149B02185: Failed to update inventory information  
+- P149B02186: SKU {0}: In-stock quantity cannot be less than 0.  
+- P149B02187: Invalid accumulator type  
+- P149B02188: Allocated quantity cannot be less than 0.  
+- P149B02189: Purchased quantity cannot be less than 0.  
+- P149B02190: Failed to update inventory info  
+- P149B02191: SKU {0}: In-stock quantity cannot be less than the allocated quantity.  
+- P149B02192: SKU {0}: Committed quantity cannot be less than the allocated quantity.  
+- P149B02193: SKU {0}: Committed quantity cannot be less than 0.  
+- P149B02194: Invalid action type  
+- P149B02195: Initializing inventory cost...Please try again later.  
+- P149B02223: Length unit ID {0} is invalid.  
+- P149B02224: Weight unit ID {0} is invalid.  
+- P149B02225: Unit size must greater than 0.  
+- P149B02241: Please add at least one product.  
+- P149B02242: Quantity of the batch number must be greater than 0.  
+- P149B02250: Please specify a bundle product.  
+- P149B02251: Please add component products.  
+- P149B02252: You cannot delete assembly orders.  
+- P149B02253: Please add products.  
+- P149B02254: Quantity to assemble must be greater than 0.  
+- P149B02255: Line {0}:Quantity must be less than in-stock quantity.  
+- P149B02256: You cannot create or cancel the assembly order as it is already closed or canceled.  
+- P149B02257: Component products in current assembly order are inconsistent wit the component products in product master data.  
+- P149B02258: Cannot disassemble. The in-stock quantity of the bundle products is insufficient.  
+- P149B02259: Line {0}: Quantity must be greater than 0.  
+- P149B02260: Line {0}: Quantity can not be empty.  
+- P149B02300: Total batch quantity does not match the line quantity.  
+- P149B02301: Please enter the batch number.  
+- P149B02302: Batch number {0} does not exist.  
+- P149B02303: Batch number {0} is not assigned to SKU {1}.  
+- P149B02304: Duplicate batch numbers found. SKU name: {0}.  
+- P149B02305: Please enter all the batches with non-zero in-stock quantities. SKU name: {0}.  
+- P149B02306: Specified quantity for batch "{0}" exceeds the in-stock quantity.  
+- P149B02310: You cannot update the product after a batch number is assigned to it.  
+- P149B02311: Duplicate batch numbers are assigned to one SKU.  
+- P149B02312: Expiry date must be later than creation date.  
+- P149B02313: Please enter a product managed by batch.  
+- P149B02317: You cannot delete inventory revaluation documents.  
+- P149B02318: Line {0}: Please enter the new cost.  
+- P149B02319: Line {0}: New cost cannot be negative.  
+- P149B02320: Line {0}: You cannot create the inventory revaluation document as the in-stock quantitiy of this product is negative.  
+- P149B02330: Sales order can not be null.  
+- P149B02331: Purchase order line can not be null.  
+- P149B02332: Corresponding sales delivery line has been created.  
+- P149B02333: Corresponding line is not closed or canceled.  
+- P149B02334: The customer is referred by SalesDelivery/SalesReturn.  
+- P149B02335: The SKU is referred by inventory documents or serial/batch numbers.  
+- P149B02336: {0}  
+- P149C02300: Total serial quantity does not match the line quantity.  
+- P149C02302: Line {0}: SKU {1} line contains null serial number.  
+- P149C02303: Line {0}: Serial number {1} does not belong to SKU {2}.  
+- P149C02304: Line {0}: You do not assign serials for SKU {1}.  
+- P149C02305: You do not assign serials for SKU {0}.  
+- P149C02309: Line {0}: Duplicated serial number {1} found on SKU {2} line.  
+- P149C02310: Serial number {0} already exists in warehouse {1}.  
+- P149C02311: Serial number {0} does not have stock.  
+- P149C02313: Please enter a serial product.  
+- P149C02314: Duplicate serial numbers are assigned to one SKU.  
+- P149C02315: You cannot update the product after a serial number is assigned to it.  
+- P149C02319: This document type does not support serial managed products. Will support in following releases.  
+- P150B00001: Default channel must be active.  
+- P150B00002: Cannot add warehouse. The same warehouse already exists: {0}  
+- P150B00003: Cannot add warehouse. This warehouse is inactive or does not exist: {0}  
+- P150B00004: Please add at least one warehouse.  
+- P150B00005: Cannot add payment method. The same payment method already exists: {0}  
+- P150B00006: You cannot create or update predefined channel types.  
+- P150B00007: You cannot delete predefined channel types.  
+- P150B00008: Specified currency is inconsistent with the currency in company profile.  
+- P150B00009: Specified pricing method is inconsistent with the pricing method in company profile.  
+- P150B00010: Specified currency is inconsistent with the currency for the sales price list of this channel.  
+- P150B00011: The pricing method of the sales price list is inconsistent with that of the channel.  
+- P150B00012: Standard price list must be system's standard price list.  
+- P150B00013: Sales price list must be system's sales price list.  
+- P150B00014: Pricing method must be either net or gross.  
+- P150B00015: You cannot change the currency once you add the channel.  
+- P150B00016: You cannot change the pricing method once the channel is added.  
+- P150B00018: Shopping cart update precision must be minute/hour/day/week.  
+- P150B00019: You cannot send email reminders to customers who abandon their shopping carts for less than {0} minutes.  
+- P150B00020: Currency ID {0} is invalid.  
+- P150B00021: Currency ID List is empty.  
+- P150B00022: Must select a currency for this channel.  
+- P150B00023: Channel ID {0} is invalid.  
+- P150B00024: The default channel already exists.  
+- P150B00025: Please select a channel currency.  
+- P150B00026: The currency and the price list currency do not match.  
+- P150B00027: The currency is not the local currency.  
+- P150B00028: You cannot set an inactive channel as the default channel.  
+- P150B00030: The domain has already been used. Please use another.  
+- P150B00031: Address is required.  
+- P150B00032: Please add at least one warehouse.  
+- P150B00033: Invalid domain name. Please enter domain name using letters and numbers only, and no longer than 63 characters.  
+- P150B00034: You must choose at least one currency.  
+- P150B00035: You cannot deactivate the channel. It is the last active channel.  
+- P150B00036: Failed to add domain. Please check your certificate files.  
+- P150B00037: Invalid domain name. Please enter another.  
+- P150B00038: You must upload domain certificate files.  
+- P150B00039: You must not remove the default domain or update its certificates.  
+- P150B00040: The domain you want to remove does not exist.  
+- P150B00041: You cannot choose the corporate customer. The target customers for the physical store channel are individual customers.  
+- P150B00042: You must choose at least one ship-to country/region.  
+- P150B00050: You cannot deactivate the default channel.  
+- P150B00051: Cannot create online store due to technical issues. The number of stores created has reached the upper limit. For details, please contact your administrator.  
+- P150B00052: Please select an owner for the channel.  
+- P150B00053: Please select a marketplace.  
+- P150B00054: Please select a currency.  
+- P150B00055: You cannot change the marketplace of an existing channel.  
+- P150B00056: You cannot change the product listing method.  
+- P150B00057: The external order ID cannot be empty.  
+- P150B00058: You must choose at least one pickup store, or disable Pickup in Store.  
+- P150B00060: All currencies assoicated with the channel are inactive. Please activate as least one of them.  
+- P150B00061: Checkout without account cannot be enabled in B2B online stores.  
+- P150B00070: You cannot delete the {0} as it is already in use.  
+- P150B00100: Cannot load sales order.  
+- P150B00101: Source sales order is not specified.  
+- P150B00102: You can only copy the open and unpaid invoices.  
+- P150B00103: Please check the document status and the payment status.  
+- P150B00104: Please check the document status and the payment status.  
+- P150B00105: Please specify a payment method.  
+- P150B00106: Paid amount cannot exceed gross total.  
+- P150B00107: The amount cannceled must be greater than 0.  
+- P150B00108: The amount cannceled cannot exceed paid amount.  
+- P150B00109: The document is not paid yet.  
+- P150B00110: Un-invoiced order lines exist.  
+- P150B00111: The document's payment status is invalid.  
+- P150B00112: Paid amount must be greater than 0.  
+- P150B00113: Creation time and posting time cannot be later than due time.  
+- P150B00114: Cannot load invoice  
+- P150B00115: Selected documents must share the same customer.  
+- P150B00116: Selected documents must share the same currency.  
+- P150B00117: Cannot load credit memo  
+- P150B00118: Source document not specified  
+- P150B00119: Cannot load source document  
+- P150B00120: Cannot create this document directly  
+- P150B00121: Cannot load invoice line  
+- P150B00122: Copy paramter is null.  
+- P150B00123: Please specify a customer.  
+- P150B00124: Please specify a currency.  
+- P150B00125: Failed to create invoices for returned products  
+- P150B00126: There are no products or shipping costs to create invoices for.  
+- P150B00127: Please specify the local currency.  
+- P150B00128: Invalid invoice status  
+- P150B00129: Amount due must be equal to gross total in unpaid invoice.  
+- P150B00130: Paid amount cannot be greater than gross total in partially paid invoice.  
+- P150B00131: Paid amount must be equal to gross total in fully-paid invoice.  
+- P150B00132: Credit memos are not supported.  
+- P150B00133: Please input an exchange rate here or in business settings.  
+- P150B00134: Order line "{0}" has never been invoiced before.  
+- P150B00135: Cannot cancel the document. You can only cancel open and unpaid invoices and credit memos.  
+- P150B00136: Selected documents should share the same pricing method.  
+- P150B00137: Please specify a pricing method.  
+- P150B00138: Invalid address change  
+- P150B00139: There are no returned products to create credit memos for.  
+- P150B00140: Selected documents should share the same sales channel.  
+- P150B00141: Please specify a sales channel.  
+- P150B00142: Only orders from the general channel can be partially invoiced.  
+- P150B00143: Cannot generate invoice/credit memo for multiple orders that are not from the general channel.  
+- P152B02001: Line {0}: Quantity must be greater than 0.  
+- P152B02002: Cannot change property '{0}'.  
+- P152B02004: You cannot delete purchase receipts.  
+- P152B02005: Specified purchase order not found. Please enter a valid purchase order.  
+- P152B02006: Line {0}: Quantity must be greater than 0.  
+- P152B02007: Line {0}: Received quantity cannot exceed requested quantity.  
+- P152B02008: Invalid input parameter  
+- P152B02009: You cannot update the line information after creating a purchase receipt.  
+- P152B02010: You cannot create purchase receipts based on unapproved purchase orders.  
+- P152B02011: Please enter a vendor.  
+- P152B02012: Cannot choose inactive vendors. Please activate the vendor in Master Data - Vendors.  
+- P152B02013: Line {0}: Batch quantity must be greater than 0.  
+- P152B02014: Line {0}: Received quantity cannot be less than the unreceived quantity in the purchase order generated from sales orders.  
+- P152B02015: You cannot manually create purchase receipts when inventory cost is enabled.  
+- P152B02016: You cannot manually create purchase returns when inventory cost is enabled.  
+- P152B02017: Purchase receipts info cannot be null.  
+- P152B02021: Please add products.  
+- P152B02022: Line {0}: Quantity must be greater than 0.  
+- P152B02023: Line {0}: Net price cannot be less than 0.  
+- P152B02024: Line {0}: Gross price cannot be less than 0.  
+- P152B02025: Line {0}: Requested quantity cannot be less than received quantity.  
+- P152B02026: You cannot update source.  
+- P152B02027: You cannot update the warehouse property when the document is in process.  
+- P152B02028: You cannot update property '%x' when the status is closed or canceled.  
+- P152B02030: Status change invalid  
+- P152B02031: You cannot update product information. There are existing purchase receipts related to this product.  
+- P152B02032: You cannot generate purchase receipt. This purchase order must be approved first.  
+- P152B02033: You cannot edit properties as this purchase order is generated from sales orders.  
+- P152B02034: You cannot update the document as it is closed or canceled.  
+- P152B02035: You cannot add new lines manually when the document is generated from a sales order.  
+- P152B02036: You cannot change existing lines when the document is generated from a sales order.  
+- P152B02037: You cannot change the quantity together with other properties.  
+- P152B02038: You cannot update the product and corresponding warehouse. There are existing purchase receipts related to this product.  
+- P152B02039: Received quantity cannot exceed requested quantity.  
+- P152B02040: Net price and quantity cannot be less than 0.  
+- P152B02041: Gross price and quantity cannot be less than 0.  
+- P152B02042: Specified warehouse not found. Please enter a valid warehouse.  
+- P152B02043: This warehouse is currently inactive. To continue, please activate the warehouse.  
+- P152B02044: This product is a non-inventory product.  
+- P152B02045: You cannot cancel this purchase order as there are exisiting purchase receipts based on it.  
+- P152B02046: Specified sales order not found. Please enter a valid sales order.  
+- P152B02047: You cannot add new lines manually when the document is generated from a sales order.  
+- P152B02048: Property '{0}' cannot be changed when the purchase order is generated from a sales order.  
+- P152B02050: You cannot cancel the document as it is already been canceled or closed.  
+- P152B02051: You cannot close the document as the purchase order is not approved yet.  
+- P152B02052: You cannot close the document as the purchase order is not approved yet.  
+- P152B02053: You cannot close the purchase order as it is generated from a sales order.  
+- P152B02054: Invalid sales order line ID  
+- P152B02055: You cannot add or delete a line as this document is already closed or canceled.  
+- P152B02056: Specified vendor is inactive. Please activate the vendor first.  
+- P152B02057: You cannot delete current product line as related purchase receipts already exist.  
+- P152B02058: You cannot generate purchase orders as the ordered products have already been allocated to warehouses.  
+- P152B02061: Line {0}: Quantity must be greater than 0.  
+- P152B02062: Line {0}: Quantity cannot exceed in-stock quantity.  
+- P152B02063: You cannot delete purchase returns.  
+- P152B02064: Specified purchase return not found. Please enter a valid purchase return.  
+- P152B02065: Line {0}: Quantity must be greater than 0.  
+- P152B02066: Line {0}: Returned quantity cannot exceed received quantity.  
+- P152B02067: Invalid input parameter  
+- P152B02068: Specified vendor is inactive. Please activate the vendor first.  
+- P152B02079: You cannot generate purchase orders. Please check that the logistic statuses of all selected sales order lines are "ordered".  
+- P152B02080: You cannot generate purchase orders. Please enter related sales order information first.  
+- P152B02081: You cannot generate purchase orders. Please select source sales orders first.  
+- P152B02082: Specified warehouse ID not found. Please enter a valid one.  
+- P152B02083: Specified vendor ID not found. Please enter a valid one.  
+- P152B02084: Ordered quantity must be greater than 0.  
+- P152B02085: Delivery date cannot be empty or earlier than current system date.  
+- P152B02086: Specified sales order ID or product line ID not found. Please enter a valid one.  
+- P152B02087: Specified SKU ID not found. Please enter a valid one.  
+- P152B02088: Specified Customer ID not found. Please enter a valid one.  
+- P152B02089: Specified shipping address not found. Please enter a valid one.  
+- P152B02090: You cannot update the vendor as related purchase receipts already exist.  
+- P152B02091: You cannot change the pricing method when the pricing method specified in sales pricing settings is not "Net & Gross".  
+- P152B02092: You cannot reopen the purchase order as it is generated from a sales order.  
+- P152B02093: You cannot change the purchasing UoM as the product's UoM group is "Manual".  
+- P152B02094: You cannot change the purchasing UoM as related purchase receipts already exist.  
+- P152B02095: You cannot change the purchasing price as related purchase receipts already exist.  
+- P152B02101: You cannot generate purchase receipt. Selected purchase orders must share the same vendor.  
+- P152B02102: You cannot generate purchase receipt. Selected purchase orders must share the same warehouse.  
+- P152B02103: You cannot generate purchase receipt. Selected purchase orders must share the same dropship type.  
+- P152B02104: You cannot generate purchase receipt. Selected purchase orders must share the same currency.  
+- P152B02105: You cannot generate purchase receipt. Selected purchase orders must share the same source.  
+- P152B02106: You cannot generate purchase receipt. Selected purchase orders must share the same billing address.  
+- P152B02107: You cannot generate purchase receipt. Selected purchase orders must share the same shipping address.  
+- P152B02108: Please select at least one purchase order.  
+- P152B02109: Order time cannot be later than the expected delivery time.  
+- P152B02110: Please specify a warehouse when it is not a dropship order.  
+- P152B02111: Warehouse must be blank when it is a dropship order.  
+- P152B02112: Line {0}: Dropship must be true.  
+- P152B02113: Line {0}: Dropship must be false.  
+- P152B02114: You cannot change the product as current purchase receipt is generated from a purchase order.  
+- P152B02115: Please select at least one purchase order with a product line not fully received.  
+- P152B03001: You cannot deactivate this vendor as it is the preferred vendor of certain products.  
+- P155B02001: You cannot update property  
+- P155B02002: after creation.  
+- P155B02003: You cannot add new lines after creation.  
+- P155B02004: You cannot remove lines after creation.  
+- P155B02005: You cannot update property {0} after creation.  
+- P181B00001: Cannot update pricing method.  
+- P181B00002: You cannot change the local currency as it has been changed once already.  
+- P181B00003: Cannot disable multiple currencies.  
+- P181B00004: Invalid parameter  
+- P181B00005: To disable this option, first fix cases where available-to-sell is negative.  
+- P181B00006: To disable this option, first fix cases where inventory is negative.  
+- P181B00007: You cannot change the exchange rate quotation as some of the foreign currencies are in use.  
+- P181B00008: Inventory cost calculation is only supported in China.  
+- P181B00010: You cannot disable the calculation of inventory estimated cost once it is enabled.  
+- P181B00011: TaaS is available in the US only.  
+- P181B00012: You can only choose 'shipping to' when using TaaS.  
+### <sapn id="employee">employee</span>
+- AUTH_B_20000: Invalid permission item name: {0}.  
+- AUTH_B_20002: Employee with id = {0} doesn't exist.  
+- AUTH_B_20003: The role name can't be empty.  
+- AUTH_B_20004: The value is invalid for parameter {0}.  
+- AUTH_B_20005: Invalid role id: {0}.  
+- AUTH_B_20007: The role is in use!  
+- P129B00024: Your account has been locked.  
+- P129B00029: You are not allowed to access this service. Make sure you are using the correct account and link.  
+- P168B00001: Invalid support request parameter.  
+- P168B000010: Input parameter is invalid.  
+- P168B000011: The support user {0} is already an available user.  
+- P168B000012: The support user {0} is not found.  
+- P168B000013: The support user {0} without available support request.  
+- P168B00002: Invalid support user email.  
+- P168B00003: You have already sent out a support invitation. Please wait till the invited support user contacts you.  
+- P168B00004: Only power users can send a support request.  
+- P168B00005: Only power users can terminate a support request.  
+- P168B00006: There is not an available user.  
+- P168B00007: The user {0} is not an available support user.  
+- P168B00008: Call bss to verify support user failure.  
+- P168B00009: Call idp to get user by email {0} failure.  
+- P200B00001: You are not authorized to create users.  
+- P200B00002: Email Address {0} already exists.  
+- P200B00003: Email address is invalid  
+- P200B00004: You cannot change yourself to key user  
+- P200B00005: You cannot lock yourself  
+- P200B00006: You cannot change yourself to normal user  
+- P200B00007: Invalid setting for the manager. Please check.  
+- P200B00008: Get bff url failure.  
+- P200B00009: Phone number {0} is invalid  
+- P200B00010: You cannot delete yourself  
+- P200B00011: Enter an email address  
+- P200B00012: Cannot set this user as technical support user because the maximum number of technical support users has been reached.  
+- P200B00013: There must be at least one technical support user in the system. You must assign another user as technical support before removing this one.  
+- P200B00014: The file is empty or does not exist in the specified location.  
+- P200B00015: Failed to upload the file. Please try again.  
+- P200B00016: Failed to download the file. Please try again.  
+- P200B00017: Cannot create user due to maximum number of users exceeded.  
+- P200B00018: You are not authorized to view this information  
+- P200B00019: User {0} does not exist  
+- P200B00020: You cannot unlock yourself  
+- P200B00021: Cannot set this user as technical support user because the technical support users must be key user.  
+- P200B00022: You are not authorized to change user details  
+- P200B00023: Service temporarily unavailable due to error while accessing dependent service {0}.  
+- P200B00024: Service temporarily unavailable due to calling access dependent service {0} timeout.  
+- P200B00025: The email address you entered is not unique, please enter another.  
+- P200B00026: You are not authorized to view this object.  
+- P200B00027: You are not allowed to remove this key user.There must be at least one key user in the system.  
+- P200B00028: The user name can't be empty.  
+### <sapn id="progress">progress</span>
+### <sapn id="email">email</span>
+- Email_ErrorCode_00000: Internal Service Error.  
+- Email_ErrorCode_00001: Not found email object.  
+- Email_ErrorCode_00002: The field 'from' can not be empty.  
+- Email_ErrorCode_00003: The field 'to' can not be empty.  
+- Email_ErrorCode_00004: The field 'subject' can not be empty.  
+- Email_ErrorCode_00005: The field 'body' can not be empty.  
+- Email_ErrorCode_00006: The field 'from' is not valid email format.  
+- Email_ErrorCode_00007: The field 'to' is not valid email format.  
+- Email_ErrorCode_00008: The field 'bcc' is not valid email format.  
+- Email_ErrorCode_00009: The size of attachment exceeds the threshold.  
+- Email_ErrorCode_00010: The type of attachment is invalid.  
+- Email_ErrorCode_00012: The field 'domain' is invalid.  
+- Email_ErrorCode_00100: Not found SMTP object.  
+- Email_ErrorCode_00101: System SMTP configuration not allow be deleted.  
+- Email_ErrorCode_00102: The field 'server' can not be empty.  
+- Email_ErrorCode_00103: The field 'default from' can not be empty.  
+- Email_ErrorCode_00104: The field 'default from' is not valid email format.  
+- Email_ErrorCode_00200: Push email message to rabbit mq failed.  
+- Email_ErrorCode_00201: Deserialize email failed.  
+### <sapn id="attachment">attachment</span>
+- P100B00002: Can not find this attachment  
+- P100B00003: Attachment do not existed  
+- P100B00004: No authorization to access this attachment  
+- P100B00005: File type invalid  
+- P100B00006: Empty upload file  
+- P100B00007: Scan virus failed  
+- P100B00009: Upload file failed  
+- P100B00011: Download file failed  
+- P100B00012: Make file public failed  
+- P100B00013: Make file private failed  
+- P100B00015: File size over size  
+- P100B00016: File name invalid  
+- P100B00017: File have virus  
+- P100B00019: Attachment RO do not existed  
+- P100B00020: Attachment compress failed  
+- P100B00021: Fail to access BSS service  
+- P100B00022: You have exceeded your storage limit of {0}GB by {1}KB. To continue, please increase your storage quota.  
+- P100B00025: Attachment RO already existed  
+- P100B00026: Attachment RO is not correct  
+- P100B00027: Get attachment quota failed  
+- P100B00028: No permission to get attachment quota  
+### <sapn id="product">product</span>
+- P150B70001: Quantity cannot be 0.  
+- P150B70002: Price cannot be 0.  
+- P150B70112: Discount cannot be greater than 100%.  
+- P150B70113: Unit price cannot be less than 0.  
+- P150B70121: The signs (plus/minus) of quantity and line total are different.  
+- P150B70163: You cannot trigger the approval process for an open order.  
+- P150B76033: Network connection failed while uploading images.  
+- P150B76034: Tax calculation failed as the tax service is temporarily unavailable. Please try again later.  
+- P150B76035: Failed to upload images due to network issues. Please try again later.  
+- P150B79356: You cannot change the codes of predefined delivery methods.  
+- P150B79357: You cannot change the codes of predefined payment types.  
+- P150BEM001: Internal Error: wrong message content or format. Please contact your system administrator.  
+- P150BEM002: Invalid source order information.  
+- P152B02001: Line {0}: Quantity must be greater than 0.  
+- P152B02002: Cannot change property '{0}'.  
+- P152B02004: You cannot delete purchase receipts.  
+- P152B02005: Specified purchase order not found. Please enter a valid purchase order.  
+- P152B02006: Line {0}: Quantity must be greater than 0.  
+- P152B02007: Line {0}: Received quantity cannot exceed requested quantity.  
+- P152B02008: Invalid input parameter  
+- P152B02009: You cannot update the line information after creating a purchase receipt.  
+- P152B02010: You cannot create purchase receipts based on unapproved purchase orders.  
+- P152B02011: Please enter a vendor.  
+- P152B02012: Cannot choose inactive vendors. Please activate the vendor in Master Data - Vendors.  
+- P152B02013: Line {0}: Batch quantity must be greater than 0.  
+- P152B02014: Line {0}: Received quantity cannot be less than the unreceived quantity in the purchase order generated from sales orders.  
+- P152B02015: You cannot manually create purchase receipts when inventory cost is enabled.  
+- P152B02016: You cannot manually create purchase returns when inventory cost is enabled.  
+- P152B02021: Please add products.  
+- P152B02022: Line {0}: Quantity must be greater than 0.  
+- P152B02023: Line {0}: Net price cannot be less than 0.  
+- P152B02024: Line {0}: Gross price cannot be less than 0.  
+- P152B02025: Line {0}: Requested quantity cannot be less than received quantity.  
+- P152B02026: You cannot update source.  
+- P152B02027: You cannot update the warehouse property when the document is in process.  
+- P152B02028: You cannot update property '%x' when the status is closed or canceled.  
+- P152B02030: Status change invalid  
+- P152B02031: You cannot update product information. There are existing purchase receipts related to this product.  
+- P152B02032: You cannot generate purchase receipt. This purchase order must be approved first.  
+- P152B02033: You cannot edit properties as this purchase order is generated from sales orders.  
+- P152B02034: You cannot update the document as it is closed or canceled.  
+- P152B02035: You cannot add new lines manually when the document is generated from a sales order.  
+- P152B02036: You cannot change existing lines when the document is generated from a sales order.  
+- P152B02037: You cannot change the quantity together with other properties.  
+- P152B02038: You cannot update the product and corresponding warehouse. There are existing purchase receipts related to this product.  
+- P152B02039: Received quantity cannot exceed requested quantity.  
+- P152B02040: Net price and quantity cannot be less than 0.  
+- P152B02041: Gross price and quantity cannot be less than 0.  
+- P152B02042: Specified warehouse not found. Please enter a valid warehouse.  
+- P152B02043: This warehouse is currently inactive. To continue, please activate the warehouse.  
+- P152B02044: This product is a non-inventory product.  
+- P152B02045: You cannot cancel this purchase order as there are exisiting purchase receipts based on it.  
+- P152B02046: Specified sales order not found. Please enter a valid sales order.  
+- P152B02047: You cannot add new lines manually when the document is generated from a sales order.  
+- P152B02048: Property '{0}' cannot be changed when the purchase order is generated from a sales order.  
+- P152B02050: You cannot cancel the document as it is already been canceled or closed.  
+- P152B02051: You cannot close the document as the purchase order is not approved yet.  
+- P152B02052: You cannot close the document as the purchase order is not approved yet.  
+- P152B02053: You cannot close the purchase order as it is generated from a sales order.  
+- P152B02054: Invalid sales order line ID  
+- P152B02055: You cannot add or delete a line as this document is already closed or canceled.  
+- P152B02056: Specified vendor is inactive. Please activate the vendor first.  
+- P152B02057: You cannot delete current product line as related purchase receipts already exist.  
+- P152B02058: You cannot generate purchase orders as the ordered products have already been allocated to warehouses.  
+- P152B02061: Line {0}: Quantity must be greater than 0.  
+- P152B02062: Line {0}: Quantity cannot exceed in-stock quantity.  
+- P152B02063: You cannot delete purchase returns.  
+- P152B02064: Specified purchase return not found. Please enter a valid purchase return.  
+- P152B02065: Line {0}: Quantity must be greater than 0.  
+- P152B02066: Line {0}: Returned quantity cannot exceed received quantity.  
+- P152B02067: Invalid input parameter  
+- P152B02068: Specified vendor is inactive. Please activate the vendor first.  
+- P152B02079: You cannot generate purchase orders. Please check that the logistic statuses of all selected sales order lines are "ordered".  
+- P152B02080: You cannot generate purchase orders. Please enter related sales order information first.  
+- P152B02081: You cannot generate purchase orders. Please select source sales orders first.  
+- P152B02082: Specified warehouse ID not found. Please enter a valid one.  
+- P152B02083: Specified vendor ID not found. Please enter a valid one.  
+- P152B02084: Ordered quantity must be greater than 0.  
+- P152B02085: Delivery date cannot be empty or earlier than current system date.  
+- P152B02086: Specified sales order ID or product line ID not found. Please enter a valid one.  
+- P152B02087: Specified SKU ID not found. Please enter a valid one.  
+- P152B02088: Specified Customer ID not found. Please enter a valid one.  
+- P152B02089: Specified shipping address not found. Please enter a valid one.  
+- P152B02090: You cannot update the vendor as related purchase receipts already exist.  
+- P152B02091: You cannot change the pricing method when the pricing method specified in sales pricing settings is not "Net & Gross".  
+- P152B02092: You cannot reopen the purchase order as it is generated from a sales order.  
+- P152B02093: You cannot change the purchasing UoM as the product's UoM group is "Manual".  
+- P152B02094: You cannot change the purchasing UoM as related purchase receipts already exist.  
+- P152B02095: You cannot change the purchasing price as related purchase receipts already exist.  
+- P152B02101: You cannot generate purchase receipt. Selected purchase orders must share the same vendor.  
+- P152B02102: You cannot generate purchase receipt. Selected purchase orders must share the same warehouse.  
+- P152B02103: You cannot generate purchase receipt. Selected purchase orders must share the same dropship type.  
+- P152B02104: You cannot generate purchase receipt. Selected purchase orders must share the same currency.  
+- P152B02105: You cannot generate purchase receipt. Selected purchase orders must share the same source.  
+- P152B02106: You cannot generate purchase receipt. Selected purchase orders must share the same billing address.  
+- P152B02107: You cannot generate purchase receipt. Selected purchase orders must share the same shipping address.  
+- P152B02108: Please select at least one purchase order.  
+- P152B02109: Order time cannot be later than the expected delivery time.  
+- P152B02110: Please specify a warehouse when it is not a dropship order.  
+- P152B02111: Warehouse must be blank when it is a dropship order.  
+- P152B02112: Line {0}: Dropship must be true.  
+- P152B02113: Line {0}: Dropship must be false.  
+- P152B02114: You cannot change the product as current purchase receipt is generated from a purchase order.  
+- P152B03001: You cannot deactivate this vendor as it is the preferred vendor of certain products.  
+- P161B10001: Please enter a positive number.  
+- P161B10002: Please enter a positive number.  
+- P161B10003: You cannot set inactive payment terms as the system default.  
+- P161B10005: You cannot deselect the "System Default"checkbox. To make this payment term differ from the system default, you must set another as the system default.  
+- P161B10006: You cannot deactivate the payment term as it is set as system default. To inactivate it, set another payment term as the system default first.  
+- P1705130700: The price of this catalog line cannot be less than zero.  
+- P1705130701: The combination of sku and uom in this line cannot be same with the existed catalog lines.  
+- P1705130702: The sku cannot be empty of the catalog lines.  
+- P1705130703: The uom cannot be empty of the catalog lines.  
+- P1707250929: You cannot delete the SKU as it is already used in {0}.  
+- P1707250930: You cannot delete the SKU as it is already listed in one or more sales channel.  
+- P179B00001: This product tax class already exists.  
+- P198810061: Please enter a product ID.  
+- P198810062: You must delete all subcategories before linking products.  
+- P198810063: Invalid circular reference.  
+- P198810064: You must remove all linked products before creating a subcategory.  
+- P198810065: You cannot remove this category as it has already been linked to service cases.  
+- P198812200: You cannot delete the stamp as it has already been used.  
+- P198812201: You cannot reset SKUs as they are already in use.  
+- P198812202: You cannot reset SKUs as they are already in use.  
+- P198812203: The product does not exist.  
+- P198812204: You cannot disable Inventory Tracking as the product is already in use in Inventory or Logistics.  
+- P198812205: You cannot create SKUs as the product is already in use in Inventory or Logistics.  
+- P198812206: You cannot create SKUs as the product is already listed in one or more channels.  
+- P198812207: You cannot delete this SKU as it is already listed in one or more channels.  
+- P198812208: You cannot delete the manufacturer as it is already in use in products.  
+- P198812209: You cannot delete the brand as it is already in use in products.  
+- P198812210: Cannot enable bundle product. Please disable SKU and enable inventory tracking first.  
+- P198812211: You must enable Inventory Tracking first.  
+- P198812212: You cannot add the product itself to the bundle.  
+- P198812213: There are invalid product codes for bundle components.  
+- P198812214: Code {0} not found in the system.  
+- P198812221: You cannot delete this SKU as it has been used in Inventory or Logistics.  
+- P198812230: Cannot delete SKU as it has already been listed in one or more channels.  
+- P198812300: You cannot set SKU as active when the product containing that SKU is inactive.  
+- P198812301: This variant value already exists.  
+- P198812302: You cannot delete variant value as it is already in use in SKUs.  
+- P198812303: The variant or the variant value you chose has just been deleted. Please choose or add a new one.  
+- P198812304: The purchase price cannot be negative.  
+- P198812305: The variant value already exists in the product.  
+- P198812306: The variant name already exists.  
+- P198812307: This variant code already exists.  
+- P198812308: This variant code can not be empty.  
+- P198812309: This variant value can not be empty.  
+- P198831012: You cannot reset the SKUs as they are already in use in one or more bundle products.  
+- P198831013: You cannot delete the SKUs as they are already in use in one or more bundle products.  
+- P2014122401: Please delist SKUs from channels before changing their status to inactive.  
+- P2014122402: Please delist SKUs from channels before changing the status to inactive.  
+- P2014122403: Please delist SKUs from channels before changing the product code.  
+- P2014122404: Please choose a price list or a currency.  
+- P2014122405: Please enter a price.  
+- P2014122406: The SKU variant value already exists.  
+- P2014122407: SKU variant value is not the same as that of the product.  
+- P2014122408: Please choose one or more variant values.  
+- P2014122409: You cannot set SKUs as inactive as some of them are already in use in Inventory or Logistics.  
+- P2014122410: You cannot change the product code as some of SKUs are already in use in Inventory or Logistics.  
+- P2014122411: Please remove product from channels before setting the product as inactive.  
+- P2014122412: Please remove product from channels before changing Product Code.  
+- P2014122413: You cannot change the product code as the product has been used in Inventory or Logistics.  
+- P2014122414: You cannot change the product status to inactive as the product is already in use in Inventory or Logistics.  
+- P2014122415: This SKU code already exists.  
+- P2014122416: SKU code can not be empty.  
+- P2014122417: These SKU barcodes: {0} already exist in SKUs: {1}  
+- P2014122418: SKU code {0} does not exist.  
+- P2014122577: Standard price list dos not exist in the system.  
+- P2014122578: Cannot save or update the price. The standard price with the condition(SKU:{0}, Currency:{1}, isNet:{2}) does not exist.  
+- P2015040201: The price({0}) must not be negative.  
+- P2015042401: You cannot enable SKUs as you have enabled bundle product.  
+- P2015042402: Quantity per bundle must be larger than 0.  
+- P2015042403: You cannot disable Inventory Tracking as you have enabled bundle product.  
+- P2015070601: The product {0} that contains the SKU {1} is not Inventory Tracking enabled.  
+- P2015070602: You cannot disable Inventory Tracking as some of the SKUs of this product are linked to bundle products.  
+- P2015070603: The product {0} that contains the SKU {1} is not active.  
+- P2015080417: You cannot change the UoM group to none as the product has already been referenced.  
+- P2015080418: You cannot change the UoM group to another with a different base UoM, as the product has already been used in Inventory or Logistics.  
+- P2015080419: The default purchase UoM is not in the UoM group.  
+- P2015080420: Default sales UoM is not in the UoM group.  
+- P2015091801: Cannot be managed by batches as it is a bundle product.  
+- P2015091802: Cannot switch to None as batch numbers are maintained for this product.  
+- P2015091803: Cannot switch to batch management as it has been used in Inventory.  
+- P2015092101: Cannot switch to bundle product as it has been managed by batches.  
+- P2015092102: Shelf life must be within the date range of 1 to 99999.  
+- P2015092401: Cannot change the product code as it is already in use in Inventory.  
+- P2015101301: Cannot disable inventory tracking as you have enabled batch management for the product.  
+- P2015101601: Cannot change the product code as you have enabled batch management for some SKUs.  
+- P2015101602: Cannot change the product code as some of the SKUs are already used as bundle components.  
+- P2015102101: Category name already exists.  
+- P2015102102: The product category name that you fill in must be in the form of text. Also, you must start from level 1 and continue on in succession.  
+- P2015110201: Cannot enable SKUs as you have enabled batch management for the product.  
+- P2015110401: Cannot delete, or reset the SKU as you have enabled batch management for the product.  
+- P2015110501: Cannot enable batch management for the product as you need to enable inventory tracking for the product first.  
+- P2015112401: Code not found in the system.  
+- P2015112402: Code {0} not found in the system.  
+- P2015113001: SKU code in row {0} is invalid.  
+- P2015113002: Warehouse code in row {0} is invalid.  
+- P2015120101: Cannot enable SKU as you have enabled batch management for the product.  
+- P2015120201: SKU in row {0} does not belong to product {1}.  
+- P2015120301: Code in row {0} cannot be changed, as product {1} is single.  
+- P2015120901: Alert days must be between 1 and the shelf life days.  
+- P2015121001: Component product cannot be the same as the bundle product. Row number {0}.  
+- P2015121401: Product {0} cannot be used as bundle product because batch management is enabled for it.  
+- P2015121402: Product {0} cannot be used as bundle product or component product because it is inactive.  
+- P2015121403: Product {0} cannot be used as bundle product or component product because inventory tracking is disabled for it.  
+- P2015121601: UoM {0} is not purchase UoM.  
+- P2015121602: UoM {0} is not for sales UoM.  
+- P2015122801: You are not authorized to update product codes.  
+- P2015122802: You are not authorized to update sku codes.  
+- P201551501: Cannot print barcodes. The file exceeds the maximum size limit of 20 MB. Please try to reduce the number of SKUs included in the current print job if possible.  
+- P2015899001: Failed to upload the file to attachment service.  
+- P2015899002: Error occurred when reading the stream from the uploading file.  
+- P2015899003: File name can not be empty.  
+- P2015899004: Task is {0}, it can not be cancelled.  
+- P2015899005: Another task is running.  
+- P2015899006: Failed to start task.  
+- P2015899007: Attachment in vault image is empty.  
+- P2015899008: Product code does not exist.  
+- P2015899009: Variant name or variant value code does not exist.  
+- P2015899010: Current variant does not match the dominated variant.  
+- P2015899011: Can not find the task.  
+- P2016011801: Vendor is not active.  
+- P2016012201: Product code type and product code cannot be both empty.  
+- P2016030301: The same attribute value already exists.  
+- P2016042101: Cannot disable inventory tracking as min. inventory level has been set for the product.  
+- P2016090601: There are already some SKUs created, you cannot disable variant now.  
+- P2017010301: You cannot set reorder quantity for products that do not have inventory tracking enabled.  
+- P2017061410: The product deletion function is not accessible in trial systems. It will become available in your productive system.  
+- P2017061515: Deleting SKUs Failed.  
+- P2017070516: Cannot disable inventory tracking as you have enabled serial management for the product.  
+- P2017070517: Cannot be managed by serials as it is a bundle product.  
+- P2017070518: Cannot switch to serial management as it has been used in Inventory.  
+- P2017070519: Cannot enable serial management for the product as you need to enable inventory tracking for the product first.  
+- P2017070520: Cannot switch to None as serial numbers are maintained for this product.  
+- P2017070521: Cannot switch to serial management as batch numbers are maintained for this product.  
+- P2017070522: Cannot switch to batch management as serial numbers are maintained for this product.  
+- P2017081110: Reference check error when calling {0} with {1}.  
+- P2017081417: You are not authorized to perform this operation.  
+- P228812212: SKU {0} is already in use in orders: {1}  
+- P228812213: You cannot delete this SKU as it is already in use in one or more bundle products.  
+- P228812214: SKUs of Product {0} has already been used in orders: {1}  
+- P228812215: SKUs of Product {0} has already been used as a bundle component: {1}  
+- P228812216: You cannot enable SKUs for this product as it has been used as a component in one or more bundle products.  
+### <sapn id="hit">hit</span>
+- P166B00011: Please select a member list from the email integration provider in campaign settings first  
+- P166B00012: Campaign does not exist  
+- P166B00013: Campaign type cannot be changed. It is already synced with your email service provider  
+- P166B00014: Rule fields invalid  
+- P166B00015: Failed to authorize SAP Anywhere. For more help, contact your administrator.  
+- P166B00016: Please assign a target group to this campaign.  
+- P166B00017: There are no members in this target group.  
+- P166B00018: Start date cannot be later than end date.  
+- P166B00019: Duplicated conditions  
+- P166B00020: The member list does not exist.  
+- P166B00021: The membership points cannot be less than 0.  
+- P166B00022: The expiration date is invalid.  
+- P166B00023: This customer is currently not a part of the membership.  
+- P166B00024: Points gained per unit currency cannot be less than 0.  
+- P166B00025: Minimum points for redemption cannot be less than 0.  
+- P166B00026: Maximum points for redemption per order cannot be less than 0.  
+- P166B00027: Point validity period cannot be less than 0.  
+- P166B00028: You cannot use your points right now as your point balance of {0} points is less than {1} points, the minimum amount required for redemption.  
+- P166B00029: You cannot use {0} points in this order as the maximum points usage permitted per order is {1} points.  
+- P166B00030: Sorry, currently you have insufficient points to carry on the operation.  
+- P166B00031: Points per currency unit cannot be less than 0.  
+- P166B00032: Failed to receive the attachment. Please try again.  
+- P166B00033: App ID or App Secret is invalid.  
+- P166B00034: To send out this message in WeChat, you must have at least 2 followers.  
+- P166B00035: Cannot find the attachment's url.  
+- P166B00036: Cannot get the WeChat content from backend. Please check again.  
+- P166B00037: The WeChat account does not exist. Please check again.  
+- P166B00038: {0} returns with error: {1}, {2}.  
+- P166B00039: This WeChat account has already been added.  
+- P166B00040: Failed to send the message to WeChat as you cannot send the same message twice in one day.  
+- P166B00041: The title of a WeChat message cannot be empty. Please enter a title first.  
+- P166B00042: You cannot send out WeChat messages without content.  
+- P166B00043: The cover image of the WeChat message cannot be empty. Please upload a cover image first.  
+- P166B00044: The cover image's file type must be PNG or JPEG.  
+- P166B00045: There is no online store available. Please create your online store first.  
+- P166B00046: A system error occurred on the WeChat Server. Please try again.  
+- P166B00060: The end date cannot be earlier than the start date.  
+- P166B00061: Awards of the same type cannot have overlapping durations.  
+- P166B00062: The Customer/Contact ID {0} is invalid. Please check again.  
+- P166B00063: When Customer/Contact ID is filled, you must choose a corresponding customer/contact type.  
+- P166B00064: This function is now still a trial version. Each hour we only support users for a limited number of attempts. If you want to continue using the function, we suggest you try again later.  
+- P166B00065: There are no members in this target group. Please choose another target group.  
+- P166B00066: Cannot sync back to SAP Anywhere as you have already bound this email account to another email service provider.  
+- P166B00067: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00068: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00069: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00070: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00071: Authorization failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00072: Failed to cancel the authorization. Please try again later.  
+- P166B00073: Operation to the email account failed. Please try again later.  
+- P166B00074: The authorization is now invalid. Please cancel the authorization and authorize it again.  
+- P166B00075: Customer is invalid.  
+- P166B00076: Contact is invalid.  
+- P166B00077: Source is invalid.  
+- P166B00078: TargetGroup is invalid.  
+- P166B00079: Cannot import to a target group with conditions. Please choose a manually created target group for the import.  
+- P166B00080: Customer/Contact cannot be empty.  
+- P166B00081: Member duplicated.  
+- P166B00082: Lead(s) were already generated from selected feed(s).  
+- P166B00084: Feed was already closed.  
+- P166B00085: You cannot delete the customer as it is already used in Lead.  
+- P166B00086: You cannot delete the customer as it is already used in Target Group.  
+- P166B00087: You cannot delete the contact as it is already used in Lead.  
+- P166B00088: You cannot delete the contact as it is already used in Target Group.  
+- P166B00089: Signature validation error  
+- P166B00090: XML parsing error  
+- P166B00091: Signature computing error  
+- P166B00092: Illegal AES key  
+- P166B00093: App ID validation error  
+- P166B00094: AES encryption error  
+- P166B00095: AES decryption error  
+- P166B00096: Illegal buffer  
+- P166B00097: Failed to update card status as card ID ({}) cannot be found.  
+- P166B00098: WeChat notification ({}) invalid. This notification will be skipped.  
+- P166B00099: Only one WeChat membership card is permitted.  
+- P166B00100: The membership card can only be sent to a maximum of 10 Wechat IDs to preview.  
+- P166B00101: You cannot preview the WeChat Membership card before editing the card's information.  
+- P166B00102: You cannot preview non WeChat Membership cards.  
+- P166B00103: Only one WeChat membership card is permitted.  
+- P166B00104: Membership number count exceeds the quantity. Please modify the quantity.  
+- P166B00105: Please upload the logo before you upload the membership card to WeChat.  
+- P166B00106: To dispatch via WeChat, you must first bind a WeChat account.  
+- P166B00107: Customers were already generated from selected feeds.  
+- P166B00108: Valid to date must be after valid from date.  
+- P166B00109: The "Valid To" date must be later than today.  
+- P166B00110: Quantity must be greater than 0.  
+- P166B00111: This WeChat card has already been consumed.  
+- P166B00112: The WeChat card was deleted by the customer or given to a friend.  
+- P166B00113: The API is unauthorized for this card.  
+- P166B00114: Text analysis failed. Invalid email thread ID.  
+- P166B00115: Text analysis failed. Invalid email message ID.  
+- P166B00116: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00117: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00118: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00119: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00120: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00121: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00122: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00123: Text analysis failed. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00124: Only one WeChat account is allowed.  
+- P166B00125: The uploaded file to WeChat is invalid. Please check and upload a new file.  
+- P166B00126: The WeChat name does not exist.  
+- P166B00127: Please select a color if you want to dispatch the card on WeChat.  
+- P166B00128: You need to subscribe to the WeChat public account to receive messages from it.  
+- P166B00129: You need to upload a cover image for each article.  
+- P166B00130: Too many attempts. Please wait for a while and try again later.  
+- P166B00132: Points are insufficient according to the conversion rules configured in settings.  
+- P166B00133: Too many points are being used according to the conversion rules configured in settings.  
+- P166B00134: The points do not hold the same value as money.  
+- P166B00135: Duplicate campaign name exists.  
+- P166B00136: Organization address is empty.  
+- P166B00137: Invalid ID.  
+- P166B00138: Cost cannot be negative.  
+- P166B00139: API not authorized. Please open this function in your WeChat public account.  
+- P166B00140: You have not enabled the shake around function on your public account, please open it.  
+- P166B00141: Attachment is invalid. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00142: Cannot read the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00143: Cannot send the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00144: Cannot send the attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00145: Cannot send the email with attachment. Please contact your administrator or the SAP Anywhere support team.  
+- P166B00146: The campaign does not exist.  
+- P166B00147: The beacon and page are created by different WeChat accounts.  
+- P166B00148: Too close to schedule!  
+- P166B00149: One social message was successfully sent just now. Please refresh your page for further operations.  
+- P166B00151: Duplicate campaign hashtag exists.  
+- P166B00152: Please select a code type if you want to dispatch the card on WeChat.  
+### <sapn id="co-config">co-config</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- API0000004: Failed to capture authorized amount  
+- API0000005: Failed to void authorization  
+- P103B20000: Invalid action  
+- P103B20002: Local currency is not existing.  
+- P103B20003: The application has encountered an error. We are aware of the error and already working on resolution.  
+- P150B76033: Network connection failed while uploading images.  
+- P150B76035: Failed to upload images due to network issues. Please try again later.  
+- P150B76037: Your attachment size exceeds the package you purchased. If you need a larger size quota for attachments, please upgrade your package.  
+- P178B00001: You cannot delete the country group as it has already been applied to tax rules.  
+- P181B00001: Cannot update pricing method.  
+- P181B00002: You cannot change the local currency as it has been changed once already.  
+- P181B00003: Cannot disable multiple currencies.  
+- P181B00004: Invalid parameter  
+- P181B00005: To disable this option, first fix cases where available-to-sell is negative.  
+- P181B00006: To disable this option, first fix cases where inventory is negative.  
+- P181B00007: You cannot change the exchange rate quotation as some of the foreign currencies are in use.  
+- P181B00008: Inventory cost calculation is only supported in China.  
+- P181B00010: You cannot disable the calculation of inventory estimated cost once it is enabled.  
+- P181B00011: TaaS is available in the US only.  
+- P181B00012: You can only choose 'shipping to' when using TaaS.  
+- P181B00013: Currency {0} not found. Please specify a valid one.  
+- P181B00014: Please specify a currency.  
+- P181B00015: You cannot delete this language as it is being used by some customers or contacts.  
+### <sapn id="bss">bss</span>
+### <sapn id="pos-adapter">pos-adapter</span>
+### <sapn id="openapi">openapi</span>
+### <sapn id="mp-connector">mp-connector</span>
+### <sapn id="cron-service">cron-service</span>
+### <sapn id="shipping">shipping</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- API0000004: You cannot create carriers other than those that are 3rd-party.  
+- API0000005: You cannot update carriers other than those that are 3rd-party.  
+- P100B00001: You are not a guest user.  
+- P100B00002: Attachment not found  
+- P100B00003: Attachment does not exist.  
+- P100B00004: No permission to operate this attachment  
+- P100B00005: File format {0} is not supported.  
+- P100B00006: The file is empty or does not exist in the specified location.  
+- P100B00007: Virus scanner failed  
+- P100B00008: Incorrect object entity  
+- P100B00009: Failed to upload the file. Please try again.  
+- P100B00010: You cannot export the file as a PDF.  
+- P100B00011: Failed to download the file. Please try again.  
+- P100B00015: File size is too large.  
+- P100B00016: Failed to upload the file. The file name cannot contain special characters (including < > ' \ &).  
+- P100B00017: Failed to upload the file. This file may contain a virus.  
+- P100B00018: Failed to upload the file. This file is not an image.  
+- P100B00019: {0}  
+- P103B71001: To use Pitney Bowes, please provide the full warehouse address.  
+- P103B78001: Please add addresses.  
+- P103B78002: Please enable net price in company profile settings.  
+- P103B78003: Please enable gross price in company profile settings.  
+- P103B78004: Failed to read shipping label file  
+- P103B78051: Shipments are not allowed to be deleted.  
+- P103B78052: You cannot create the UPS shipping label as the shipping carrier is not UPS.  
+- P103B78053: You cannot create the UPS return shipping label as you have already created it.  
+- P103B78054: You cannot create the UPS shipping label as you have already created it.  
+- P103B78055: You cannot cancel the UPS return shipping label as you have already canceled it.  
+- P103B78056: To cancel the original shipment, you must cancel the return shipment first.  
+- P103B78057: Please enter address information.  
+- P103B78058: Cannot print shipping label. Please select a shipping carrier first.  
+- P103B78059: Please specify a delivery type.  
+- P103B78060: You cannot cancel the shipping label as it is already canceled.  
+- P103B78061: You cannot create the shipping label as it is already created.  
+- P103B78062: Failed to create shipping label  
+- P103B78063: Generated tracking number is empty.  
+- P103B78064: Failed to create high value report  
+- P103B78065: You cannot create shipping document without valid sales delivery number.  
+- P103B78066: Failed to get valid length unit. Please try again later.  
+- P103B78067: Failed to get valid weight unit. Please try again later.  
+- P103B78068: Failed to get warehouse information. Please make sure that the warehouse has complete address information.  
+- P103B78069: You cannot create a shipment for the second time based on the same sales delivery.  
+- P103B78070: Invalid parameter  
+- P103B78071: Only UPS shipping labels in requested status are supported for bulk printing.  
+- P103B78072: Shipping label printing failed for shipment No.{0}. Failure reason: {1}  
+- P103B78073: Failed to get shipping label.  
+- P103B78074: You cannot create the shipping label as shipment is already canceled.  
+- P103B78075: You can only cancel open shipments.  
+- P103B78076: You can only close "requested" shipments.  
+- P103B78077: You have input an invalid delivery no or delivery id.  
+- P103B78078: You must specify a valid UPS delivery type.  
+- P103B78101: Please specify applicable countries/regions.  
+- P103B78102: Please enter rates.  
+- P103B78104: Fixed rates cannot be created or deleted.  
+- P103B78105: Please enable fixed rates in shipping settings.  
+- P103B78201: Please enable at least one shipping method.  
+- P103B78202: You cannot create new shipping methods.  
+- P103B78203: You cannot delete shipping methods.  
+- P103B78204: You cannot disable the shipping method as it is already assigned to channels.  
+- P103B78205: Carrier-calculated rates are disabled for Chinese shipping carriers.  
+- P103B78206: Please enable carrier-calculated rates in shipping settings.  
+- P103B78302: There are lines with duplicated country/region, state, city, and zip code.  
+- P103B78303: Specified country/region not found  
+- P103B78304: Specified state not found  
+- P103B78305: State ID must be an integer.  
+- P103B78309: Weight From cannot be greater than Weight To.  
+- P103B78312: Increase weight must be greater than 0.  
+- P103B78314: Please enable Rates Based On Weight and Region in shipping settings.  
+- P103B78315: There are overlapping weight ranges for lines with the same country/region, state, city, and zip code.  
+- P103B78316: Please add information to the lines.  
+- P103B78409: Interior length cannot be greater than exterior length.  
+- P103B78410: Interior width cannot be greater than exterior width.  
+- P103B78411: Interior height cannot be greater than height length.  
+- P103B78502: Min. delivery days cannot be greater than max. delivery days.  
+- P103B78503: Valid From must be earlier than Valid To.  
+- P103B78504: Please enable free shipping in shipping settings.  
+- P103B78510: Please enable the shipping method first.  
+- P103B78511: Settings data for free-shipping does not exist.  
+- P103B78512: Settings data for fixed-rates does not exist.  
+- P103B78513: Cannot find setting data for carrier {0}  
+- P103B78514: Carrier {0} not found  
+- P103B78611: A network error occurred while calling a third-party shipping service.  
+- P103B78612: The third-party shipping service returned an authentication error.  
+- P103B78613: Failed to create the order using a third-party shipping service  
+- P103B78614: Failed to confirm the order using a third-party shipping service  
+- P103B78701: Shipping Carrier ID is invalid.  
+- P103B78702: Shipping Carrier IDs are duplicated.  
+- P103B78703: Shipping carrier not found  
+- P103B78704: Please enable the shipping carrier in shipping settings.  
+- P103B78705: Current shipping carrier is already used in sales deliveries.  
+- P103B78707: Please enter carrier code.  
+- P103B78708: Carrier-calculated rates are not supported by this shipping carrier.  
+- P103B78709: Please add printing templates in shipping carrier settings.  
+- P103B78710: Failed to download shipping label due to an unexpected error. Please try again later.  
+- P103B78712: Electronic labels are not supported by current carrier.  
+- P103B78714: Please specify S.F. Express delivery type.  
+- P103B78716: Please enter your monthly account.  
+- P103B78717: Please enter your access key.  
+- P103B78718: Please enter your customer check code.  
+- P103B78720: Please specify the delivery type first.  
+- P103B78801: S.F. Express web service returned an error: {0}.  
+- P103B78802: Failed to create S.F. Express electronic label.  
+- P103B78803: Please enter the recipient's state.  
+- P103B78804: Please enter the recipient's city.  
+- P103B78805: Please enter the sender's state.  
+- P103B78806: Please enter the sender's city.  
+- P103B78807: Please enter the total weight.  
+- P103B78901: Currency {0} not found. Please specify a valid one.  
+- P103B78902: Please specify a currency.  
+- P103B78903: You cannot delete the rate as it is already used.  
+- P103B78904: You cannot change the rate's name as the rate is already used.  
+- P155B02001: You cannot update property  
+- P155B02002: after creation.  
+- P155B02003: You cannot add new lines after creation.  
+- P155B02004: You cannot remove lines after creation.  
+- P155B02005: You cannot update property {0} after creation.  
+- P201504121541: You cannot set the default system carrier as inactive.  
+- P2015081901: Only USD is supported as the currency for Pitney Bowes deliveries.  
+- P2015081902: Only the online store channel is supported by Pitney Bowes deliveries.  
+- P2015081903: Please create the Pitney Powes carrier in shipping settings first.  
+- P2015081904: To use Pitney Bowes, please provide the mobile number of the recipient for both the billing and shipping address.  
+- P2015081905: To use Pitney Bowes, please provide the recipient's name for both the billing and shipping address.  
+- P2015081906: Errors occurred while calling Pitney Bowes services.  
+- P2015081907: To use Pitney Bowes, please provide the buyer's email address.  
+- P2015081908: To use Pitney Bowes, please provide complete information for shipping address and billing address.  
+- P20151016C1: Please specify the delivery type of UPS Express.  
+- P20151019C1: Please add UPS as a carrier in Shipping settings first.  
+- P20151019C2: To use UPS as the carrier, please provide your full company address in company profile first, including receipt's name and phone number.  
+- P20151019C3: To use UPS as the carrier, please provide the full warehouse address and shipping address first, including receipt's name and phone number.  
+- P20151019C4: To use UPS as the carrier, please specify the weight and weight unit.  
+- P20151019C5: To use UPS as the carrier, please specify the package size and the unit of length.  
+- P20151019C6: To void a UPS shipment, please provide the tracking number.  
+- P20151019C7: Cannot find the shipping label. Please create a UPS shipment order before printing shipping label.  
+- P20151019C8: You must enable electronic shipping labels first.  
+- P20151019C9: Failed to upload the UPS electronic shipping label to the Amazon cloud server. Please try again later.  
+- P20151019D1: UPS service is disabled for the current tenant.  
+- P20151019D2: Only the domestic shipments originated in the United States or the United Kingdom are currently supported.  
+- P20151019D3: You cannot delete the rate lines specified for UPS.  
+- P20151020C0: Email address is not specified for UPS notification receival. Please enter an email address for the customer first.  
+- P20151020C1: Invalid UPS access point address  
+- P20160712C1: On US tenant, from address to be US based only; on UK tenant, from address to be UK based only  
+- UPS_SYS_001: Errors occurred while calling UPS services.  
+- UPS_SYS_002: Errors occurred while calling UPS services. Error code:{0}, Error description: {1}.  
+- V2015082501: Pitney Bowes authentication failed.  
+- V2015082502: Failed to receive quotation from Pitney Bowes  
+- V2015082503: Failed to create Pitney Bowes order  
+- V2015082504: Failed to confirm Pitney Bowes order  
+- V2015082505: Pitney Bowes order number was not returned from the external service.  
+- V2015082506: No response from Pitney Bowes service  
+- V2015082507: You are not authorized to view Pitney Bowes resources.  
+- V2015082508: Invalid data format for Pitney Bowes request record  
+- V2015082509: Pitney Bowes resource is not ready yet. There is a slight delay in processing Pitney Bowes orders through to a shippable state. Please try again later.  
+- V2015082510: Failed to generate Pitney Bowes tracking number  
+### <sapn id="mobile-proxy">mobile-proxy</span>
+### <sapn id="signing-authority">signing-authority</span>
+### <sapn id="app-mgt">app-mgt</span>
+### <sapn id="idp">idp</span>
+- P133B001: One or more mandatory input parameters are missing.  
+- P133B004: One or more mandatory input parameters are invalid.  
+- P133B005: Password must be no shorter than 8 characters.  
+- P133B006: Password must contain at least an uppercase letter.  
+- P133B007: Password must contain at least a lowercase letter.  
+- P133B008: Password must contain at least one digit.  
+- P133B009: Password cannot be the same as the passwords that you previously used.  
+- P133B010: Password cannot contain any of the following: username, first name, last name or email address.  
+- P133B011: User account cannot be found.  
+- P133B012: User account already exists.  
+- P133B013: Password must contain at least 8 characters.  
+- P133B014: Password must contain at most 25 charcters.  
+- P133B015: Password must contain at least an lowercase letter.  
+- P133B016: Password must contain at least a uppercase letter.  
+- P133B017: Password must contain at least one digit.  
+- P133B018: Password must contain at least one non-digit character.  
+- P133B019: Password cannot be the same as the passwords that you previously used.  
+- P133B020: Authentication failed for this password.  
+- P133B021: Password cannot contain any of the following: username, first name, last name or email address.  
+- P133B022: You cannot frequently reset your password.  
+- P133B023: Your pincode is expired.  
+- P133B024: Current password is incorrect. Please try again.  
+- P133B102: Digest algorithm error. Please contact your administrator.  
+- P133B103: Digest supported encoding error. Please contact your administrator.  
+- P133B500: Request parameter is invalid.  
+- P133B501: Request parameter is invalid.  
+- P133B502: One or more mandatory input parameters are missing.  
+- P134B02003: Global setting error. Please contact your administrator.  
+- P134B02005: Email is invalid.  
+- P134B02006: Retrieving OAuth key failed. Please contact your administrator.  
+- P134B02007: Retrieving tenant ID failed. Please contact your administrator.  
+- P134B02008: Retrieving saml2 public key failed. Please contact your administrator.  
+- P134B02009: Retrieving saml2 private key failed. Please contact your administrator.  
+- P134B02010: An valid referer request header is required. Please contact your administrator.  
+- email2: Email:  
+- password_change_error_-1: Please contact your administrator.  
+- password_change_error_1: Password must have at least {0} characters.  
+- password_change_error_10: This link is expired.  
+- password_change_error_2: Password cannot be longer than {1} characters.  
+- password_change_error_3: Must have at least {2} lowercase letters.  
+- password_change_error_4: Must have at least {3} uppercase letters.  
+- password_change_error_5: Must have at least {4} digits.  
+- password_change_error_6: Must have at least {5} non-alphanumeric characters.  
+- password_change_error_7: Password cannot be the same as the last {6} passwords that you previously used.  
+- password_change_error_9: Password cannot contain any of the following: username, first name, last name or email address.  
+- resetpassword_new_password2: New Password:  
+- resetpassword_reenter_password2: Confirm Password:  
+- subscription_password_error1: Must have at least {0} characters  
+- subscription_password_error10: invalidateAfterNdaysNotUsed  
+- subscription_password_error100: Invalid password  
+- subscription_password_error13: Invalid parameter  
+- subscription_password_error14: Pin code timeout [valid for 24 hours]. Please try again.  
+- subscription_password_error2: Can\u2019t be longer than {0} characters  
+- subscription_password_error3: Must have at least {0} lowercase letters  
+- subscription_password_error4: Must have at least {0} uppercase letters  
+- subscription_password_error5: Must have at least {0} digits  
+- subscription_password_error6: Must have at least {0} non-alpha characters  
+- subscription_password_error7: New password cannot be the same as one of your {0} previous passwords.  
+- subscription_password_error9: Password cannot contain username, last name or email.  
+### <sapn id="import-export">import-export</span>
+- E0000001: Bundle product must be a valid SKU.  
+- E0000002: Bundle product and its component cannot be the same.  
+- E0000003: Bundle SKU code cannot be empty.  
+- E0000004: Base quantity must be greater than 0.  
+- E0000005: SKU variant value cannot be empty.  
+- E0000006: You are not authorized to set the purchase price.  
+- E0000007: Product code and product code type cannot both be empty.  
+- ESIP0000001: You are not authorized to export {0}.  
+- P100601100: No warehouse/product (SKU) found in the template. Please download the latest template and try again.  
+- P102522427: No response from image URL. Please verify the URL and try again.  
+- P102522428: Image URL cannot be accessed. Please verify the URL and try again.  
+- P102522429: Code does not exist in the system.  
+- P102522500: The data import and export functions are not accessible in trial systems. They will become available in your productive system.  
+- P102B02102: The template has worksheets added, removed or renamed. Please change it back to the original.  
+- P102B02103: The template is out of date. Please download the latest version, fill in the data, and import again.  
+- P102B02104: The currency in column {0} is invalid.  
+- P102B02105: You can only go through the onboarding settings once.  
+- P150B70004: The sales UoM in the return line must be the same as the sales UoM of the product.  
+- P20150327: Invalid SKU Code {0}.  
+- P2015032748: You cannot assign the main contact person {0}, as you have not selected a customer yet.  
+- P20150328: One or more price lists do not exist.  
+- P201506191: Invalid price  
+- P2015072101: The product cannot be found in the system.  
+- P2015072401: Price successfully updated  
+- P2015072402: Basic product information already updated  
+- P2015080401: {0} cannot be negative.  
+- P2015080412: The UoM group has not been assigned to the product.  
+- P2015080413: Cannot find the base UoM in the current product.  
+- P2015080414: You cannot enter an inventory UoM if you choose None as the UoM group.  
+- P2015091401: You are not authorized to import purchase prices. Please empty the purchase price columns first if you want to update other fields.  
+- P2015091701: The document cannot have more than {0} lines of data. Please split it into multiple documents.  
+- P20160524: Batch number in row {0} is invalid.  
+- P20160621: Data quantity exceeds the permitted limit of Microsoft Excel. You may want to apply a filter to export the most important data.  
+- SHIP000001: Can't find any shipping currency.  
+### <sapn id="channel-adapter">channel-adapter</span>
+### <sapn id="service-case">service-case</span>
+- P100B00001: You are not a guest user.  
+- P100B00002: Attachment not found  
+- P100B00003: Attachment does not exist.  
+- P100B00004: No permissions to operate this attachment  
+- P100B00005: File format {0} is not supported.  
+- P100B00006: The file is empty or does not exist in the specified location.  
+- P100B00007: Virus scanner fail.  
+- P100B00008: Incorrect object entity.  
+- P100B00009: Failed to upload the file. Please try again.  
+- P100B00010: You cannot export the file as a PDF.  
+- P100B00011: Failed to download the file. Please try again.  
+- P100B00015: File size is too large.  
+- P100B00016: Failed to upload the file. The file name cannot contain special characters (including < > ' \ &).  
+- P100B00017: Failed to upload the file. This file may contain a virus.  
+- P100B00018: Failed to upload the file. This file is not an image.  
+- P100B00022: The resource you are using reached the maximum of the package you purchased. If you need to create more, please upgrade your package.  
+- P100B00025: Operation failed because of timeout.  
+- P100B00026: Unexpected response received from server while working with attachments.  
+- P101B02011: Team name cannot be empty.  
+- P101B02012: Team name already exists.  
+- P101B02018: Invalid Team input parameters.  
+- P101B02019: Missing Team employee id "{0}".  
+- P151B02001: Invalid service case  
+- P151B02002: Invalid service case ID  
+- P151B02003: Invalid service case origin  
+- P151B02004: Invalid customer ID  
+- P151B02005: Invalid contact ID  
+- P151B02006: Invalid service case priority  
+- P151B02007: Invalid service case status  
+- P151B02009: Invalid service case support team ID  
+- P151B02010: Invalid service case assignee ID  
+- P151B02011: Invalid or unknown relation type  
+- P151B02020: Invalid service case object assignment input parameters  
+- P151B02021: Missing Service Case referenced object  
+- P151B02023: Missing Service Case related object enumeration  
+- P151B02025: Invalid Employee ID  
+- P151B02026: Please enter an email address.  
+- P151B02027: Please enter a phone number.  
+- P151B02028: Service Case Type Group cannot be empty.  
+- P151B02029: You cannot set the service case type group as it already exists.  
+- P151B02030: You cannot repeatedly add a document.  
+- P151B02031: Invalid Attachment ID  
+- P151B02034: The response time must be earlier than the resolution time.  
+- P151B02035: You cannot change the mandatory contact details in SAP Manage Anywhere.  
+- P151B02040: To send a knowledge base item to customers, you must publish it first.  
+- P151B02044: Invalid Channel ID  
+- P151B02047: The SAP Manage Anywhere Server is configured incorrectly.  
+- P151B02048: The service case has already been closed.  
+- P151B02049: The service case has already been assigned to someone.  
+- P151B02051: There are no types to be assigned.  
+- P151B02052: Cannot find the specified type group.  
+- P151B02053: The service case type does not exist or cannot be found.  
+- P151B02054: Please enter the customer's twitter account name.  
+- P151B02055: Please enter the company's twitter account name.  
+- P151B02056: Invalid social message attachment ID  
+- P151B02057: The company's twitter account is inactive.  
+- P151B02058: Mandatory field 'assignTo' is missing.  
+- P151B02059: Mandatory field 'assignToSocial' is missing.  
+- P151B02060: Invalid service case communication text.  
+- P151B02061: Response Time and Resolution Time cannot be empty concurrently.  
+- P151B02062: You have set reminders for Response Time, but the response time is empty. Please set the response time, or delete the reminder.  
+- P151B02063: You have set reminders for Resolution Time, but the resolution time is empty. Please set the resolution time, or delete the reminder.  
+- P151B02064: Failed to delete the service level as it is already assigned to a customer.  
+- P151B02065: You cannot delete the sales order as it is already used in a Service Case.  
+- P151B02066: You cannot delete the sales return as it is already used in a Service Case.  
+- P151B02067: You cannot delete the invoice as it is already used in a Service Case.  
+- P151B02068: You cannot delete the payment as it is already used in a Service Case.  
+- P151B02069: You cannot delete the product as it is already used in a Service Case.  
+- P151B02070: You cannot delete the category as it is already used in a Service Case.  
+- P151B02071: You cannot delete the customer as it is already used in a Service Case.  
+- P151B02072: Please enter the customer's Facebook account name.  
+- P151B02073: Please enter the company's Facebook account name.  
+- P151B02074: The company's Facebook account is inactive.  
+- P151B02075: Only one attachment is allowed for Facebook communication.  
+- P151B02076: Listening to the company's Twitter account is disabled.  
+- P151B02077: Listening to the company's Facebook account is disabled.  
+- P151B02078: Service case(s) were already generated from selected feed(s).  
+- P151B02079: You cannot delete contact person as it is already used in a Service Case.  
+- P151B02080: You cannot delete service team as it is already used in a Service Case.  
+- P151B02081: Cannot reply via service case communication. No parent message has been found.  
+- P151B02082: Invalid input parameters.  
+- P151B02083: Failed to upload attachment(s) due to network issues. Please try again later.  
+- P151B02084: Service level plan with ID {0} does not exist.  
+- P151B02085: Customer with ID {0} does not exist.  
+- P151B02086: Cannot find service case SLA settings for tenant {0}.  
+- P151B02087: Service level plan {0} cannot be edited.  
+- P151B02088: Service level plan {0} is used by at least one customer.  
+- P151B02089: Service Case Communication with ID {0} does not exist.  
+- P151B02090: Support Email Account does not exist.  
+- P151B02091: No service email is configured in Communication settings for outbound email services.  
+- P151B02092: Message body conversion failed.  
+- P151B02093: Invalid service case document number.  
+- P151B02094: Service case sequence used for document numbering not found.  
+### <sapn id="eshop-adapter">eshop-adapter</span>
+### <sapn id="crm">crm</span>
+- API0000001: Event type is invalid.  
+- API0000002: This event type already exists.  
+- API0000003: Input {0} is incorrect.  
+- P100B00001: You are not a guest user.  
+- P100B00002: Attachment not found  
+- P100B00003: Attachment does not exist.  
+- P100B00004: No permission to operate this attachment  
+- P100B00005: File format {0} is not supported.  
+- P100B00006: The file is empty or does not exist in the specified location.  
+- P100B00007: Virus scanner failed  
+- P100B00008: Incorrect object entity  
+- P100B00009: Failed to upload the file. Please try again.  
+- P100B00010: You cannot export the file as a PDF.  
+- P100B00011: Failed to download the file. Please try again.  
+- P100B00015: File size is too large.  
+- P100B00016: Failed to upload the file. The file name cannot contain special characters (including < > ' \ &).  
+- P100B00017: Failed to upload the file. This file may contain a virus.  
+- P100B00018: Failed to upload the file. This file is not an image.  
+- P100D00001: Cannot find the corresponding app.  
+- P100D00002: Webhook callback URL is invalid.  
+- P100D00003: Webhook does not support this event type.  
+- P100D00004: Cannot find the specified webhook.  
+- P100D00005: You are not authorized to update or delete the webhook for this app.  
+- P100D00006: Webhook event type cannot be updated.  
+- P100D00007: Webhook registration failed, as the webhook for this event type already exists.  
+- P101B02011: Team name cannot be empty.  
+- P101B02012: Team name already exists.  
+- P101B02018: Invalid Team input parameters.  
+- P101B02019: Missing Team employee id "{0}".  
+- P103B02005: You cannot delete an already triggered approval  
+- P103B02006: Approval "{0}" already exists  
+- P103B02007: User "{0}" is invalid  
+- P103B02008: Business object type does not exist  
+- P103B02009: You are not authorized to view this information  
+- P103B02010: Business object "{0}" does not exist  
+- P103B02011: You are not authorized to assign this object  
+- P103B02012: Invalid dynamic authorization id: {0}  
+- P103B02013: Invalid role id: {0}  
+- P103B02014: Invalid system business object id: {0}  
+- P103B02015: {0} is not a system predefined role.  
+- P103B02016: missing argument  
+- P103B02017: Please enter a role name.  
+- P103B02018: The role name has been used, please enter another name.  
+- P103B02019: Cannot delete {0}. It is a system predefined role.  
+- P103B02020: Cannot delete this role. It is already assigned to users.  
+- P103B02021: Invalid authorization item name: {0}  
+- P103B10000: You cannot unlock yourself  
+- P103B10001: You cannot lock yourself  
+- P103B10002: You cannot change yourself to normal user  
+- P103B10003: You cannot change yourself to key user  
+- P103B10004: You cannot view restricted price lists  
+- P103B10005: You are not authorized to change user permissions  
+- P103B10006: Permission item index "{0}" is invalid  
+- P103B10007: Permission argument is invalid  
+- P103B10008: You are not authorized to create users  
+- P103B10009: Cannot create user due to an unexpected error. Report error?  
+- P103B10010: Enter an email address  
+- P103B10011: Email address is invalid  
+- P103B10012: An account already exists for this email address. To reset your password, choose the “Forgot you password” link.  
+- P103B10013: You are not authorized to change user details  
+- P103B10014: Cannot update user due to an unexpected error. Report error?  
+- P103B10015: You cannot delete yourself  
+- P103B10016: You are not authorized to delete users  
+- P103B10017: Cannot delete user due to an unexpected error. Report error?  
+- P103B10018: Phone number {0} is invalid  
+- P103B10019: User {0} does not exist  
+- P103B10020: Business object identifier "{0}.{1}" is invalid  
+- P103B10021: Enter a valid password  
+- P103B10022: You are not authorized to change user passwords  
+- P103B10024: Enter a new password  
+- P103B10025: Enter the current password  
+- P103B10026: Your new password must not be the same as your current one  
+- P103B10027: Email Address {0} already exists.  
+- P103B10028: Current password is incorrect  
+- P103B10029: Invoke by createUserEmployee function to create user.  
+- P103B10030: Invoke by checkedUpdate function to update user info.  
+- P103B10031: No method available in property: {0}.  
+- P103B10032: Failed to get property: {0}.  
+- P103B10033: Business object entity key is null.  
+- P103B10034: Image upload failed.  
+- P103B10035: Attachment not found.  
+- P103B10036: Queue server is unavailable, please contact system administrator  
+- P103B10037: Cannot upload the template. Please make sure the file format is XLS and that content within the template is correct.  
+- P103B10038: File conversion failed, please contact system administrator  
+- P103B10039: Invalid setting for the manager. Please check.  
+- P103B10040: Cannot set this user as technical support user because the maximum number of technical support users has been reached.  
+- P103B10041: There must be at least one technical support user in the system. You must assign another user as technical support before removing this one.  
+- P103B20000: Invalid action  
+- P103B20001: Invalid input  
+- P103B20002: Local currency is not existing.  
+- P103B30000: Activity does not exist  
+- P103B30001: Status is invalid  
+- P103B30002: One or more mandatory fields are missing required information.  
+- P103B30003: One or more mandatory fields are missing required information.  
+- P103B30004: One or more mandatory fields are missing required information.  
+- P103B30005: User does not exist  
+- P103B30006: No permission to read  
+- P103B30007: No permission to write  
+- P103B30008: You cannot delete approval activities  
+- P103B30009: You cannot change the activity status  
+- P103B30010: You cannot change completed activities  
+- P103B30011: You cannot change the activity status  
+- P103B30012: You cannot approve or reject this activity  
+- P103B30013: You are not authorized to change the approval status  
+- P103B30014: Document type is invalid  
+- P103B30015: Business object not found  
+- P103B30016: Attachment does not exist  
+- P103B30017: Cannot create approval due to an unexpected error. Please try again.  
+- P103B30018: You cannot reopen approval activities  
+- P103B30019: Activity is already open  
+- P103B30020: {0} was sent to you for approval  
+- P103B30021: {1} assigned a {0} to you.  
+- P103B30022: {1} updated a {0}.  
+- P103B30023: A {1} for {0} was changed by {2}.  
+- P103B30024: A {1} for {0} was created by {2}.  
+- P103B30025: A {1} for {0} was deleted by {2}.  
+- P103B30026: {1} has approved a {0}.  
+- P103B30027: {1} has rejected a {0}.  
+- P103B30028: {1} has completed a {0}.  
+- P103B30029: A {1} for {0} has been completed by {2}.  
+- P103B30030: A {1} for {0} was reopened by {2}.  
+- P103B30031: A {1} for {0} has been approved by {2}.  
+- P103B30032: A {1} for {0} has been rejected by {2}.  
+- P103B30033: {1} reopened a {0}.  
+- P103B30034: You have already sent an authorization request. Please wait for approval  
+- P103B30035: {0} sent you a {1} for authorization approval  
+- P103B30036: {0} has granted you full access to {1}  
+- P103B30037: {0} has granted you read-only access to {1}  
+- P103B30038: {0} has rejected your request for accessing to {1}  
+- P103B30039: description  
+- P103B30040: You cannot attach an empty file  
+- P103B30041: Text  
+- P103B30042: Activity {0} is invalid  
+- P103B30043: A {1} for {0} was changed by {2}.  
+- P103B30044: A {1} for {0} was created by {2}.  
+- P103B30045: A {1} for {0} was deleted by {2}.  
+- P103B30046: User "{0}" is invalid  
+- P103B30047: {0} requests approval for {1} worth {2}  
+- P103B30048: Invalid action for this type of activity.  
+- P103B40001: The ContactPerson is invalid  
+- P103B50001: Attachment Upload Failed.  
+- P103B50002: Attachment Download Failed.  
+- P103B50003: Not Authorized to delete or update Attachment.  
+- P103B50004: Not Authorized to Create or Add Attachment.  
+- P103B50005: Not Authorized to Read Attachment.  
+- P103B60001: Taobao integration already active.  
+- P103B60002: Taobao integration already inactive.  
+- P103B60003: Taobao login failed: {0}.  
+- P103B60004: Do OAuth with Taobao first.  
+- P103B60005: SKU ID {0} is invalid. Product ID {0} is invalid.  
+- P103B60006: SKU ID {0} is invalid.  
+- P103B60007: Refresh token is expired.  
+- P103B60008: No RMB currency.  
+- P103B60009: Product code cannot be empty.  
+- P103B60010: Product code {0} is invalid.  
+- P103B60011: Products were delivered from Taobao, you need create an order and deliver it manually.  
+- P103B60012: Invalid channel type for Taobao Channel. Only Taobao or Tmall is valid.  
+- P103B60013: This trade has already been generated a Sales Order.  
+- P103B60014: Sales order {0} is invalid.  
+- P103B60015: Sales order {0} is already related to external order {1}.  
+- P103B60016: Cannot relate return order to trade.  
+- P103B70001: Quantity cannot be 0.  
+- P103B70002: Unit price cannot be 0.  
+- P103B70003: Insuffient stock  
+- P103B70004: Warehouse cannot be empty for products in stock-allocated status.  
+- P103B70005: You cannot change the price for products in stock-allocated status.  
+- P103B70006: You cannot change the quantity for products in stock-allocated status.  
+- P103B70007: You cannot change the warehouse for products in stock-allocated status.  
+- P103B70008: Invalid channel  
+- P103B70009: Failed to initial default values  
+- P103B70112: Discount percentage cannot be greater than 100%.  
+- P103B70113: Unit price cannot be less than 0.  
+- P103B70121: The signs (plus/minus) of quantity and gross total are different.  
+- P103B80001: You must clear all rate settings before changing the exchange rate quotation method.  
+- P103B80002: Illegal arguments were passed to this function: {0}  
+- P103B80003: You must enter an exchange rate here or in Settings.  
+- P103B80004: Failed to send a test email; please ensure that the SMTP settings are correct.  
+- P103B80006: Email template not found  
+- P103B80007: Cannot change the local currency as it has already been used for some transactions.  
+- P103B80008: Email template already exists.  
+- P103B80009: This app name already exists.  
+- P103B80010: Failed to delete this app  
+- P103B80011: Failed to create OAuth client  
+- P103B80012: Failed to get IDP url  
+- P103B80013: Authorization failed  
+- P103B80015: Authorization failed, the password incorrect.  
+- P103B93125: Cannot create user due to maximum number of users exceeded.  
+- P103S10023: Failed to change password as the application has encountered an error. We are aware of the error and already working on a resolution.  
+- P134B7035: Failed to add domain. It duplicates with an existing domain.  
+- P134B7048: The uploaded certificate is invalid, or does not match your domain.  
+- P149B02223: Length unit ID {0} is invalid.  
+- P149B02224: Weight unit ID {0} is invalid.  
+- P149B02225: Unit size must greater than 0.  
+- P150B00001: Default channel must be active.  
+- P150B00002: Cannot add warehouse. The same warehouse already exists: {0}  
+- P150B00003: Cannot add warehouse. This warehouse is inactive or does not exist: {0}  
+- P150B00004: Please add at least one warehouse.  
+- P150B00005: Cannot add payment method. The same payment method already exists: {0}  
+- P150B00006: You cannot create or update predefined channel types.  
+- P150B00007: You cannot delete predefined channel types.  
+- P150B00008: Specified currency is inconsistent with the currency in company profile.  
+- P150B00009: Specified pricing method is inconsistent with the pricing method in company profile.  
+- P150B00010: Specified currency is inconsistent with the currency for the sales price list of this channel.  
+- P150B00011: The pricing method of the sales price list is inconsistent with that of the channel.  
+- P150B00012: Standard price list must be system's standard price list.  
+- P150B00013: Sales price list must be system's sales price list.  
+- P150B00014: Pricing method must be either net or gross.  
+- P150B00015: You cannot change the currency once you add the channel.  
+- P150B00016: You cannot change the pricing method once the channel is added.  
+- P150B00018: Shopping cart update precision must be minute/hour/day/week.  
+- P150B00019: You cannot send email reminders to customers who abandon their shopping carts for less than {0} minutes.  
+- P150B00020: Currency ID {0} is invalid.  
+- P150B00021: Currency ID List is empty.  
+- P150B00022: Must select a currency for this channel.  
+- P150B00023: Channel ID {0} is invalid.  
+- P150B00024: The default channel already exists.  
+- P150B00025: Please select a channel currency.  
+- P150B00026: The currency and the price list currency do not match.  
+- P150B00027: The currency is not the local currency.  
+- P150B00028: You cannot set an inactive channel as the default channel.  
+- P150B00030: The domain has already been used. Please use another.  
+- P150B00031: Address is required.  
+- P150B00032: Please add at least one warehouse.  
+- P150B00033: Invalid domain name. Please enter domain name using letters and numbers only, and no longer than 63 characters.  
+- P150B00034: You must choose at least one currency.  
+- P150B00035: You cannot deactivate the channel. It is the last active channel.  
+- P150B00036: Failed to add domain. Please check your certificate files.  
+- P150B00037: Invalid domain name. Please enter another.  
+- P150B00038: You must upload domain certificate files.  
+- P150B00039: You must not remove the default domain or update its certificates.  
+- P150B00040: The domain you want to remove does not exist.  
+- P150B00041: You cannot choose the corporate customer. The target customers for the physical store channel are individual customers.  
+- P150B00042: You must choose at least one ship-to country/region.  
+- P150B00050: You cannot deactivate the default channel.  
+- P150B00051: Cannot create online store due to technical issues. The number of stores created has reached the upper limit. For details, please contact your administrator.  
+- P150B00052: Please select an owner for the channel.  
+- P150B00053: Please select a marketplace.  
+- P150B00054: Please select a currency.  
+- P150B00055: You cannot change the marketplace of an existing channel.  
+- P150B00056: You cannot change the product listing method.  
+- P150B00057: The external order ID cannot be empty.  
+- P150B00058: You must choose at least one pickup store, or disable Pickup in Store.  
+- P150B00060: All currencies assoicated with the channel are inactive. Please activate as least one of them.  
+- P150B00061: Checkout without account cannot be enabled in B2B online stores.  
+- P150B00070: You cannot delete the {0} as it is already in use.  
+- P150B00071: You cannot delete the Customer as it is already used in {0}.  
+- P150B00072: You cannot delete the Contact as it is already used in {0}.  
+- P150B00073: You cannot delete the Channel as it is already used in {0}.  
+- P150B00074: You cannot delete the Product as it is already used in {0}.  
+- P150B00100: Cannot load sales order.  
+- P150B00101: Source sales order is not specified.  
+- P150B00102: You can only copy the open and unpaid invoices.  
+- P150B00103: Please check the document status and the payment status.  
+- P150B00104: Please check the document status and the payment status.  
+- P150B00105: Please specify a payment method.  
+- P150B00106: Paid amount cannot exceed gross total.  
+- P150B00107: The amount cannceled must be greater than 0.  
+- P150B00108: The amount cannceled cannot exceed paid amount.  
+- P150B00109: The document is not paid yet.  
+- P150B00110: Un-invoiced order lines exist.  
+- P150B00111: The document's payment status is invalid.  
+- P150B00112: Paid amount must be greater than 0.  
+- P150B00113: Creation time and posting time cannot be later than due time.  
+- P150B00114: Cannot load invoice  
+- P150B00115: Selected documents must share the same customer.  
+- P150B00116: Selected documents must share the same currency.  
+- P150B00117: Cannot load credit memo  
+- P150B00118: Source document not specified  
+- P150B00119: Cannot load source document  
+- P150B00120: Cannot create this document directly  
+- P150B00121: Cannot load invoice line  
+- P150B00122: Copy paramter is null.  
+- P150B00123: Please specify a customer.  
+- P150B00124: Please specify a currency.  
+- P150B00125: Failed to create invoices for returned products  
+- P150B00126: There are no products or shipping costs to create invoices for.  
+- P150B00127: Please specify the local currency.  
+- P150B00128: Invalid invoice status  
+- P150B00129: Amount due must be equal to gross total in unpaid invoice.  
+- P150B00130: Paid amount cannot be greater than gross total in partially paid invoice.  
+- P150B00131: Paid amount must be equal to gross total in fully-paid invoice.  
+- P150B00132: Credit memos are not supported.  
+- P150B00133: Please input an exchange rate here or in business settings.  
+- P150B00134: Order line "{0}" has never been invoiced before.  
+- P150B00135: Cannot cancel the document. You can only cancel open and unpaid invoices and credit memos.  
+- P150B00136: Selected documents should share the same pricing method.  
+- P150B00137: Please specify a pricing method.  
+- P150B00138: Invalid address change  
+- P150B00139: There are no returned products to create credit memos for.  
+- P150B00140: Selected documents should share the same sales channel.  
+- P150B00141: Please specify a sales channel.  
+- P150B00142: Only orders from the general channel can be partially invoiced.  
+- P150B00143: Cannot generate invoice/credit memo for multiple orders that are not from the general channel.  
+- P150B00200: Sales quota owner is required.  
+- P150B00201: Only a sales quota draft can be updated.  
+- P150B00202: Quota must be greater than 0.  
+- P150B00205: Team sales quotas can only be assigned to sales managers.  
+- P150B00206: Failed to create sales quota as it already exists in the system.  
+- P150B00208: Failed to delete sales quota.  
+- P150B00209: Cannot find the sales quota.  
+- P150B00210: EndDate must be later than StartDate.  
+- P154B02001: Please enter a number greater than 0 in "Potential Amount" field.  
+- P154B02002: Please enter a number greater than 0 in "Rate" field.  
+- P154B02003: Start date cannot be later than predicated closing date.  
+- P154B02004: Start date cannot be later than closing date.  
+- P154B02005: Company Local Currency cannot be empty.  
+- P154B02006: Exchange Rate Quotation Method cannot be empty.  
+- P154B02007: Invalid Products Unit Price: Price must be greater than or equal to 0.  
+- P154B02008: Document total must be greater than or equal to 0.  
+- P154B02009: Cannot remove this record. It is already linked to a lead or sales opportunity.  
+- P154B02010: Product quantity must be greater than or equal to 0.  
+- P154B02011: Transaction currency of the document is invalid.  
+- P154B02012: The currency list of sales channel is empty.  
+- P154B02020: You cannot delete the customer as it is already used in an opportunity.  
+- P154B02022: The opportunity includes product[{0}], do not delete this product.  
+- P154B02024: You cannot delete {0} as it is already used in a quotation.  
+- P154B02026: The quotation includes product[{0}], do not delete this product.  
+- P154B02027: Invalid channel. Please enter a valid channel first.  
+- P154B02028: You cannot delete the contact as it is already used in an opportunity.  
+- P154B02029: You cannot delete the contact as it is already used in a quotation.  
+- P155B02001: You cannot update property  
+- P155B02002: after creation.  
+- P155B02003: You cannot add new lines after creation.  
+- P155B02004: You cannot remove lines after creation.  
+- P155B02005: You cannot update property {0} after creation.  
+- P156B02001: No response from application server  
+- P156B02002: Server response incorrect  
+- P156B02003: IDP server authentication failed  
+- P157B00001: This {0} already exists. Please enter another one.  
+- P157B00002: You are not authorized to change the sales channel. Please contact your administrator.  
+- P157B00003: The Currency is not available in this channel.  
+- P157B00004: You cannot create a qualified lead directly.  
+- P157B00005: You cannot update a lead to qualified directly.  
+- P157B00006: You cannot update a qualified lead except remark.  
+- P157B00007: The customer is invalid. Please enter a valid customer first.  
+- P157B00008: When Customer/Contact ID is filled, you must choose a corresponding customer/contact type.  
+- P157B00009: This sales source from MailChimp cannot be edited.  
+- P166B00062: The Customer/Contact ID {0} is invalid. Please check again.  
+- P178B00001: You cannot delete the country group as it has already been applied to tax rules.  
+- P181B00001: Cannot update pricing method.  
+- P181B00002: You cannot change the local currency as it has been changed once already.  
+- P181B00003: Cannot disable multiple currencies.  
+- P181B00004: Invalid parameter  
+- P181B00005: To disable this option, first fix cases where available-to-sell is negative.  
+- P181B00006: To disable this option, first fix cases where inventory is negative.  
+- P181B00007: You cannot change the exchange rate quotation as some of the foreign currencies are in use.  
+- P181B00008: Inventory cost calculation is only supported in China.  
+- P181B00010: You cannot disable the calculation of inventory estimated cost once it is enabled.  
+- P181B00011: TaaS is available in the US only.  
+- P181B00012: You can only choose 'shipping to' when using TaaS.  
+
